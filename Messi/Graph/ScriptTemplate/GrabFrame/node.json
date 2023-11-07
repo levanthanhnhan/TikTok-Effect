@@ -1,0 +1,76 @@
+{
+	"name": "Snapshot",
+	"id": "98837be9-ae80-839b-be7f-d64ad2ec7a2c",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec",
+			"nameKey": "graph_snapshot_input_enter",
+			"descriptionKey": "graph_snapshot_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Camera Texture",
+			"type": "RenderTexture",
+			"description": "The live video captured by the camera",
+			"displayType": "Render Texture",
+			"nameKey": "graph_snapshot_input_cameratexture",
+			"descriptionKey": "graph_snapshot_input_cameratexture_description",
+			"displayTypeKey": "graph_type_rendertexture"
+		},
+		{
+			"name": "Crop",
+			"type": "Rect",
+			"description": "The rectangle area to crop out of the Camera Texture",
+			"displayType": "Rect",
+			"default_value": "0.0 ,0.0 , 1.0, 1.0",
+			"nameKey": "graph_snapshot_input_crop",
+			"descriptionKey": "graph_snapshot_input_crop_description",
+			"displayTypeKey": "graph_type_rect"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec",
+			"nameKey": "graph_snapshot_output_next",
+			"descriptionKey": "graph_snapshot_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Snapshot Texture",
+			"type": "Texture2D",
+			"item_type": "",
+			"description": "The snapshot captured from the live video",
+			"displayType": "Texture 2D",
+			"nameKey": "graph_snapshot_output_snapshottexture",
+			"descriptionKey": "graph_snapshot_output_snapshottexture_description",
+			"displayTypeKey": "graph_type_texture2d"
+		}
+	],
+	"scriptSupport": "js",
+	"js": "CGGrabFrame.js",
+	"version": "2.2.0",
+	"category": "Utility",
+	"nodeEvent": [
+		"beforeStart",
+		"onCallBack",
+		"onDestroy",
+		"resetOnRecord"
+	],
+	"description": "Take a snapshot by camera. You can capture the full screen snapshot or an area of the camera.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"onlineWebsite": "graph_snapshot_website",
+	"nameKey": "graph_snapshot_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_snapshot_description"
+}

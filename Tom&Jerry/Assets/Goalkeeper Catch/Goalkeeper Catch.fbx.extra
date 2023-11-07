@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "3d55a329-50c1-b8c6-94e2-2d9d3f5f7c0f",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Goalkeeper Catch",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "0e9bbc06-61c9-dabc-d5d7-341a41d0e599"
+    ],
+    "animazGUIDs": [
+      "b40bd029-2ccb-259a-0e54-6e965568fcaf"
+    ]
+  }
+]

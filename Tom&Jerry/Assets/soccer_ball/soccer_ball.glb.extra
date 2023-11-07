@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "6fb152f2-2103-1716-d880-e61189c3ed0e",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "soccer_ball",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "2438fcd5-a2b7-a7fb-2903-2651cc42c2d0",
+      "39a0f4fc-2eae-8c48-c1b6-5bfbfabe2b1b"
+    ],
+    "meshGUIDs": [
+      "9c244729-f07b-a2e0-a04e-889b6fc236d1",
+      "5728e523-edda-06db-6f35-7e5979b9964c"
+    ],
+    "animazGUIDs": []
+  }
+]

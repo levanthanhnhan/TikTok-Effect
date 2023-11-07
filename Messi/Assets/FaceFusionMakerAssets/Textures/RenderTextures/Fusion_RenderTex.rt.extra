@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "f8c43e18-5e28-acef-c9b1-fc7cac10a199",
+      "b": ""
+    },
+    "extraType": "ResItemRenderTexture",
+    "name": "Fusion_RenderTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "ScreenRenderTexture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

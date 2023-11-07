@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "ad1a45b9-9a35-9997-d31c-769e7abd599e",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "TapHint_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

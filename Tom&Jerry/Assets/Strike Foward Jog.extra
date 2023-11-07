@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "83444066-e599-0c18-f45c-a63afc8244b4",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Strike Foward Jog",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

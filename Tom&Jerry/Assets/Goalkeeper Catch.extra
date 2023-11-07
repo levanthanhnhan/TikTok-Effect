@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "70eb8482-62ee-94d9-5933-d78610962b0b",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Goalkeeper Catch",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

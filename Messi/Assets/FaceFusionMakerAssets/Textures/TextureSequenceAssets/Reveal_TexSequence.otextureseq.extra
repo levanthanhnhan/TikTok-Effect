@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "f21425f3-f19c-d637-5b20-44d9930a5438",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Reveal_TexSequence",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 1024,
+    "premultiplyAlpha": false
+  }
+]

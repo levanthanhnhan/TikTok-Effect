@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "c3b99d0a-6431-c535-b30b-5231da0b8475",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Strike Foward Jog",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "94bca9c9-32a7-5f13-5982-03bc14c0d779"
+    ],
+    "animazGUIDs": [
+      "69b8a47c-d46e-3d5d-de25-203ddc5d5223"
+    ]
+  }
+]

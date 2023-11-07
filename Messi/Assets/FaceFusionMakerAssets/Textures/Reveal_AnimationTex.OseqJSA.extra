@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "1a548c36-a563-c602-5649-0d0c288a78b4",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Reveal_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

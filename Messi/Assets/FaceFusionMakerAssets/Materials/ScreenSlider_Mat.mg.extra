@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "bdda3e51-3449-9ace-a761-22f6f25bb66b",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "ScreenSlider_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5626212878857534766, 13102013502692919461)",
+    "references": [
+      {
+        "propertyName": "_Custom_Sampler2D_1",
+        "guid": "f8c43e18-5e28-acef-c9b1-fc7cac10a199"
+      },
+      {
+        "propertyName": "_Custom_Sampler2D",
+        "guid": "00000000-0000-0000-0000-00000000004b"
+      }
+    ]
+  }
+]

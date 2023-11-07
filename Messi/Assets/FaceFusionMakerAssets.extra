@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "657103b3-f5ff-49ba-2359-2508d09b76d7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "FaceFusionMakerAssets",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

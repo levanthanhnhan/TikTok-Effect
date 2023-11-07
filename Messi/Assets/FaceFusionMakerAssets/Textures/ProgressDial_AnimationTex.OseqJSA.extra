@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "bc54b067-18f0-aa76-42dd-1428aff63ec0",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "ProgressDial_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

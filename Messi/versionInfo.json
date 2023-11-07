@@ -1,0 +1,15 @@
+{
+  "version": "3.4.0",
+  "handlers": {
+    "ComponentsCompatibilityHandler": {
+      "Transform": "85bfce2f4ffa628888c59a61f15d5b51",
+      "EffectNode": "d751713988987e9331980363e24189ce",
+      "Camera": "cd9b9dda9fec962a33e3dd34bc6788cc",
+      "ScreenTransform": "9231ccae42d61082fe6117ce74430370",
+      "Image": "0260eb80a2989dfcd62c69b940dccc04",
+      "PostProcess": "8880dd15fb9d4ff3de1773bb4d9a9b1d",
+      "FilterV2": "e3442693c932edaad0a8149bb0f11c18",
+      "EnvironmentLighting": "3174ed5b249dee36048cc3acff47d1e7"
+    }
+  }
+}

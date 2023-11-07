@@ -1,0 +1,111 @@
+[
+  {
+    "guid": {
+      "a": "39a0f4fc-2eae-8c48-c1b6-5bfbfabe2b1b",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "black_material",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4812136853249212132, 18156145802358619306)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_HeightmapTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_BentNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_DetailNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_FlakeTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_CoatNormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_LightmapTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      },
+      {
+        "propertyName": "_MRAOTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_SpecularWorkflowTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RimHighlightTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ThinFilmTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_CoatTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RefractionTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_DissolveEdgeColorGradient",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_FabricTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_ScatterTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_DetailAlbedoTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "_RadianceTexture",
+        "guid": "00000000-0000-0000-0000-000000000800"
+      },
+      {
+        "propertyName": "_FabricLut",
+        "guid": "00000000-0000-0000-0000-000000000222"
+      },
+      {
+        "propertyName": "_AnisotropyTexture",
+        "guid": "00000000-0000-0000-0000-0000000001ff"
+      }
+    ]
+  }
+]

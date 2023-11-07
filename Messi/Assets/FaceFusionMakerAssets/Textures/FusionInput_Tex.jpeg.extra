@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "7700e913-4bcb-0267-1f51-796d2f292511",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "FusionInput_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 3,
+    "wrapModeT": 3,
+    "wrapModeR": 3,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "e9a26fe5-ef0d-1682-70d1-634d872aff0b",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Jerry",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5595361649073528641, 6803719838756773763)",
+    "references": [
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "ab0edd10-4107-123b-bd43-5bf0dfb88702"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3967 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 10180214583793075010, b: 13085474825770890632}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 18393534764065644695, b: 16547619468206596491}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: General
+    guid: {a: 8235238043598186243, b: 16840308208679013795}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 14792803682663561050, b: 6161520050080348315}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 815069582473778930, b: 3860102513852982437}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 8739102965005804130, b: 6461487404246441657}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: Environment Light
+    guid: {a: 11406181728386468509, b: 5972158861532600762}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: Envmap
+        name: ""
+        guid: {a: 16737500510660696093, b: 7610174286501797273}
+        enabled: true
+        envmapLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        specularEnvmap: {localId: 1, path: 00000000-0000-0000-0000-000000000800--00000000-0000-0000-0000-000000000800.texture}
+        IBLMode: true
+        intensity: 1
+        rotation: 0
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4649041387221305887, b: 3190733352650544543}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5525450373168460726, b: 17075823040615435182}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: root
+    guid: {a: 5056504135092670125, b: 14220934425723186071}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: GLTF_SceneRootNode
+    guid: {a: 4654836318447416615, b: 14753639078741273747}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+    layer: 0
+  - __class: Entity
+    name: Icosphere_0
+    guid: {a: 5479095355078001382, b: 9859863211559722936}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: Object_4
+    guid: {a: 5621143962391049525, b: 13200996936449512610}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5572799133479745946, b: 18118527387967766198}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 2438fcd5-a2b7-a7fb-2903-2651cc42c2d0--2438fcd5-a2b7-a7fb-2903-2651cc42c2d0.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 6fb152f2-2103-1716-d880-e61189c3ed0e--Object_4.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Object_5
+    guid: {a: 4892387945979995009, b: 7003458582617760388}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: mesh1_renderer
+        guid: {a: 4698532546254904049, b: 7510827121443229837}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 39a0f4fc-2eae-8c48-c1b6-5bfbfabe2b1b--39a0f4fc-2eae-8c48-c1b6-5bfbfabe2b1b.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 6fb152f2-2103-1716-d880-e61189c3ed0e--Object_5.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Ball
+    guid: {a: 5614072874933678478, b: 12586930826342582677}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5492695248390297311, b: 9838082983735560355}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5149527685527527167, b: 10178619130411262647}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+    layer: 0
+  - __class: Entity
+    name: big-football-goal.obj.cleaner.materialmerger.gles
+    guid: {a: 5423719127313345381, b: 17177509255219140007}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: Object_2
+    guid: {a: 4734551071947559957, b: 14099338984977501073}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5203474957378399426, b: 7300574052586540981}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: b756b8d4-0fd0-47dc-cbca-267858b1d58d--b756b8d4-0fd0-47dc-cbca-267858b1d58d.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 35fa8ebd-5b2d-f845-268c-92f2a86cd5ef--Object_2.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 5006968207922206184, b: 18251946601066026371}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+      - __class: MeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5227168243620661761, b: 16342038313502295707}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 006c5402-6f6c-ffa5-9bfb-151ce2d812ab--006c5402-6f6c-ffa5-9bfb-151ce2d812ab.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 35fa8ebd-5b2d-f845-268c-92f2a86cd5ef--Object_3.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Goal
+    guid: {a: 5525210180388014861, b: 15727404568636958644}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5233605604787983061, b: 1950594400544807840}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+      - __class: Animator
+        name: ""
+        guid: {a: 5364452811455394590, b: 13051465955836765358}
+        enabled: true
+        animations:
+          - {localId: 1, path: c3b99d0a-6431-c535-b30b-5231da0b8475--Animaz-1_mixamo.com.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_mixamo.com: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: default
+    guid: {a: 4866215425055487804, b: 669219542187403941}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 22}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5687365228504126135, b: 17190048746833017260}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: e9a26fe5-ef0d-1682-70d1-634d872aff0b--e9a26fe5-ef0d-1682-70d1-634d872aff0b-skin.material}
+        sortingOrder: 10
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: c3b99d0a-6431-c535-b30b-5231da0b8475--default.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4948628166358396578, b: 11809755107114556846}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: mixamorig_Hips
+              guid: {a: 5515573636484683192, b: 11524506846406267537}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, -0.004210472, -2.891672, 0.3218369, 1]}
+              boundingBox: {min: {x: -1.753922, y: 0, z: -4.199058}, max: {x: 1.761479, y: 4.116596, z: 1.1486}}
+              jointTransform: {localId: 23}
+            - __class: Joint
+              name: mixamorig_LeftUpLeg
+              guid: {a: 5684866289805055924, b: 4997487823691165090}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9999948, -0.003231741, -2.754854e-12, 0, 0.003231515, -0.999925, 0.01181581, 0, -3.818564e-05, 0.01181575, 0.9999302, 0, 1.020671, 2.594577, 0.2550111, 1]}
+              boundingBox: {min: {x: -0.682656, y: 0, z: -2.730354}, max: {x: 1.761479, y: 2.951698, z: 1.032408}}
+              jointTransform: {localId: 70}
+            - __class: Joint
+              name: mixamorig_RightUpLeg
+              guid: {a: 4619965495960185093, b: 12756974648327886722}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9999948, 0.003227491, 3.716978e-12, 0, -0.003223022, -0.9986101, -0.05260668, 0, -0.0001697876, -0.05260641, 0.9986153, 0, -1.012357, 2.564941, 0.5694731, 1]}
+              boundingBox: {min: {x: -1.753922, y: 0, z: -4.802384}, max: {x: 1.428771, y: 3.139716, z: 1.029762}}
+              jointTransform: {localId: 75}
+            - __class: Joint
+              name: mixamorig_LeftFoot
+              guid: {a: 5166922134627871358, b: 14625506160482877341}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9805335, -0.1944875, 0.02699528, 0, 0.1338272, -0.5613493, 0.8166867, 0, -0.1436815, 0.8044013, 0.5764495, 0, 0.7774557, 0.9417607, -0.336831, 1]}
+              boundingBox: {min: {x: 0, y: -0.031578, z: -1.167219}, max: {x: 1.689233, y: 1.752182, z: 1.126868}}
+              jointTransform: {localId: 72}
+            - __class: Joint
+              name: mixamorig_LeftToeBase
+              guid: {a: 5369460222424045152, b: 15952689852188479106}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9706774, -0.09315906, 0.2216004, 0, 0.2282535, -0.06802675, 0.9712223, 0, -0.07540341, 0.9933246, 0.08729591, 0, 0.7328175, -0.4766239, -0.2085303, 1]}
+              boundingBox: {min: {x: 0, y: -0.031578, z: -1.167219}, max: {x: 1.631189, y: 1.518425, z: 1.126868}}
+              jointTransform: {localId: 73}
+            - __class: Joint
+              name: mixamorig_LeftLeg
+              guid: {a: 4649727574842697176, b: 5344203883528716216}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.995067, -0.09590881, -0.02536122, 0, 0.09919837, -0.9649554, -0.2429417, 0, -0.001172191, -0.2442591, 0.9697093, 0, 0.8799276, 1.393252, 0.6321946, 1]}
+              boundingBox: {min: {x: 0, y: -0.031329, z: -1.167219}, max: {x: 1.545201, y: 1.518425, z: 1}}
+              jointTransform: {localId: 71}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex1
+              guid: {a: 5082671845216130311, b: 15119109730817457064}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08243855, 0.9908215, 0.1071288, 0, 0.03466147, 0.1045791, -0.9939124, 0, -0.9959932, 0.08564994, -0.02572198, 0, -0.637299, -4.655124, 4.876799, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.745963}, max: {x: 4.679095, y: 5.815258, z: 1}}
+              jointTransform: {localId: 38}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex2
+              guid: {a: 5526048232392357679, b: 3575624323882407094}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08243855, 0.9897792, -0.1163663, 0, 0.03466147, -0.1195407, -0.992224, 0, -0.9959932, 0.07776409, -0.04416196, 0, -0.615185, -3.647034, 5.83629, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.255409}, max: {x: 4.781665, y: 5.646076, z: 1}}
+              jointTransform: {localId: 39}
+            - __class: Joint
+              name: mixamorig_LeftHand
+              guid: {a: 5252281868982134225, b: 1545937423460579260}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.3000115, 0.9538192, -0.01490496, 0, 0.03882215, -0.003403729, -0.9992403, 0, -0.9531453, -0.3003623, -0.03600815, 0, 0.6106253, -3.545975, 5.430377, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.01285}, max: {x: 4.389964, y: 5.862958, z: 1}}
+              jointTransform: {localId: 33}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex3
+              guid: {a: 4804526540238057433, b: 18106732953090672050}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08243855, 0.9328581, -0.3506845, 0, 0.03466147, -0.3543532, -0.934469, 0, -0.9959932, 0.06488103, -0.0615466, 0, -0.6254724, -2.379088, 6.600916, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.183652}, max: {x: 4.781665, y: 5.509151, z: 1}}
+              jointTransform: {localId: 40}
+            - __class: Joint
+              name: mixamorig_Spine1
+              guid: {a: 4846050857456167076, b: 16310550308204273807}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9999965, -0.002646365, 0, 0, 0.002646365, 0.9999965, 0, -0.004210472, -4.072996, 0.3294882, 1]}
+              boundingBox: {min: {x: -1.131865, y: 0, z: -1.318975}, max: {x: 1.140287, y: 4.651633, z: 1.047862}}
+              jointTransform: {localId: 25}
+            - __class: Joint
+              name: mixamorig_Spine2
+              guid: {a: 4714632796545007998, b: 5566444488210807192}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9999965, -0.002646365, 0, 0, 0.002646365, 0.9999965, 0, -0.004210472, -4.800496, 0.3294882, 1]}
+              boundingBox: {min: {x: -2.399577, y: 0, z: -1.897095}, max: {x: 2.407798, y: 7.077518, z: 1.751996}}
+              jointTransform: {localId: 26}
+            - __class: Joint
+              name: mixamorig_Spine
+              guid: {a: 4796318554052575142, b: 10213746147533636768}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.9999965, -0.002646368, 0, 0, 0.002646368, 0.9999965, 0, -0.004210472, -3.436434, 0.3294882, 1]}
+              boundingBox: {min: {x: -1.310912, y: 0, z: -1.318975}, max: {x: 1.319334, y: 4.585385, z: 1.1486}}
+              jointTransform: {localId: 24}
+            - __class: Joint
+              name: mixamorig_RightLeg
+              guid: {a: 4931436553704386813, b: 13153407641546073523}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9855922, 0.08442344, -0.1465632, 0, 0.005719682, -0.8493925, -0.5277306, 0, -0.1690426, -0.5209655, 0.8366717, 0, -1.094079, 1.025733, 1.010398, 1]}
+              boundingBox: {min: {x: -1.539601, y: 0, z: -1.70779}, max: {x: 1, y: 1.674249, z: 1}}
+              jointTransform: {localId: 76}
+            - __class: Joint
+              name: mixamorig_RightFoot
+              guid: {a: 4938125076748231752, b: 18169806233211712407}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9764063, 0.207689, -0.05912639, 0, -0.1748069, -0.599452, 0.7810889, 0, 0.1267802, 0.7729958, 0.6216142, 0, -0.6833531, 1.33641, -0.02309507, 1]}
+              boundingBox: {min: {x: -1.682639, y: -0.183848, z: -1.70779}, max: {x: 1, y: 1.929381, z: 1}}
+              jointTransform: {localId: 77}
+            - __class: Joint
+              name: mixamorig_RightToeBase
+              guid: {a: 5102167588428934670, b: 6741918475054707092}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9698166, 0.1022251, -0.2213723, 0, -0.2293893, -0.07464686, 0.9704682, 0, 0.08268145, 0.9919566, 0.09584311, 0, -0.6800291, 0.105427, -0.1555541, 1]}
+              boundingBox: {min: {x: -1.628047, y: -0.183848, z: -1.70779}, max: {x: 1, y: 1.564575, z: 1}}
+              jointTransform: {localId: 78}
+            - __class: Joint
+              name: mixamorig_Head
+              guid: {a: 5495080569744517122, b: 14220112793658528176}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, -0.004210472, -6.592535, 0.4532872, 1]}
+              boundingBox: {min: {x: -3.507339, y: 0, z: -3.217352}, max: {x: 3.510008, y: 10.80162, z: 2.386461}}
+              jointTransform: {localId: 28}
+            - __class: Joint
+              name: mixamorig_Neck
+              guid: {a: 5099106624845800741, b: 12869538539077158301}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, -0.004210472, -5.619784, 0.3146173, 1]}
+              boundingBox: {min: {x: -2.731657, y: 0, z: -2.511966}, max: {x: 2.733372, y: 8.113301, z: 2.386461}}
+              jointTransform: {localId: 27}
+            - __class: Joint
+              name: mixamorig_LeftShoulder
+              guid: {a: 5388530960959977095, b: 13548007985102581384}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.04721725, 0.9497726, -0.3093583, 0, 0.002670136, -0.3098227, -0.9507906, 0, -0.9988811, 0.04406768, -0.017165, 0, -0.3294478, 1.33797, 5.338246, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.071565}, max: {x: 2.407798, y: 6.502376, z: 1.169449}}
+              jointTransform: {localId: 30}
+            - __class: Joint
+              name: mixamorig_RightShoulder
+              guid: {a: 5535415651218537252, b: 14494314304163249312}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.0487953, -0.9497086, 0.3093099, 0, -0.002670742, -0.3098018, -0.9507974, 0, 0.9988052, 0.04556835, -0.0176533, 0, 0.3290224, 1.346294, 5.335526, 1]}
+              boundingBox: {min: {x: -2.399577, y: 0, z: -0.926242}, max: {x: 1, y: 6.502376, z: 1.278299}}
+              jointTransform: {localId: 50}
+            - __class: Joint
+              name: mixamorig_RightArm
+              guid: {a: 5485881120739362563, b: 15093614829559777983}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.1022507, -0.9747745, -0.1983921, 0, 0.4443611, 0.1336752, -0.8858184, 0, 0.8899933, -0.1787333, 0.4194835, 0, -2.216376, -1.888992, 4.512843, 1]}
+              boundingBox: {min: {x: -3.702123, y: 0, z: -0.998379}, max: {x: 1, y: 6.502376, z: 1}}
+              jointTransform: {localId: 51}
+            - __class: Joint
+              name: mixamorig_RightForeArm
+              guid: {a: 4785929807241946260, b: 6536861625517379472}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.117329, -0.9916961, 0.05265758, 0, 0.403449, -0.0008525829, -0.9150017, 0, 0.9074485, 0.1286009, 0.3999988, 0, -1.479278, -2.231162, 5.242287, 1]}
+              boundingBox: {min: {x: -3.959178, y: 0, z: -1.009129}, max: {x: 1, y: 5.862958, z: 1}}
+              jointTransform: {localId: 52}
+            - __class: Joint
+              name: mixamorig_RightHand
+              guid: {a: 5231001354583973656, b: 8168484298202635171}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.09099522, -0.9957488, 0.01428945, 0, -0.06739005, -0.008159004, -0.9976934, 0, 0.9935685, -0.0917483, -0.06636114, 0, 0.3263963, -3.60565, 5.410378, 1]}
+              boundingBox: {min: {x: -4.597478, y: 0, z: -1.009129}, max: {x: 1, y: 5.862958, z: 1}}
+              jointTransform: {localId: 53}
+            - __class: Joint
+              name: mixamorig_RightHandRing1
+              guid: {a: 5078434700957660097, b: 14916296056352302511}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.3684751, -0.9097368, 0.1913245, 0, -0.06695136, -0.179302, -0.9815133, 0, 0.9272236, -0.3744727, 0.005160223, 0, -0.6089993, -2.742745, 6.11753, 1]}
+              boundingBox: {min: {x: -4.381541, y: 0, z: -1.01285}, max: {x: 1, y: 5.862958, z: 1}}
+              jointTransform: {localId: 66}
+            - __class: Joint
+              name: mixamorig_RightHandThumb1
+              guid: {a: 5452077065973210724, b: 12699214581349290937}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9533381, -0.2994123, 0.03871347, 0, -0.006422344, -0.1483144, -0.9889194, 0, 0.3018364, 0.9425259, -0.1433167, 0, 3.562034, -0.3117163, 5.42915, 1]}
+              boundingBox: {min: {x: -4.077956, y: 0, z: -0.399457}, max: {x: 1, y: 5.815259, z: 1}}
+              jointTransform: {localId: 54}
+            - __class: Joint
+              name: mixamorig_RightHandThumb2
+              guid: {a: 5100501791275120097, b: 13469222649300323258}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9533381, -0.2852547, 0.09887466, 0, -0.006422344, -0.3465904, -0.9379946, 0, 0.3018364, 0.893591, -0.3322498, 0, 3.53793, 0.5646437, 5.427903, 1]}
+              boundingBox: {min: {x: -4.077956, y: 0, z: -0.244164}, max: {x: 1, y: 5.815259, z: 1}}
+              jointTransform: {localId: 55}
+            - __class: Joint
+              name: mixamorig_RightHandThumb3
+              guid: {a: 5272625117593951472, b: 7411249850983019966}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9533381, -0.2988422, 0.04289305, 0, -0.006422344, -0.162117, -0.9867507, 0, 0.3018364, 0.9404315, -0.1564716, 0, 3.481932, -0.8146371, 5.370945, 1]}
+              boundingBox: {min: {x: -4.037433, y: 0, z: 0}, max: {x: 1, y: 5.621699, z: 1}}
+              jointTransform: {localId: 56}
+            - __class: Joint
+              name: mixamorig_RightHandIndex1
+              guid: {a: 4847062481471592673, b: 5250013300190047879}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.0166977, -0.982799, 0.183922, 0, -0.06612056, -0.1846303, -0.9805813, 0, 0.9976719, 0.004212427, -0.06806612, 0, 0.4908003, -3.058983, 6.06116, 1]}
+              boundingBox: {min: {x: -4.673017, y: 0, z: -0.638518}, max: {x: 1, y: 5.847051, z: 1}}
+              jointTransform: {localId: 58}
+            - __class: Joint
+              name: mixamorig_RightHandIndex2
+              guid: {a: 5577527359920791953, b: 954942007299894951}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.0166977, -0.9913889, 0.1298819, 0, -0.06612056, -0.1307105, -0.9892132, 0, 0.9976719, 0.00792972, -0.06773375, 0, 0.4899465, -3.634079, 5.871147, 1]}
+              boundingBox: {min: {x: -4.773244, y: 0, z: -0.47175}, max: {x: 1, y: 5.815259, z: 1}}
+              jointTransform: {localId: 59}
+            - __class: Joint
+              name: mixamorig_RightHandIndex3
+              guid: {a: 5755595454895804333, b: 5936076196083221909}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.0166977, -0.9552109, 0.2954543, 0, -0.06612056, -0.2959035, -0.9529266, 0, 0.9976719, -0.003623919, -0.06809999, 0, 0.4918378, -2.807612, 6.437815, 1]}
+              boundingBox: {min: {x: -4.773244, y: 0, z: -0.183652}, max: {x: 1, y: 5.509151, z: 1}}
+              jointTransform: {localId: 60}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle1
+              guid: {a: 5291781126629065323, b: 15284061746125420471}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08019006, 0.9881145, -0.1311462, 0, 0.03470157, -0.1342576, -0.9903387, 0, -0.9961753, 0.07486434, -0.04505525, 0, -1.004122, -3.467515, 5.897103, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.009129}, max: {x: 4.682315, y: 5.862958, z: 1}}
+              jointTransform: {localId: 42}
+            - __class: Joint
+              name: mixamorig_LeftForeArm
+              guid: {a: 4881654708891946090, b: 8655692327525989765}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.1202155, 0.9913799, -0.05209719, 0, -0.391706, -0.00085232, -0.9200901, 0, -0.9122032, 0.1310159, 0.388227, 0, 1.410852, -2.23834, 5.261312, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.009129}, max: {x: 4.086511, y: 5.862958, z: 1}}
+              jointTransform: {localId: 32}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb1
+              guid: {a: 4649648734825577042, b: 273501729300027527}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9702899, 0.2361769, -0.05251656, 0, -0.005756966, -0.1944611, -0.9808934, 0, -0.2418768, 0.9520532, -0.1873239, 0, -3.542372, 0.1310558, 5.425115, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.745963}, max: {x: 4.086511, y: 5.862958, z: 1}}
+              jointTransform: {localId: 34}
+            - __class: Joint
+              name: mixamorig_LeftHandRing1
+              guid: {a: 4769751860362487406, b: 21839002141305023}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.02138871, 0.9937924, -0.1091755, 0, 0.03632255, -0.108356, -0.9934484, 0, -0.9991112, -0.02521411, -0.03377948, 0, -0.9378201, -3.694829, 5.804012, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.01285}, max: {x: 4.681747, y: 5.862958, z: 1}}
+              jointTransform: {localId: 46}
+            - __class: Joint
+              name: mixamorig_LeftArm
+              guid: {a: 5275154858466337444, b: 14465474097803619240}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.09944622, 0.9758185, 0.1946505, 0, -0.4323294, 0.1338183, -0.8917309, 0, -0.8962153, -0.1728324, 0.4085672, 0, 2.147662, -1.897982, 4.544487, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.99838}, max: {x: 3.710543, y: 6.472419, z: 1}}
+              jointTransform: {localId: 31}
+            - __class: Joint
+              name: mixamorig_LeftHandRing2
+              guid: {a: 5258914564364273351, b: 4188770897784049033}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.02138871, 0.9891162, -0.1455738, 0, 0.03632255, -0.1447422, -0.9888025, 0, -0.9991112, -0.02643682, -0.03283137, 0, -0.9410531, -3.68302, 5.943182, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.01285}, max: {x: 4.781661, y: 5.734615, z: 1}}
+              jointTransform: {localId: 47}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle2
+              guid: {a: 5040122472056104358, b: 13047796910667369352}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08019006, 0.9859786, -0.1463411, 0, 0.03470157, -0.1494864, -0.9881546, 0, -0.9961753, 0.07416192, -0.04620233, 0, -1.003106, -3.564987, 5.952685, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.661975}, max: {x: 4.781661, y: 5.648755, z: 1}}
+              jointTransform: {localId: 43}
+            - __class: Joint
+              name: mixamorig_LeftHandRing3
+              guid: {a: 5180881446079506189, b: 10091186163228559293}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.02138871, 0.9880651, -0.152545, 0, 0.03632255, -0.1517112, -0.9877573, 0, -0.9991112, -0.02666768, -0.03264413, 0, -0.9389241, -3.806611, 5.970172, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.962058}, max: {x: 4.781661, y: 5.515896, z: 1}}
+              jointTransform: {localId: 48}
+            - __class: Joint
+              name: mixamorig_RightHandRing2
+              guid: {a: 4922958763812572939, b: 15178949514380266936}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.3684751, -0.9243047, 0.09943342, 0, -0.06695136, -0.0802967, -0.9945199, 0, 0.9272236, -0.3731131, -0.03229611, 0, -0.6036968, -3.78277, 5.768311, 1]}
+              boundingBox: {min: {x: -4.77324, y: 0, z: -1.01285}, max: {x: 1, y: 5.780766, z: 1}}
+              jointTransform: {localId: 67}
+            - __class: Joint
+              name: mixamorig_RightHandRing3
+              guid: {a: 5401001938536750436, b: 8378453413474630044}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.3684751, -0.9293994, 0.02104338, 0, -0.06695136, 0.003952995, -0.9977484, 0, 0.9272236, -0.3690543, -0.06368113, 0, -0.592922, -4.451018, 5.411852, 1]}
+              boundingBox: {min: {x: -4.77324, y: 0, z: -1.01285}, max: {x: 1, y: 5.652225, z: 1}}
+              jointTransform: {localId: 68}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb2
+              guid: {a: 4650633165371026056, b: 5810446042343458708}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9702899, 0.2282581, -0.08022316, 0, -0.005756966, -0.3097003, -0.9508168, 0, -0.2418768, 0.9230298, -0.299185, 0, -3.515044, 0.5132004, 5.402418, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 4.045854, y: 5.699657, z: 1}}
+              jointTransform: {localId: 35}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb3
+              guid: {a: 5230894411346720153, b: 16334455723434138770}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9702899, 0.2335874, -0.0630433, 0, -0.005756966, -0.2382046, -0.9711979, 0, -0.2418768, 0.9427065, -0.2297828, 0, -3.509585, -0.2231442, 5.400765, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 3.970467, y: 5.621699, z: 1}}
+              jointTransform: {localId: 36}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle1
+              guid: {a: 4915328774555715796, b: 4955728183781222059}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.06556161, -0.9871688, 0.1456002, 0, -0.06529023, -0.1498453, -0.9865513, 0, 0.9957103, 0.05517362, -0.07427658, 0, 1.099489, -3.510477, 5.92649, 1]}
+              boundingBox: {min: {x: -4.675349, y: 0, z: -0.638518}, max: {x: 1, y: 5.731192, z: 1}}
+              jointTransform: {localId: 62}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle2
+              guid: {a: 5028757953609700254, b: 17253718633524168363}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.06556161, -0.9818729, 0.1778406, 0, -0.06529023, -0.1820632, -0.9811168, 0, 0.9957103, 0.05271235, -0.07604306, 0, 1.100472, -3.465077, 6.043171, 1]}
+              boundingBox: {min: {x: -4.77324, y: 0, z: -0.604064}, max: {x: 1, y: 5.648755, z: 1}}
+              jointTransform: {localId: 63}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle3
+              guid: {a: 5281410705995253254, b: 10142182564688875709}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.06556161, -0.9922286, 0.105755, 0, -0.06529023, -0.1100215, -0.9917825, 0, 0.9957103, 0.05811809, -0.07199602, 0, 1.099635, -4.019756, 5.765348, 1]}
+              boundingBox: {min: {x: -4.77324, y: 0, z: -0.604064}, max: {x: 1, y: 5.513393, z: 1}}
+              jointTransform: {localId: 64}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle3
+              guid: {a: 5000006642904341266, b: 524390744239229863}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.08019006, 0.9914684, -0.1027613, 0, 0.03470157, -0.1058076, -0.9937809, 0, -0.9961753, 0.07612538, -0.04289023, 0, -1.006708, -4.000473, 5.782056, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.604064}, max: {x: 4.781661, y: 5.513393, z: 1}}
+              jointTransform: {localId: 44}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Hips
+    guid: {a: 5265153481927751103, b: 3487649321962499240}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine
+    guid: {a: 5297768237765219338, b: 17704743036119116957}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine1
+    guid: {a: 4919985286472857108, b: 8663820972157066430}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine2
+    guid: {a: 5671788021696161342, b: 9444273975730942909}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Neck
+    guid: {a: 4955406262801977990, b: 3293854054750251931}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Head
+    guid: {a: 4652485641737692490, b: 10660445364193560492}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_HeadTop_End
+    guid: {a: 5658700419864214013, b: 140008572667387531}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftShoulder
+    guid: {a: 5667817152908483656, b: 12110085235606673553}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftArm
+    guid: {a: 4842577456571432049, b: 12687915728288442035}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftForeArm
+    guid: {a: 4879965825288969328, b: 16421918067464874398}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHand
+    guid: {a: 5014543470631977787, b: 3174531999629524656}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb1
+    guid: {a: 4697818373400073360, b: 5022558535982393740}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb2
+    guid: {a: 5437077166617939788, b: 7156082880601022857}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb3
+    guid: {a: 4995936715895971994, b: 8856231911694166408}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb4
+    guid: {a: 4657028084190060707, b: 6596756675935842984}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 37}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex1
+    guid: {a: 4715151204852378330, b: 6339174663128275330}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex2
+    guid: {a: 5614835436398872621, b: 12202409647848342149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex3
+    guid: {a: 4860709445971030548, b: 1621938234662539676}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex4
+    guid: {a: 5292847242959539457, b: 4508453645771205551}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle1
+    guid: {a: 5273195580088558323, b: 16758973151927467922}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle2
+    guid: {a: 5167808622563317036, b: 5953917336992249499}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle3
+    guid: {a: 5277303450245103775, b: 13573334575416624815}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle4
+    guid: {a: 5494225874090322574, b: 5803596766402854056}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing1
+    guid: {a: 5524915933798806241, b: 8169053715259355812}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing2
+    guid: {a: 4688537228868190023, b: 1231594548277980570}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing3
+    guid: {a: 5407242501905051024, b: 16546651736494767745}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing4
+    guid: {a: 5281403112169654650, b: 6351307707794583974}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightShoulder
+    guid: {a: 4787101124812591921, b: 17824516925235806905}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightArm
+    guid: {a: 5374860018082651669, b: 1950717114115609501}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightForeArm
+    guid: {a: 5252059939419341189, b: 16047652198849337006}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHand
+    guid: {a: 5618686793394560108, b: 18320089723608602805}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 53}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb1
+    guid: {a: 5003495003762620387, b: 2671589144328106142}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 54}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb2
+    guid: {a: 4855024718121463837, b: 16297323123328097975}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 55}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb3
+    guid: {a: 4913755100259308839, b: 4474794392088703391}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 56}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb4
+    guid: {a: 5086021768060503645, b: 167814324401759923}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 57}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex1
+    guid: {a: 5732190606719603996, b: 9771045424406217378}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 58}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex2
+    guid: {a: 4942100352430757555, b: 13740610506726007467}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 59}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex3
+    guid: {a: 5675180055203759355, b: 8190217997076841640}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 60}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex4
+    guid: {a: 5381345122568530695, b: 17222379900989585560}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 61}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle1
+    guid: {a: 5473097140587170179, b: 13336265114869863575}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 62}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle2
+    guid: {a: 5355658326257284001, b: 1097734282041937297}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 63}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle3
+    guid: {a: 5731762307144207038, b: 17734776621756221616}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 64}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle4
+    guid: {a: 5204344013718517162, b: 3024801132094075569}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 65}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing1
+    guid: {a: 5554269133075023547, b: 16994341771387994778}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 66}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing2
+    guid: {a: 5570294081240948828, b: 12035499201724627602}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing3
+    guid: {a: 5758393573422226933, b: 9842053046422921125}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing4
+    guid: {a: 5640426093452926703, b: 845544007067197572}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftUpLeg
+    guid: {a: 5109941037231364145, b: 8354291573691251120}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftLeg
+    guid: {a: 5532655730712311438, b: 15490712477948211595}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftFoot
+    guid: {a: 5326365941879080771, b: 4375535384741740468}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftToeBase
+    guid: {a: 5643061464650201152, b: 9097815594466354060}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 73}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftToe_End
+    guid: {a: 4951516452584751888, b: 1288211548825871275}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 74}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightUpLeg
+    guid: {a: 5670439043244792509, b: 2459527887957553315}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 75}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightLeg
+    guid: {a: 5250553795645704235, b: 537258464822183349}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 76}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightFoot
+    guid: {a: 4962268816298130265, b: 11829319362447294628}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 77}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightToeBase
+    guid: {a: 5228902633502183704, b: 8850872500318624140}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 78}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightToe_End
+    guid: {a: 5356578130685340793, b: 15245772344079411081}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 79}
+    layer: 0
+  - __class: Entity
+    name: Jerry
+    guid: {a: 5167589908033545868, b: 12957886116975668381}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5340543031498843351, b: 16714316778452845234}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 81}
+      - __class: Animator
+        name: ""
+        guid: {a: 5560220216656529001, b: 16738701956290300060}
+        enabled: true
+        animations:
+          - {localId: 1, path: 3d55a329-50c1-b8c6-94e2-2d9d3f5f7c0f--Animaz-1_mixamo.com.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_mixamo.com: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: tom
+    guid: {a: 5019045323370317566, b: 17243886046239220608}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 82}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5679717313209235437, b: 12263121553663414681}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: a8113660-cdd7-34f7-0a5c-96bd77ea608d--a8113660-cdd7-34f7-0a5c-96bd77ea608d-skin.material}
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 3d55a329-50c1-b8c6-94e2-2d9d3f5f7c0f--tom.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5319843039874917129, b: 12641491346282167969}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: mixamorig_LeftArm
+              guid: {a: 5729707338555121436, b: 10374635728824068737}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.04022722, 0.9987503, -0.0296594, 0, 0.005730044, -0.02991352, -0.999536, 0, -0.9991741, 0.04003861, -0.00692622, 0, -0.3713116, -1.852088, 13.34873, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.537506}, max: {x: 8.857391, y: 14.74292, z: 2.057944}}
+              jointTransform: {localId: 91}
+            - __class: Joint
+              name: mixamorig_LeftForeArm
+              guid: {a: 5123676005814930964, b: 8656489731553849512}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2767072, 0.9594779, 0.05324747, 0, -0.001551915, 0.05585715, -0.9984376, 0, -0.9609531, 0.2761922, 0.0169451, 0, -1.566397, -5.966417, 12.88237, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.048786}, max: {x: 9.516241, y: 14.74292, z: 2.057944}}
+              jointTransform: {localId: 92}
+            - __class: Joint
+              name: mixamorig_LeftHand
+              guid: {a: 5106987716857601076, b: 14696667098451335567}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.0670303, 0.9962351, 0.05497847, 0, 0.05717218, 0.05884694, -0.9966285, 0, -0.9961116, -0.06366107, -0.06090146, 0, 0.8657969, -9.953276, 12.92114, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.507462}, max: {x: 10.04173, y: 14.15168, z: 2.527337}}
+              jointTransform: {localId: 93}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb1
+              guid: {a: 4619157580677132108, b: 7718965922511705738}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8581852, -0.5131626, -0.01350447, 0, 0.0159876, 0.0530126, -0.9984658, 0, 0.5130912, 0.8566527, 0.05369887, 0, -8.336855, 2.432558, 13.46377, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.325187}, max: {x: 9.179996, y: 14.15168, z: 2.779935}}
+              jointTransform: {localId: 94}
+            - __class: Joint
+              name: mixamorig_LeftHandRing1
+              guid: {a: 4739426292151310255, b: 7090520272886236294}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2206403, 0.9578137, -0.184149, 0, 0.07161215, -0.2042009, -0.9763061, 0, -0.9727228, 0.2022251, -0.113646, 0, -2.876474, -6.214989, 14.9899, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.507462}, max: {x: 10.65409, y: 14.15168, z: 1.998012}}
+              jointTransform: {localId: 106}
+            - __class: Joint
+              name: mixamorig_LeftLeg
+              guid: {a: 5203011618520018810, b: 8662204176511537834}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9977875, 0.06489839, 0.01443472, 0, -0.06647038, -0.9782258, -0.1966111, 0, 0.001360673, -0.1971356, 0.9803753, 0, 2.195657, 4.007816, 0.9670093, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -2.309667}, max: {x: 3.673543, y: 5.408395, z: 1.746968}}
+              jointTransform: {localId: 131}
+            - __class: Joint
+              name: mixamorig_LeftFoot
+              guid: {a: 4658694310627034321, b: 11179638138035113917}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9154425, -0.361121, -0.1776417, 0, 0.02026685, -0.4822086, 0.8758219, 0, -0.4019381, 0.7981644, 0.448753, 0, 1.60371, 2.040127, -0.575642, 1]}
+              boundingBox: {min: {x: 0, y: -0.008583, z: -2.309667}, max: {x: 4.144359, y: 5.159624, z: 3.035273}}
+              jointTransform: {localId: 132}
+            - __class: Joint
+              name: mixamorig_LeftToeBase
+              guid: {a: 5489458946496815128, b: 7427648337627831693}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9322927, -0.3026012, 0.1981485, 0, 0.2055454, 0.007545945, 0.9786185, 0, -0.2976263, 0.9530874, 0.05516323, 0, 1.445153, -1.14037, -0.3845131, 1]}
+              boundingBox: {min: {x: 0, y: -0.008583, z: -2.309667}, max: {x: 4.144359, y: 4.295619, z: 3.035273}}
+              jointTransform: {localId: 133}
+            - __class: Joint
+              name: mixamorig_LeftUpLeg
+              guid: {a: 5284811027016798288, b: 12036424855695395204}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9971515, 0.07542484, 7.370675e-11, 0, -0.07540904, -0.9969426, 0.02046607, 0, 0.00154365, 0.02040778, 0.9997905, 0, 2.232516, 7.30887, 0.0737864, 1]}
+              boundingBox: {min: {x: -2.138259, y: 0, z: -8.260172}, max: {x: 3.171575, y: 8.392917, z: 2.203651}}
+              jointTransform: {localId: 130}
+            - __class: Joint
+              name: mixamorig_RightUpLeg
+              guid: {a: 5285854219486907902, b: 8345341073043419824}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9971532, -0.07540228, -1.210521e-10, 0, 0.07536382, -0.9966446, 0.03193537, 0, -0.002408, 0.03184446, 0.99949, 0, -2.232396, 7.309515, -0.004236101, 1]}
+              boundingBox: {min: {x: -3.171574, y: 0, z: -8.260172}, max: {x: 3.061704, y: 8.392917, z: 2.222858}}
+              jointTransform: {localId: 135}
+            - __class: Joint
+              name: mixamorig_RightArm
+              guid: {a: 5343259511111541127, b: 14040226446493263017}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.04211827, -0.9986749, 0.02957148, 0, -0.007457878, -0.02991117, -0.9995247, 0, 0.9990848, 0.04187771, -0.008707803, 0, 0.3842385, -1.852173, 13.34814, 1]}
+              boundingBox: {min: {x: -8.857391, y: 0, z: -1.537507}, max: {x: 1, y: 14.74292, z: 2.057944}}
+              jointTransform: {localId: 111}
+            - __class: Joint
+              name: mixamorig_RightForeArm
+              guid: {a: 5062295432719638023, b: 8664587447247139495}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.293798, -0.9543969, -0.0530024, 0, 0.0003647076, 0.05556145, -0.9984552, 0, 0.9558675, 0.2933248, 0.01667192, 0, 1.655862, -5.93935, 12.88359, 1]}
+              boundingBox: {min: {x: -9.516241, y: 0, z: -1.048786}, max: {x: 1, y: 14.74292, z: 2.057944}}
+              jointTransform: {localId: 112}
+            - __class: Joint
+              name: mixamorig_RightHand
+              guid: {a: 5396020557232000796, b: 13730640297812981154}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.8573214, -0.3748024, -0.3528785, 0, 0.3603242, 0.05265727, -0.9313397, 0, 0.3676499, -0.9256082, 0.08990616, 0, -13.18309, -3.151051, 9.124149, 1]}
+              boundingBox: {min: {x: -10.24551, y: 0, z: -0.507462}, max: {x: 1, y: 14.15168, z: 2.295304}}
+              jointTransform: {localId: 113}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle1
+              guid: {a: 5716957393669997226, b: 11463598725763399041}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2629024, -0.9552231, 0.1357609, 0, -0.006475704, -0.1424546, -0.9897801, 0, 0.9648007, 0.2593364, -0.04363741, 0, 1.595687, -7.233148, 14.69874, 1]}
+              boundingBox: {min: {x: -10.4531, y: 0, z: -0.325187}, max: {x: 1, y: 14.15168, z: 1.964992}}
+              jointTransform: {localId: 122}
+            - __class: Joint
+              name: mixamorig_RightHandRing1
+              guid: {a: 5350179476102273193, b: 10305290856920795010}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2167627, -0.9625673, 0.1627212, 0, 0.01210187, -0.1640219, -0.9863825, 0, 0.9761493, 0.2157801, -0.02390496, 0, 1.729223, -6.915628, 14.91082, 1]}
+              boundingBox: {min: {x: -10.65409, y: 0, z: -0.507462}, max: {x: 1, y: 14.15168, z: 1.497177}}
+              jointTransform: {localId: 126}
+            - __class: Joint
+              name: mixamorig_RightHandThumb1
+              guid: {a: 4932547018434534770, b: 14114801665134674822}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8320711, 0.5170273, -0.200849, 0, -0.3563026, 0.2207085, -0.9079297, 0, -0.4250954, 0.8270251, 0.3678633, 0, 12.60117, 0.2031819, 9.909971, 1]}
+              boundingBox: {min: {x: -9.044325, y: 0, z: 0}, max: {x: 1, y: 14.15168, z: 2.739372}}
+              jointTransform: {localId: 114}
+            - __class: Joint
+              name: mixamorig_RightHandIndex1
+              guid: {a: 4652728774039790402, b: 12175418702352554379}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4596254, -0.8865133, 0.05327905, 0, -0.08884583, -0.105588, -0.990433, 0, 0.8836577, 0.4504946, -0.1272939, 0, 3.807217, -7.375881, 14.10542, 1]}
+              boundingBox: {min: {x: -10.34679, y: 0, z: 0}, max: {x: 1, y: 14.15168, z: 2.527337}}
+              jointTransform: {localId: 118}
+            - __class: Joint
+              name: mixamorig_RightLeg
+              guid: {a: 4656506449934739455, b: 1922130498241702022}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9977756, -0.06486358, -0.01538393, 0, 0.06662895, -0.9777181, -0.1990676, 0, -0.002128906, -0.1996498, 0.979865, 0, -2.196371, 4.011141, 0.946983, 1]}
+              boundingBox: {min: {x: -3.673542, y: 0, z: -2.309667}, max: {x: 1, y: 5.43749, z: 1.50168}}
+              jointTransform: {localId: 136}
+            - __class: Joint
+              name: mixamorig_RightFoot
+              guid: {a: 5296385225705175265, b: 8081322303139788165}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9099281, 0.3707349, 0.1859746, 0, -0.02418477, -0.4950462, 0.86853, 0, 0.4140604, 0.7858021, 0.4594226, 0, -1.58659, 2.053031, -0.5497431, 1]}
+              boundingBox: {min: {x: -4.144358, y: -0.008583, z: -2.309667}, max: {x: 1, y: 4.522628, z: 3.035273}}
+              jointTransform: {localId: 137}
+            - __class: Joint
+              name: mixamorig_RightToeBase
+              guid: {a: 5059367021741663331, b: 6425183863749542305}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9284471, 0.3060387, -0.2105383, 0, -0.2187547, 0.007615344, 0.9757501, 0, 0.3002206, 0.9519886, 0.05987697, 0, -1.422459, -1.067222, -0.4006266, 1]}
+              boundingBox: {min: {x: -4.144358, y: -0.008583, z: -2.309667}, max: {x: 1, y: 4.37999, z: 3.035273}}
+              jointTransform: {localId: 138}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle1
+              guid: {a: 4621242333117875497, b: 7114074437631788987}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2484395, 0.9635274, 0.09946191, 0, 0.07272956, 0.08383626, -0.9938219, 0, -0.9659132, 0.2541384, -0.04924869, 0, -2.256911, -10.45604, 12.43805, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.204564}, max: {x: 10.64322, y: 14.15168, z: 1.998012}}
+              jointTransform: {localId: 102}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex1
+              guid: {a: 4854400444386837129, b: 1704079151851436967}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4805214, 0.8684472, 0.1220601, 0, 0.07987519, 0.09526371, -0.9922423, 0, -0.8733379, 0.4865432, -0.02359113, 0, -3.879752, -10.06467, 12.20434, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.34679, y: 14.15168, z: 2.527337}}
+              jointTransform: {localId: 98}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb2
+              guid: {a: 4732127361688931365, b: 4500445504440088970}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8581852, -0.5085739, -0.0697909, 0, 0.0159876, 0.1623679, -0.9866008, 0, 0.5130912, 0.8455704, 0.1474726, 0, -8.058047, 0.3505869, 13.58448, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 8.848319, y: 14.01988, z: 3.171109}}
+              jointTransform: {localId: 95}
+            - __class: Joint
+              name: mixamorig_LeftHandThumb3
+              guid: {a: 5451182138726147075, b: 7826243028675390894}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8581852, -0.5033501, -0.1007813, 0, 0.0159876, 0.2224368, -0.974816, 0, 0.5130912, 0.8349614, 0.1989393, 0, -8.119969, -1.248981, 13.53342, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 8.447011, y: 14.01988, z: 3.171109}}
+              jointTransform: {localId: 96}
+            - __class: Joint
+              name: mixamorig_LeftHandRing2
+              guid: {a: 5549208182588932286, b: 8644854028025304467}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2206403, 0.9749758, 0.02720257, 0, 0.07161215, 0.01162117, -0.9973649, 0, -0.9727228, 0.2220069, -0.06725602, 0, -2.902576, -9.954296, 13.14936, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -0.241766}, max: {x: 10.74298, y: 14.02134, z: 1}}
+              jointTransform: {localId: 107}
+            - __class: Joint
+              name: mixamorig_LeftHandRing3
+              guid: {a: 5328707045234270168, b: 12985916356177557174}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2206403, 0.9702013, 0.100137, 0, 0.07161215, 0.08627594, -0.9936942, 0, -0.9727228, 0.22642, -0.05044225, 0, -2.889945, -11.42711, 12.32826, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.74298, y: 13.81264, z: 1}}
+              jointTransform: {localId: 108}
+            - __class: Joint
+              name: mixamorig_Hips
+              guid: {a: 5510874300245037180, b: 1779855051419238324}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -8.126232, 0.3157297, 1]}
+              boundingBox: {min: {x: -3.171574, y: 0, z: -5.258102}, max: {x: 3.171575, y: 10.98179, z: 2.222858}}
+              jointTransform: {localId: 83}
+            - __class: Joint
+              name: mixamorig_Spine
+              guid: {a: 5364248755051904672, b: 5797803255880530338}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.999808, -0.01959603, 0, 0, 0.01959603, 0.999808, 0, 0, -9.327793, 0.4749109, 1]}
+              boundingBox: {min: {x: -2.443595, y: 0, z: -1.820272}, max: {x: 2.443596, y: 12.2306, z: 2.097345}}
+              jointTransform: {localId: 84}
+            - __class: Joint
+              name: mixamorig_Spine1
+              guid: {a: 5605708566078874155, b: 6233564400649690797}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.999808, -0.01959608, 0, 0, 0.01959608, 0.999808, 0, 0, -10.73865, 0.4749114, 1]}
+              boundingBox: {min: {x: -2.134109, y: 0, z: -1.721141}, max: {x: 2.13411, y: 12.48128, z: 1.907531}}
+              jointTransform: {localId: 85}
+            - __class: Joint
+              name: mixamorig_Spine2
+              guid: {a: 4934754943185996416, b: 14712001372395555229}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 0.999808, -0.01959608, 0, 0, 0.01959608, 0.999808, 0, 0, -12.35106, 0.4749114, 1]}
+              boundingBox: {min: {x: -5.617132, y: 0, z: -2.525398}, max: {x: 5.622486, y: 16.59984, z: 3.148407}}
+              jointTransform: {localId: 86}
+            - __class: Joint
+              name: mixamorig_LeftShoulder
+              guid: {a: 5528002266871975272, b: 10897940163880173971}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.004467827, 0.9321245, -0.3621104, 0, 0.01963814, -0.362126, -0.9319223, 0, -0.9997972, -0.002947506, -0.0199231, 0, -0.4754287, 4.322305, 13.19909, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: -1.682997}, max: {x: 4.553482, y: 15.30545, z: 2.057944}}
+              jointTransform: {localId: 90}
+            - __class: Joint
+              name: mixamorig_Neck
+              guid: {a: 4647212405867805878, b: 2967313855642300310}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, 0, -14.17161, 0.1972413, 1]}
+              boundingBox: {min: {x: -3.754045, y: 0, z: -3.24636}, max: {x: 3.75405, y: 18.51913, z: 3.230351}}
+              jointTransform: {localId: 87}
+            - __class: Joint
+              name: mixamorig_Head
+              guid: {a: 4881943393706819298, b: 14903472712268903355}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, -1e-15, 0, 0, 1e-15, 1, 0, 0, -15.96902, 0.5202599, 1]}
+              boundingBox: {min: {x: -3.754045, y: 0, z: -3.834393}, max: {x: 3.758166, y: 20.40652, z: 3.230351}}
+              jointTransform: {localId: 88}
+            - __class: Joint
+              name: mixamorig_RightHandRing2
+              guid: {a: 5653273643374436925, b: 8335752577519788929}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2167627, -0.9759149, -0.02457746, 0, 0.01210187, 0.02786038, -0.9995385, 0, 0.9761493, 0.2163652, 0.01784949, 0, 1.743597, -10.2647, 13.18958, 1]}
+              boundingBox: {min: {x: -10.74298, y: 0, z: -0.241766}, max: {x: 1, y: 14.02134, z: 1}}
+              jointTransform: {localId: 127}
+            - __class: Joint
+              name: mixamorig_RightHandRing3
+              guid: {a: 5511298978276606822, b: 8075476796179923072}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2167627, -0.9355019, -0.2790163, 0, 0.01210187, 0.2883648, -0.9574441, 0, 0.9761493, 0.2041615, 0.07382804, 0, 1.738276, -13.80905, 9.92273, 1]}
+              boundingBox: {min: {x: -10.74298, y: 0, z: -0.075732}, max: {x: 1, y: 13.97679, z: 1}}
+              jointTransform: {localId: 128}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle2
+              guid: {a: 5561000843134122582, b: 12293942924176647097}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2629024, -0.9648128, 0.004321342, 0, -0.006475704, -0.006243331, -0.9999595, 0, 0.9648007, 0.2628638, -0.007889229, 0, 1.551471, -9.753009, 13.49554, 1]}
+              boundingBox: {min: {x: -10.74274, y: 0, z: 0}, max: {x: 1, y: 13.97349, z: 1.75805}}
+              jointTransform: {localId: 123}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex2
+              guid: {a: 5380838792789105426, b: 7251297628785245572}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4805214, 0.8758308, 0.04493891, 0, 0.07987519, 0.00732148, -0.996778, 0, -0.8733379, 0.4825627, -0.06643903, 0, -3.876655, -9.562054, 13.09935, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.40528, y: 13.96694, z: 2.771417}}
+              jointTransform: {localId: 99}
+            - __class: Joint
+              name: mixamorig_LeftHandIndex3
+              guid: {a: 5456027107452179645, b: 6585261449920395687}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4805214, 0.8713445, -0.09928693, 0, 0.07987519, -0.1562279, -0.984486, 0, -0.8733379, 0.4651361, -0.1446697, 0, -3.880415, -7.812856, 14.57782, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.40528, y: 13.80402, z: 2.771417}}
+              jointTransform: {localId: 100}
+            - __class: Joint
+              name: mixamorig_RightShoulder
+              guid: {a: 4870294649902562743, b: 13445472095124562872}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.01079195, -0.9321246, 0.3619771, 0, -0.01964147, -0.3621259, -0.9319222, 0, 0.9997488, 0.002947501, -0.02221634, 0, 0.4754586, 4.323466, 13.19863, 1]}
+              boundingBox: {min: {x: -4.757257, y: 0, z: -1.682997}, max: {x: 1, y: 15.30545, z: 2.057944}}
+              jointTransform: {localId: 110}
+            - __class: Joint
+              name: mixamorig_RightHandThumb2
+              guid: {a: 5635475592290778533, b: 4076754086614983331}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8320711, 0.5020783, -0.2357434, 0, -0.3563026, 0.158089, -0.9208997, 0, -0.4250954, 0.8502501, 0.3104331, 0, 12.3149, 0.3155575, 9.9116, 1]}
+              boundingBox: {min: {x: -8.905317, y: 0, z: 0}, max: {x: 1, y: 14.01988, z: 3.171108}}
+              jointTransform: {localId: 115}
+            - __class: Joint
+              name: mixamorig_RightHandIndex2
+              guid: {a: 5097252997547263608, b: 6666464906228980649}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4596254, -0.8870463, -0.04351317, 0, -0.08884583, 0.002824108, -0.9960414, 0, 0.8836577, 0.4616719, -0.07751232, 0, 3.779674, -9.503196, 13.14933, 1]}
+              boundingBox: {min: {x: -10.40528, y: 0, z: 0}, max: {x: 1, y: 14.01888, z: 2.771417}}
+              jointTransform: {localId: 119}
+            - __class: Joint
+              name: mixamorig_RightHandMiddle3
+              guid: {a: 4896958159213939151, b: 13413416996818202805}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2629024, -0.9648207, -0.001842764, 0, -0.006475704, 0.0001453608, -0.999979, 0, 0.9648007, 0.2629088, -0.006209678, 0, 1.549241, -10.43303, 13.42916, 1]}
+              boundingBox: {min: {x: -10.74274, y: 0, z: 0}, max: {x: 1, y: 13.97349, z: 1.75805}}
+              jointTransform: {localId: 124}
+            - __class: Joint
+              name: mixamorig_RightHandIndex3
+              guid: {a: 5668185836985594698, b: 15093245498171071422}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.4596254, -0.880976, -0.1123649, 0, -0.08884583, 0.08027533, -0.9928052, 0, 0.8836577, 0.4663017, -0.04137446, 0, 3.788394, -11.06554, 12.32611, 1]}
+              boundingBox: {min: {x: -10.40528, y: 0, z: 0}, max: {x: 1, y: 13.96694, z: 2.771417}}
+              jointTransform: {localId: 120}
+            - __class: Joint
+              name: mixamorig_RightHandThumb3
+              guid: {a: 5298538104876853574, b: 874816845063381638}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.8320711, 0.4523647, -0.3209732, 0, -0.3563026, -0.007580037, -0.9343399, 0, -0.4250954, 0.8918008, 0.1548716, 0, 12.34902, 1.300885, 9.836743, 1]}
+              boundingBox: {min: {x: -8.447011, y: 0, z: 0}, max: {x: 1, y: 14.01988, z: 3.171108}}
+              jointTransform: {localId: 116}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle2
+              guid: {a: 5101597431852728809, b: 1852510589931630473}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2484395, 0.9685909, 0.01047069, 0, 0.07272956, -0.007873558, -0.9973206, 0, -0.9659132, 0.2485353, -0.07240129, 0, -2.256825, -9.83879, 13.39919, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.74274, y: 13.97349, z: 1.75805}}
+              jointTransform: {localId: 103}
+            - __class: Joint
+              name: mixamorig_LeftHandMiddle3
+              guid: {a: 4630224582816008876, b: 5362596665703382673}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.2484395, 0.9661801, 0.06909258, 0, 0.07272956, 0.05252136, -0.9959678, 0, -0.9659132, 0.2524628, -0.05722148, 0, -2.251092, -11.15556, 12.74718, 1]}
+              boundingBox: {min: {x: 0, y: 0, z: 0}, max: {x: 10.74274, y: 13.81023, z: 1.75805}}
+              jointTransform: {localId: 104}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Hips
+    guid: {a: 5520181283971254733, b: 5429359716462503838}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 83}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine
+    guid: {a: 5136011343034737294, b: 12814842406605634230}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 84}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine1
+    guid: {a: 5477566824868808904, b: 16904333800222608056}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 85}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Spine2
+    guid: {a: 5235579850467278576, b: 9949418278307023232}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 86}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Neck
+    guid: {a: 5113549898984260043, b: 12925490212645274039}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 87}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_Head
+    guid: {a: 5228670961839596243, b: 16565283549653226664}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 88}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_HeadTop_End
+    guid: {a: 4848397480055460536, b: 1119613391051868832}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 89}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftShoulder
+    guid: {a: 5373812109742848380, b: 16591673816342564228}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 90}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftArm
+    guid: {a: 5212771360995266339, b: 17902152942360724104}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 91}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftForeArm
+    guid: {a: 5301692350830042482, b: 16844984128039484325}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 92}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHand
+    guid: {a: 5683653344977292854, b: 6684267582334634674}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 93}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb1
+    guid: {a: 4883847230263253937, b: 9507902588183263406}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 94}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb2
+    guid: {a: 4772536812724262677, b: 11207221339667894683}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 95}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb3
+    guid: {a: 5111403739652749722, b: 2641561907616787377}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 96}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandThumb4
+    guid: {a: 5502919526698246846, b: 11165995050701988013}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 97}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex1
+    guid: {a: 5526323818925179791, b: 8886165037150920356}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 98}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex2
+    guid: {a: 5618760321864739219, b: 6794145496651788173}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 99}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex3
+    guid: {a: 5498277221868833333, b: 4631224098992591537}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 100}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandIndex4
+    guid: {a: 5118051822388260237, b: 2480625575915093940}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 101}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle1
+    guid: {a: 5465248664565893585, b: 12264968392150381210}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 102}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle2
+    guid: {a: 5693425849993202060, b: 17200931123556666007}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 103}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle3
+    guid: {a: 5762184217203969308, b: 11370059161124195200}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 104}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandMiddle4
+    guid: {a: 5379355733182685633, b: 2311454651238462868}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 105}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing1
+    guid: {a: 4826087131508583895, b: 11134714451526493828}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 106}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing2
+    guid: {a: 5194293641982387758, b: 6704979502243158146}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 107}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing3
+    guid: {a: 4999659305328535330, b: 15224148151670122369}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 108}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftHandRing4
+    guid: {a: 4847401445648054583, b: 4689611663534684822}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 109}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightShoulder
+    guid: {a: 4822962656540769747, b: 18068149812786337166}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 110}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightArm
+    guid: {a: 5723045480882074474, b: 1876746034208274339}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 111}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightForeArm
+    guid: {a: 4649045039833811590, b: 10128022960286644154}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 112}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHand
+    guid: {a: 5243624658761668219, b: 3804806464028019590}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 113}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb1
+    guid: {a: 4745812457313561203, b: 14607623195680361093}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 114}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb2
+    guid: {a: 4926371083990525008, b: 2641643088966495382}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 115}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb3
+    guid: {a: 4784924828735823923, b: 7777028998438683056}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 116}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandThumb4
+    guid: {a: 4677620906380713857, b: 5627188896523805340}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 117}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex1
+    guid: {a: 5572991296332413459, b: 414043174669576615}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 118}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex2
+    guid: {a: 5740324880465186317, b: 7040208892614820020}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 119}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex3
+    guid: {a: 4673359808380737526, b: 3959344836783027351}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 120}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandIndex4
+    guid: {a: 5167766013315318203, b: 5857826290282040713}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 121}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle1
+    guid: {a: 4730460193019581589, b: 9740465674225653921}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 122}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle2
+    guid: {a: 4990215914960844435, b: 15974292162917218473}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 123}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle3
+    guid: {a: 5399039496334943369, b: 17970374895870450603}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 124}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandMiddle4
+    guid: {a: 5505431346489957883, b: 2904859884248305288}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 125}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing1
+    guid: {a: 4665277679813974769, b: 9261011586332717449}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 126}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing2
+    guid: {a: 5694725628106585749, b: 7112920584895599790}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 127}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing3
+    guid: {a: 4954913331999305775, b: 74088654300005553}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 128}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightHandRing4
+    guid: {a: 5703759850582276232, b: 4743301607024433321}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 129}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftUpLeg
+    guid: {a: 5592363200073348441, b: 1677154972058183612}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 130}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftLeg
+    guid: {a: 5708241940982791139, b: 18199203050786241719}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 131}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftFoot
+    guid: {a: 5669762594007687428, b: 10932218052475204500}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 132}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftToeBase
+    guid: {a: 5161712137304714590, b: 6821795315851866771}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 133}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_LeftToe_End
+    guid: {a: 4645056347638352441, b: 16029359509623773065}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 134}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightUpLeg
+    guid: {a: 4681775289100589541, b: 14566244199526666880}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 135}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightLeg
+    guid: {a: 4732337524788643151, b: 2397240697746875317}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 136}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightFoot
+    guid: {a: 5088816114026005079, b: 743897534893566891}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 137}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightToeBase
+    guid: {a: 4808178203493401249, b: 7726010543449631116}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 138}
+    layer: 0
+  - __class: Entity
+    name: mixamorig_RightToe_End
+    guid: {a: 4646541180908085532, b: 12396390394000173729}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 139}
+    layer: 0
+  - __class: Entity
+    name: Tom
+    guid: {a: 5333131984236569026, b: 17861696510553717165}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 80}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5468684628933110797, b: 3653339208249422743}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 141}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 4944204671734171364, b: 16338128116000334210}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 142}
+    layer: 0
+  - __class: Entity
+    name: 3c92378fb6dc4f0c8b41171ce6a1a9c9.fbx
+    guid: {a: 5373674621871365728, b: 8163027448022135683}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 143}
+    layer: 0
+  - __class: Entity
+    name: RootNode
+    guid: {a: 4817851246841490010, b: 1292776448323857060}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 144}
+    layer: 0
+  - __class: Entity
+    name: Cube
+    guid: {a: 5752886691485870449, b: 15164409113262686383}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 145}
+    layer: 0
+  - __class: Entity
+    name: Cube_grass_dark_football_field_0
+    guid: {a: 5183012907359685030, b: 14356160544574547877}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 146}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4829016260265007683, b: 14087606510421910182}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 2d04380b-1906-bf0f-f41c-cf8e70fbf601--2d04380b-1906-bf0f-f41c-cf8e70fbf601.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 24c19b9a-d389-4973-8caa-540d9c60aeb8--Cube_grass_dark_football_field_0.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cube_base_football_field_0
+    guid: {a: 5083054517127538761, b: 2287314321499893126}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 147}
+      - __class: MeshRenderer
+        name: mesh1_renderer
+        guid: {a: 4849446519163179314, b: 12397283115736714646}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: b229f540-816a-9001-f58e-79dc40f51e89--b229f540-816a-9001-f58e-79dc40f51e89.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 24c19b9a-d389-4973-8caa-540d9c60aeb8--Cube_base_football_field_0.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cube_football_field_0
+    guid: {a: 5366376842243872889, b: 14041792121922328242}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 148}
+      - __class: MeshRenderer
+        name: mesh2_renderer
+        guid: {a: 5529519056927101793, b: 1191598597297937543}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 1826ee7f-4953-4a67-b4e6-cf886f3193e6--1826ee7f-4953-4a67-b4e6-cf886f3193e6.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 24c19b9a-d389-4973-8caa-540d9c60aeb8--Cube_football_field_0.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cube_ground_dark_football_field_0
+    guid: {a: 4781141534859754651, b: 10843365086062099873}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 149}
+      - __class: MeshRenderer
+        name: mesh3_renderer
+        guid: {a: 5152592951074714589, b: 6580062842637232000}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 81186d46-117c-7f3c-1aa1-ceeaf2db110e--81186d46-117c-7f3c-1aa1-ceeaf2db110e.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 24c19b9a-d389-4973-8caa-540d9c60aeb8--Cube_ground_dark_football_field_0.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cube_ground_light_football_field_0
+    guid: {a: 5101560175915370409, b: 13583017046573865614}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 150}
+      - __class: MeshRenderer
+        name: mesh4_renderer
+        guid: {a: 5379156647741633783, b: 7183976393362118785}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 22ded09c-33fe-bdde-f478-28c6ef719a8e--22ded09c-33fe-bdde-f478-28c6ef719a8e.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 24c19b9a-d389-4973-8caa-540d9c60aeb8--Cube_ground_light_football_field_0.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: football_field
+    guid: {a: 5436178078198902629, b: 11044390325605577892}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 140}
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/Main.js
+  - js/JSAssetSystem.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: "Null"
+--- !Transform &2
+name: ""
+guid: {a: 14145000689903744101, b: 6111037265461598351}
+enabled: true
+localPosition: {x: 0.4212875, y: -10.64149, z: 42.61093}
+localScale: {x: 0.5236763, y: 0.5236763, z: 0.5236763}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 12629985132416961300, b: 14387677276955654788}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 2}
+  - {localId: 4}
+  - {localId: 5}
+  - {localId: 140}
+  - {localId: 6}
+  - {localId: 14}
+  - {localId: 80}
+  - {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 15367742060568528024, b: 10146237304508457363}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6123727, x: -0.3535534, y: -0.6123724, z: -0.3535532}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 2038139312557020282, b: 1886311758165782682}
+enabled: true
+localPosition: {x: 0, y: 30, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071068, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: ""
+guid: {a: 5027927918877256512, b: 12576693988733850501}
+enabled: true
+localPosition: {x: -0.3533933, y: -19.57847, z: -7.495127}
+localScale: {x: 0.2168509, y: 0.2168509, z: 0.2168509}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: RootNode
+guid: {a: 5088760456476765173, b: 11245209317707275935}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 4.953649, y: 4.953649, z: 4.953649}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: Sketchfab_model
+guid: {a: 5116095483800731839, b: 13392702042980130946}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7071069, x: 0.7071066, y: 0, z: 0}
+parent: {localId: 7}
+children:
+  - {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: root
+guid: {a: 5733549141436675239, b: 12656666478666797239}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+children:
+  - {localId: 10}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: GLTF_SceneRootNode
+guid: {a: 5549470188651003115, b: 6100824001261613204}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071067, x: 0.7071068, y: 0, z: 0}
+parent: {localId: 9}
+children:
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: Icosphere_0
+guid: {a: 5267165409127323374, b: 15560447837884237488}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 10}
+children:
+  - {localId: 12}
+  - {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Object_4
+guid: {a: 5581033723177225718, b: 6565903434477920444}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: Object_5
+guid: {a: 5281466086352365071, b: 10323303992222968753}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: ""
+guid: {a: 5649567220374858367, b: 14566762699070326169}
+enabled: true
+localPosition: {x: 0.26683, y: -0.7942585, z: 0.1038392}
+localScale: {x: 0.03, y: 0.03035859, z: 0.03035859}
+localOrientation: {w: 0.9936786, x: 0.1122628, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: RootNode
+guid: {a: 5709541749869055905, b: 17594250444362515588}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 14}
+children:
+  - {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: Sketchfab_model
+guid: {a: 5542275376305195166, b: 8215475337856222360}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7071069, x: 0.7071066, y: 0, z: 0}
+parent: {localId: 15}
+children:
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: big-football-goal.obj.cleaner.materialmerger.gles
+guid: {a: 4706139057555632612, b: 10512826804228455823}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 16}
+children:
+  - {localId: 18}
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: Object_2
+guid: {a: 5155203995370118692, b: 15095544936369149360}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: Object_3
+guid: {a: 5163308304961122367, b: 8096077835482876321}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: ""
+guid: {a: 5332197429984359840, b: 11727256827964082354}
+enabled: true
+localPosition: {x: 0.2683069, y: -23.05623, z: 2.901906}
+localScale: {x: 0.6183262, y: 0.6183262, z: 0.6183262}
+localOrientation: {w: 0.07341044, x: -0.08757745, y: 0.40023, z: 0.9092618}
+parent: {localId: 3}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: SkeletonAndRenderRoot
+guid: {a: 5297088691117615532, b: 7216456476504432546}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: default
+guid: {a: 5331735213216414595, b: 16203852962114633381}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: mixamorig_Hips
+guid: {a: 4980402341614126346, b: 3308389226113424803}
+enabled: true
+localPosition: {x: 0.08914932, y: 2.728497, z: -0.2381195}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9978214, x: 0.0555186, y: 0.027721, z: 0.02239962}
+parent: {localId: 21}
+children:
+  - {localId: 24}
+  - {localId: 70}
+  - {localId: 75}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: mixamorig_Spine
+guid: {a: 4878868937678020346, b: 6221729447283065763}
+enabled: true
+localPosition: {x: 0, y: 0.5456223, z: 0.001443923}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.998963, x: 0.03773509, y: -0.01367499, z: -0.02149329}
+parent: {localId: 23}
+children:
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: mixamorig_Spine1
+guid: {a: 5756390137073246978, b: 741440532391884433}
+enabled: true
+localPosition: {x: 0, y: 0.6365617, z: -5.544515e-11}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9953559, x: 0.09608062, y: 0.005268691, z: 0.002729457}
+parent: {localId: 24}
+children:
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: mixamorig_Spine2
+guid: {a: 5756490057788080722, b: 12494621795051292587}
+enabled: true
+localPosition: {x: 0, y: 0.7274997, z: 7.356166e-11}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9953584, x: 0.09605505, y: 0.005656674, z: 0.001777452}
+parent: {localId: 25}
+children:
+  - {localId: 27}
+  - {localId: 30}
+  - {localId: 50}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: mixamorig_Neck
+guid: {a: 5100837356489746114, b: 1522866975528878731}
+enabled: true
+localPosition: {x: 0, y: 0.8184361, z: -2.719569e-08}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9999992, x: -0.001323203, y: 6.453632e-10, z: -1.50186e-09}
+parent: {localId: 26}
+children:
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: mixamorig_Head
+guid: {a: 4949322111048870003, b: 5761491572130759081}
+enabled: true
+localPosition: {x: 0, y: 0.9727516, z: -0.1386698}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9859225, x: -0.1671968, y: -8.761595e-05, z: -0.001401898}
+parent: {localId: 27}
+children:
+  - {localId: 29}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: mixamorig_HeadTop_End
+guid: {a: 5374740079022349822, b: 14382884481937754556}
+enabled: true
+localPosition: {x: 0, y: 3.376739, z: -0.4813684}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: mixamorig_LeftShoulder
+guid: {a: 5371989282009575313, b: 15298272987727265432}
+enabled: true
+localPosition: {x: 0.3920092, y: 0.6896687, z: 0.01854871}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: -0.317241, x: -0.5992333, y: -0.3455859, z: 0.648728}
+parent: {localId: 26}
+children:
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: mixamorig_LeftArm
+guid: {a: 5751284348798111777, b: 1958192620833731471}
+enabled: true
+localPosition: {x: -7.54354e-10, y: 0.8263623, z: 2.461545e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9414566, x: 0.3140754, y: -0.08628226, z: -0.08701463}
+parent: {localId: 30}
+children:
+  - {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: mixamorig_LeftForeArm
+guid: {a: 4915908774936722818, b: 12779640881159282316}
+enabled: true
+localPosition: {x: 3.479046e-09, y: 1.170774, z: -1.194511e-11}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8509964, x: 0.2140723, y: 0.01204275, z: 0.4794091}
+parent: {localId: 31}
+children:
+  - {localId: 33}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: mixamorig_LeftHand
+guid: {a: 5717716432308156004, b: 4502113063205940392}
+enabled: true
+localPosition: {x: -2.097194e-09, y: 1.334316, z: 8.760459e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.991192, x: 0.006618517, y: 0.1257502, z: 0.04100532}
+parent: {localId: 32}
+children:
+  - {localId: 34}
+  - {localId: 38}
+  - {localId: 42}
+  - {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: mixamorig_LeftHandThumb1
+guid: {a: 5315507453453415680, b: 10601113372672158620}
+enabled: true
+localPosition: {x: -0.3229943, y: -0.05389087, z: 0.05160761}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9356048, x: 0.09396961, y: 0.249003, z: 0.2319718}
+parent: {localId: 33}
+children:
+  - {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: mixamorig_LeftHandThumb2
+guid: {a: 5624878942017484622, b: 5693917305398494109}
+enabled: true
+localPosition: {x: -0.02732831, y: 0.2637889, z: 3.216942e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9660541, x: 0.157396, y: 0.03424599, z: -0.2019732}
+parent: {localId: 34}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: mixamorig_LeftHandThumb3
+guid: {a: 5455771608444674483, b: 6690969241776596666}
+enabled: true
+localPosition: {x: -0.0054587, y: 0.3344846, z: -7.228468e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9775501, x: -0.1500846, y: 0.1259461, z: 0.07751171}
+parent: {localId: 35}
+children:
+  - {localId: 37}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: mixamorig_LeftHandThumb4
+guid: {a: 5393749080671339200, b: 12649190127119177376}
+enabled: true
+localPosition: {x: 0.03278702, y: 0.2709054, z: 2.734827e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: mixamorig_LeftHandIndex1
+guid: {a: 5152373414439704772, b: 7253176579709754026}
+enabled: true
+localPosition: {x: -0.318825, y: 0.4201979, z: 0.02065469}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8552098, x: 0.5011024, y: 0.01168097, z: -0.1318184}
+parent: {localId: 33}
+children:
+  - {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: mixamorig_LeftHandIndex2
+guid: {a: 4667042758152932363, b: 3879964830264383927}
+enabled: true
+localPosition: {x: -0.02211397, y: 0.2007972, z: 3.294751e-09}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.6306775, x: 0.7724323, y: 0.02389975, z: -0.07087322}
+parent: {localId: 38}
+children:
+  - {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: mixamorig_LeftHandIndex3
+guid: {a: 4693856942253608515, b: 2873619212370726584}
+enabled: true
+localPosition: {x: 0.01028743, y: 0.2478182, z: 8.263088e-10}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9998203, x: 0.0004254296, y: 0.007184767, z: 0.01753899}
+parent: {localId: 39}
+children:
+  - {localId: 41}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: mixamorig_LeftHandIndex4
+guid: {a: 4701924932712592409, b: 2945591958853611959}
+enabled: true
+localPosition: {x: 0.01182653, y: 0.1536801, z: -4.519482e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: mixamorig_LeftHandMiddle1
+guid: {a: 5616163786897257643, b: 5500600839455209613}
+enabled: true
+localPosition: {x: -0.01074228, y: 0.6608236, z: -0.02164036}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7487484, x: 0.6543695, y: 0.01189492, z: -0.1050474}
+parent: {localId: 33}
+children:
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: mixamorig_LeftHandMiddle2
+guid: {a: 4670111315683249743, b: 14112150181261028008}
+enabled: true
+localPosition: {x: -0.001016242, y: 0.188682, z: -3.563647e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6245764, x: 0.7771988, y: -0.005811681, z: -0.07637186}
+parent: {localId: 42}
+children:
+  - {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: mixamorig_LeftHandMiddle3
+guid: {a: 5382610443723730609, b: 506313006162237339}
+enabled: true
+localPosition: {x: 0.003601767, y: 0.1768704, z: -1.850766e-09}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9997547, x: -1.568274e-07, y: 3.965107e-05, z: -0.02215132}
+parent: {localId: 43}
+children:
+  - {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: mixamorig_LeftHandMiddle4
+guid: {a: 5289298910287128800, b: 16046778184002715306}
+enabled: true
+localPosition: {x: -0.002585527, y: 0.1085327, z: 8.897754e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: mixamorig_LeftHandRing1
+guid: {a: 5103062266409964003, b: 3937312633419750784}
+enabled: true
+localPosition: {x: 0.3295673, y: 0.7737582, z: 0.0009438277}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.7498532, x: 0.6541247, y: 0.002754731, z: -0.09916349}
+parent: {localId: 33}
+children:
+  - {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: mixamorig_LeftHandRing2
+guid: {a: 4937319309591869530, b: 16522448656355933063}
+enabled: true
+localPosition: {x: 0.003232951, y: 0.2038219, z: -1.028114e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.6222185, x: 0.7766909, y: -0.001155506, z: -0.0979491}
+parent: {localId: 46}
+children:
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: mixamorig_LeftHandRing3
+guid: {a: 5328958291198451297, b: 16665819012797436559}
+enabled: true
+localPosition: {x: -0.002129033, y: 0.1655952, z: 3.851586e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9999986, x: 6.5174e-07, y: -3.87415e-05, z: 0.0016675}
+parent: {localId: 47}
+children:
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: mixamorig_LeftHandRing4
+guid: {a: 4908824780426794536, b: 874965374748430504}
+enabled: true
+localPosition: {x: -0.001103918, y: 0.1177293, z: 1.86997e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: mixamorig_RightShoulder
+guid: {a: 5471581183311035785, b: 3784975417331593601}
+enabled: true
+localPosition: {x: -0.3920092, y: 0.6896703, z: 0.01917003}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.3236812, x: 0.6139952, y: -0.341051, z: 0.6339752}
+parent: {localId: 26}
+children:
+  - {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: mixamorig_RightArm
+guid: {a: 5204320118004616898, b: 1582638045224233862}
+enabled: true
+localPosition: {x: 8.094325e-11, y: 0.826418, z: 9.660027e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9108118, x: 0.3529535, y: 0.2036327, z: -0.06617713}
+parent: {localId: 50}
+children:
+  - {localId: 52}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: mixamorig_RightForeArm
+guid: {a: 4938457030845482469, b: 11346607094614327219}
+enabled: true
+localPosition: {x: -1.381745e-08, y: 1.172028, z: -3.186322e-09}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.8671535, x: 0.2087536, y: -0.01249069, z: -0.4520075}
+parent: {localId: 51}
+children:
+  - {localId: 53}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: mixamorig_RightHand
+guid: {a: 5223918337613855124, b: 11334034657701722290}
+enabled: true
+localPosition: {x: -2.769229e-09, y: 1.333891, z: -1.201477e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9858866, x: 0.01115527, y: -0.147909, z: -0.07762834}
+parent: {localId: 52}
+children:
+  - {localId: 54}
+  - {localId: 58}
+  - {localId: 62}
+  - {localId: 66}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: mixamorig_RightHandThumb1
+guid: {a: 5135843759865542848, b: 5046323962738020508}
+enabled: true
+localPosition: {x: 0.2995336, y: 0.03464324, z: 0.02442749}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9528805, x: 0.1295163, y: -0.2011406, z: -0.1865121}
+parent: {localId: 53}
+children:
+  - {localId: 55}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: mixamorig_RightHandThumb2
+guid: {a: 5741111587540155076, b: 11609909029768276620}
+enabled: true
+localPosition: {x: 0.02410396, y: 0.240811, z: -2.781158e-09}
+localScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9380471, x: 0.1369663, y: -0.03003448, z: 0.316869}
+parent: {localId: 54}
+children:
+  - {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: mixamorig_RightHandThumb3
+guid: {a: 5582290377066733765, b: 1749515225049843110}
+enabled: true
+localPosition: {x: 0.05599805, y: 0.3442868, z: 4.195106e-09}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9870812, x: -0.07654098, y: -0.08111802, z: -0.1150307}
+parent: {localId: 55}
+children:
+  - {localId: 57}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: mixamorig_RightHandThumb4
+guid: {a: 5400003077725950208, b: 4900947397994982533}
+enabled: true
+localPosition: {x: -0.08010202, y: 0.259853, z: -1.315746e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &58
+name: mixamorig_RightHandIndex1
+guid: {a: 5531451879418262958, b: 7216731152045842093}
+enabled: true
+localPosition: {x: 0.2736909, y: 0.4678791, z: -0.04301585}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.8499354, x: 0.5107258, y: 0.02521647, z: 0.1270162}
+parent: {localId: 53}
+children:
+  - {localId: 59}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &59
+name: mixamorig_RightHandIndex2
+guid: {a: 5356503376662348706, b: 3092958638610191761}
+enabled: true
+localPosition: {x: 0.0008538134, y: 0.2484688, z: -3.139114e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6238716, x: 0.7794034, y: 0.001989054, z: 0.05753779}
+parent: {localId: 58}
+children:
+  - {localId: 60}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &60
+name: mixamorig_RightHandIndex3
+guid: {a: 5255188178403527628, b: 18220314984660186537}
+enabled: true
+localPosition: {x: -0.001891288, y: 0.2204994, z: -1.879523e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9914947, x: -0.1301232, y: -0.0001677553, z: -0.002475887}
+parent: {localId: 59}
+children:
+  - {localId: 61}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &61
+name: mixamorig_RightHandIndex4
+guid: {a: 5175656937557712296, b: 5324736106873597825}
+enabled: true
+localPosition: {x: 0.001037475, y: 0.1418491, z: 4.68678e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 60}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &62
+name: mixamorig_RightHandMiddle1
+guid: {a: 4639093753199890006, b: 12576411748504850100}
+enabled: true
+localPosition: {x: -0.09451357, y: 0.7743474, z: -0.00202181}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7355135, x: 0.6623304, y: 0.02734871, z: 0.1399655}
+parent: {localId: 53}
+children:
+  - {localId: 63}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &63
+name: mixamorig_RightHandMiddle2
+guid: {a: 5760039701078513145, b: 6878742249511422596}
+enabled: true
+localPosition: {x: -0.0009829841, y: 0.1505866, z: -2.005761e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6231484, x: 0.7793332, y: 6.23165e-05, z: 0.06577051}
+parent: {localId: 62}
+children:
+  - {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &64
+name: mixamorig_RightHandMiddle3
+guid: {a: 5673916121128543752, b: 2676849783402427064}
+enabled: true
+localPosition: {x: 0.0008363193, y: 0.1234828, z: 1.168212e-10}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9914154, x: -0.1301205, y: 0.0003691185, z: -0.0128061}
+parent: {localId: 63}
+children:
+  - {localId: 65}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &65
+name: mixamorig_RightHandMiddle4
+guid: {a: 5731614315226742721, b: 7447800243777052846}
+enabled: true
+localPosition: {x: 0.000146664, y: 0.07237805, z: 2.708322e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &66
+name: mixamorig_RightHandRing1
+guid: {a: 5517571572307247436, b: 861978146318519709}
+enabled: true
+localPosition: {x: -0.1791773, y: 0.2684999, z: -0.07168931}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.7354281, x: 0.6597331, y: 0.04125898, z: 0.1489814}
+parent: {localId: 53}
+children:
+  - {localId: 67}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &67
+name: mixamorig_RightHandRing2
+guid: {a: 5372470133012923830, b: 17750454592710665605}
+enabled: true
+localPosition: {x: -0.005302563, y: 0.4445081, z: 1.816609e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6253399, x: 0.7762409, y: 0.02710533, z: 0.07526889}
+parent: {localId: 66}
+children:
+  - {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: mixamorig_RightHandRing3
+guid: {a: 4695845284859029801, b: 2093205262199744679}
+enabled: true
+localPosition: {x: -0.01077477, y: 0.195457, z: 2.102087e-09}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9904035, x: -0.1296605, y: 0.0007189725, z: 0.04783993}
+parent: {localId: 67}
+children:
+  - {localId: 69}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &69
+name: mixamorig_RightHandRing4
+guid: {a: 5293886225142907564, b: 7646830132582459279}
+enabled: true
+localPosition: {x: 0.01607733, y: 0.2245309, z: -1.000563e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &70
+name: mixamorig_LeftUpLeg
+guid: {a: 5413385590643240483, b: 12485959013737823629}
+enabled: true
+localPosition: {x: 1.02484, y: -0.3036008, z: 0.03622568}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.03982759, x: -0.05193587, y: 0.2296541, z: 0.9710692}
+parent: {localId: 23}
+children:
+  - {localId: 71}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &71
+name: mixamorig_LeftLeg
+guid: {a: 5757899134494304064, b: 9858217699943788680}
+enabled: true
+localPosition: {x: -1.619653e-10, y: 1.177434, z: -1.811893e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6364638, x: -0.7692903, y: -0.005011227, z: -0.0555077}
+parent: {localId: 70}
+children:
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &72
+name: mixamorig_LeftFoot
+guid: {a: 5640841024812262963, b: 15180878478800971189}
+enabled: true
+localPosition: {x: 3.270856e-10, y: 0.7368507, z: -2.243251e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7451625, x: 0.6496342, y: 0.04870857, z: -0.1426033}
+parent: {localId: 71}
+children:
+  - {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &73
+name: mixamorig_LeftToeBase
+guid: {a: 4726581724366452167, b: 3164147237844298904}
+enabled: true
+localPosition: {x: -8.712808e-09, y: 1.241401, z: 9.543984e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.7481538, x: 0.6602092, y: 0.04605351, z: -0.04763157}
+parent: {localId: 72}
+children:
+  - {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &74
+name: mixamorig_LeftToe_End
+guid: {a: 4718451829334598979, b: 10015335229271328680}
+enabled: true
+localPosition: {x: -9.410946e-10, y: 0.5722945, z: 2.132642e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &75
+name: mixamorig_RightUpLeg
+guid: {a: 5508942768485293266, b: 16852382432485202096}
+enabled: true
+localPosition: {x: -1.02484, y: -0.3036008, z: -0.1120873}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.04392327, x: -0.025114, y: 0.1583885, z: 0.9860797}
+parent: {localId: 23}
+children:
+  - {localId: 76}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &76
+name: mixamorig_RightLeg
+guid: {a: 4957184021015677404, b: 1855281418764977589}
+enabled: true
+localPosition: {x: -1.729883e-11, y: 1.178984, z: -1.557948e-09}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.7816097, x: -0.6202919, y: 0.04733526, z: 0.04564711}
+parent: {localId: 75}
+children:
+  - {localId: 77}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &77
+name: mixamorig_RightFoot
+guid: {a: 4929140568760425429, b: 1169184771206672259}
+enabled: true
+localPosition: {x: -5.647273e-09, y: 0.8371014, z: 1.105774e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.5875922, x: 0.7953843, y: -0.130829, z: 0.07059139}
+parent: {localId: 76}
+children:
+  - {localId: 78}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &78
+name: mixamorig_RightToeBase
+guid: {a: 5339188173815007643, b: 3011063549446986165}
+enabled: true
+localPosition: {x: -1.067041e-08, y: 1.162494, z: 1.973267e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9205843, x: 0.3902191, y: 0.01460584, z: 0.006354596}
+parent: {localId: 77}
+children:
+  - {localId: 79}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &79
+name: mixamorig_RightToe_End
+guid: {a: 5539080634335097873, b: 15664790317160865947}
+enabled: true
+localPosition: {x: 1.456605e-09, y: 0.5215392, z: 3.195784e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 78}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &80
+name: ""
+guid: {a: 4625909745823551527, b: 7913533491262026421}
+enabled: true
+localPosition: {x: 0.02231546, y: -8.099263, z: 0.7431191}
+localScale: {x: 0.2718023, y: 0.2718023, z: 0.2718023}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &81
+name: SkeletonAndRenderRoot
+guid: {a: 5643673163343521608, b: 2197513230458968766}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 80}
+children:
+  - {localId: 82}
+  - {localId: 83}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &82
+name: tom
+guid: {a: 5697431716108229356, b: 17395050474720921246}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &83
+name: mixamorig_Hips
+guid: {a: 5498198803903125685, b: 10372503680992650682}
+enabled: true
+localPosition: {x: 0.04722789, y: 7.225185, z: 0.1199079}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9880581, x: 0.151431, y: -0.02823764, z: -0.003551834}
+parent: {localId: 81}
+children:
+  - {localId: 84}
+  - {localId: 130}
+  - {localId: 135}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &84
+name: mixamorig_Spine
+guid: {a: 5189547496646688410, b: 9611199650188560295}
+enabled: true
+localPosition: {x: 0, y: 1.209076, z: 0.02369767}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9901308, x: 0.1394256, y: -0.01409201, z: 0.001708055}
+parent: {localId: 83}
+children:
+  - {localId: 85}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &85
+name: mixamorig_Spine1
+guid: {a: 4913803194889057035, b: 5440157908145057196}
+enabled: true
+localPosition: {x: 0, y: 1.41086, z: -2.719247e-11}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9987875, x: 0.04673306, y: -0.007008483, z: -0.01380424}
+parent: {localId: 84}
+children:
+  - {localId: 86}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &86
+name: mixamorig_Spine2
+guid: {a: 5234083283933635692, b: 17266475223331899024}
+enabled: true
+localPosition: {x: 0, y: 1.61241, z: -5.707834e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9989854, x: 0.0448542, y: -0.003703434, z: -0.001611648}
+parent: {localId: 85}
+children:
+  - {localId: 87}
+  - {localId: 90}
+  - {localId: 110}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &87
+name: mixamorig_Neck
+guid: {a: 4652388823312295213, b: 1250906797854725253}
+enabled: true
+localPosition: {x: 0, y: 1.813962, z: -4.631723e-08}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9964648, x: -0.08202363, y: 0.009718576, z: 0.01534621}
+parent: {localId: 86}
+children:
+  - {localId: 88}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &88
+name: mixamorig_Head
+guid: {a: 5702256983755426644, b: 9960009177829146530}
+enabled: true
+localPosition: {x: 0, y: 1.797413, z: -0.3230185}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9725919, x: -0.2282209, y: 0.04426525, z: -0.004558942}
+parent: {localId: 87}
+children:
+  - {localId: 89}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &89
+name: mixamorig_HeadTop_End
+guid: {a: 5759960145654211660, b: 8203105153609566649}
+enabled: true
+localPosition: {x: 0, y: 3.384003, z: -0.6081495}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 88}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &90
+name: mixamorig_LeftShoulder
+guid: {a: 5120694255424753314, b: 7095109545909640103}
+enabled: true
+localPosition: {x: 0.7527251, y: 1.517439, z: 0.00342721}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.5322529, x: 0.6025587, y: 0.235219, z: -0.5461702}
+parent: {localId: 86}
+children:
+  - {localId: 91}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &91
+name: mixamorig_LeftArm
+guid: {a: 5717663664685115253, b: 18102751019336707488}
+enabled: true
+localPosition: {x: -5.135863e-10, y: 1.617703, z: 2.542722e-08}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9366335, x: 0.3210324, y: -0.1308919, z: 0.05023102}
+parent: {localId: 90}
+children:
+  - {localId: 92}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &92
+name: mixamorig_LeftForeArm
+guid: {a: 5310184840211320194, b: 9512469076007805571}
+enabled: true
+localPosition: {x: -3.296187e-09, y: 3.215517, z: -1.115843e-09}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.905669, x: -0.0003238851, y: -0.004720305, z: 0.4239591}
+parent: {localId: 91}
+children:
+  - {localId: 93}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &93
+name: mixamorig_LeftHand
+guid: {a: 4896948325438658488, b: 12067050231787028884}
+enabled: true
+localPosition: {x: 5.631271e-08, y: 3.951448, z: 2.18987e-09}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9484317, x: -0.3141102, y: -0.03829772, z: -0.01858428}
+parent: {localId: 92}
+children:
+  - {localId: 94}
+  - {localId: 98}
+  - {localId: 102}
+  - {localId: 106}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &94
+name: mixamorig_LeftHandThumb1
+guid: {a: 4636226206972879634, b: 5480703359159991716}
+enabled: true
+localPosition: {x: -0.4058189, y: -0.7031989, z: -0.09856534}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.8332029, x: 0.1108683, y: 0.4257948, z: 0.3349327}
+parent: {localId: 93}
+children:
+  - {localId: 95}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &95
+name: mixamorig_LeftHandThumb2
+guid: {a: 4972572739601675567, b: 350333633823592081}
+enabled: true
+localPosition: {x: -0.2788073, y: 0.5919104, z: -1.311186e-09}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9795076, x: 0.0516932, y: 0.02914648, z: 0.1924659}
+parent: {localId: 94}
+children:
+  - {localId: 96}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &96
+name: mixamorig_LeftHandThumb3
+guid: {a: 5109258340095220265, b: 9317830926034368898}
+enabled: true
+localPosition: {x: 0.06192212, y: 0.7690749, z: -8.57227e-09}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9975504, x: -0.0620385, y: -0.006885525, z: -0.03157509}
+parent: {localId: 95}
+children:
+  - {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &97
+name: mixamorig_LeftHandThumb4
+guid: {a: 5148569175821989819, b: 9242838381378007173}
+enabled: true
+localPosition: {x: 0.216885, y: 0.6177281, z: -1.329307e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 96}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &98
+name: mixamorig_LeftHandIndex1
+guid: {a: 5155999525972465235, b: 6442943317617104559}
+enabled: true
+localPosition: {x: -0.7698252, y: -0.1994075, z: -0.02037343}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9230983, x: 0.2352464, y: 0.07385265, z: 0.2951176}
+parent: {localId: 93}
+children:
+  - {localId: 99}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &99
+name: mixamorig_LeftHandIndex2
+guid: {a: 5498870262885666354, b: 86490647760521887}
+enabled: true
+localPosition: {x: -0.003097576, y: 0.6161548, z: -1.12305e-09}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9646857, x: 0.2632261, y: -0.000227736, z: -0.00967322}
+parent: {localId: 98}
+children:
+  - {localId: 100}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &100
+name: mixamorig_LeftHandIndex3
+guid: {a: 5427363928117327784, b: 10237561076965770680}
+enabled: true
+localPosition: {x: 0.003760308, y: 0.5354971, z: 7.003891e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.961077, x: 0.2754834, y: -0.0004149761, z: -0.02097141}
+parent: {localId: 99}
+children:
+  - {localId: 101}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &101
+name: mixamorig_LeftHandIndex4
+guid: {a: 5174526596838910777, b: 18417926822642807198}
+enabled: true
+localPosition: {x: -0.0006627538, y: 0.2442575, z: -1.843212e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 100}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &102
+name: mixamorig_LeftHandMiddle1
+guid: {a: 4892003224610962485, b: 8538119853362599552}
+enabled: true
+localPosition: {x: -0.08357585, y: 0.1288994, z: 0.0147061}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9391434, x: 0.2333285, y: 0.06376338, z: 0.24393}
+parent: {localId: 93}
+children:
+  - {localId: 103}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &103
+name: mixamorig_LeftHandMiddle2
+guid: {a: 5343759718294685265, b: 2731327314630237334}
+enabled: true
+localPosition: {x: -8.547326e-05, y: 0.5727824, z: 2.421931e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9590528, x: 0.2822254, y: 0.001313945, z: -0.02376604}
+parent: {localId: 102}
+children:
+  - {localId: 104}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &104
+name: mixamorig_LeftHandMiddle3
+guid: {a: 5495548049225224329, b: 9008749313213231499}
+enabled: true
+localPosition: {x: -0.005732588, y: 0.5245617, z: -3.933476e-10}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9757664, x: 0.2188103, y: -0.001185609, z: 0.0007205214}
+parent: {localId: 103}
+children:
+  - {localId: 105}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &105
+name: mixamorig_LeftHandMiddle4
+guid: {a: 4981821191829658955, b: 6716297580300947851}
+enabled: true
+localPosition: {x: 0.005818044, y: 0.2840851, z: -5.870966e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 104}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &106
+name: mixamorig_LeftHandRing1
+guid: {a: 5229665329210343177, b: 3651992029687886498}
+enabled: true
+localPosition: {x: 0.8534011, y: 0.1476854, z: -0.1006766}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9225456, x: 0.2886789, y: 0.05303357, z: 0.2505228}
+parent: {localId: 93}
+children:
+  - {localId: 107}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &107
+name: mixamorig_LeftHandRing2
+guid: {a: 4812642334896883396, b: 15224731450953179523}
+enabled: true
+localPosition: {x: 0.02610173, y: 0.6622636, z: -4.070085e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9791381, x: 0.1963704, y: -0.002284008, z: -0.05217299}
+parent: {localId: 106}
+children:
+  - {localId: 108}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &108
+name: mixamorig_LeftHandRing3
+guid: {a: 5515740387919417292, b: 17617829768539030967}
+enabled: true
+localPosition: {x: -0.01263097, y: 0.5175325, z: -1.089457e-09}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9247485, x: 0.3764456, y: 0.01607191, z: -0.05357742}
+parent: {localId: 107}
+children:
+  - {localId: 109}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &109
+name: mixamorig_LeftHandRing4
+guid: {a: 5634901561388410980, b: 11500687428110231436}
+enabled: true
+localPosition: {x: -0.01347075, y: 0.2507275, z: -2.483851e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 108}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &110
+name: mixamorig_RightShoulder
+guid: {a: 5639663075548462045, b: 9481015420510084226}
+enabled: true
+localPosition: {x: -0.7527251, y: 1.517532, z: 0.008194488}
+localScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.5801444, x: 0.6020286, y: -0.1895214, z: 0.5148551}
+parent: {localId: 86}
+children:
+  - {localId: 111}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &111
+name: mixamorig_RightArm
+guid: {a: 5261258750947276448, b: 8113629842711715497}
+enabled: true
+localPosition: {x: 7.229606e-10, y: 1.617703, z: 2.542262e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9573159, x: 0.2793574, y: 0.01276036, z: -0.0730946}
+parent: {localId: 110}
+children:
+  - {localId: 112}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &112
+name: mixamorig_RightForeArm
+guid: {a: 4783959403049862869, b: 4881337064777729192}
+enabled: true
+localPosition: {x: -3.022298e-09, y: 3.21576, z: -3.55929e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8959459, x: -0.0009533353, y: 0.004989387, z: -0.4441341}
+parent: {localId: 111}
+children:
+  - {localId: 113}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &113
+name: mixamorig_RightHand
+guid: {a: 5606737052874727834, b: 9922961982004868491}
+enabled: true
+localPosition: {x: 4.722749e-08, y: 3.972485, z: 7.500384e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.766154, x: 0.1278287, y: 0.4640741, z: -0.425797}
+parent: {localId: 112}
+children:
+  - {localId: 114}
+  - {localId: 118}
+  - {localId: 122}
+  - {localId: 126}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &114
+name: mixamorig_RightHandThumb1
+guid: {a: 5313472945142393328, b: 4843226551206262918}
+enabled: true
+localPosition: {x: -0.3993669, y: -0.6483601, z: -0.2220318}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8737263, x: 0.02859159, y: -0.4449688, z: 0.1943906}
+parent: {localId: 113}
+children:
+  - {localId: 115}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &115
+name: mixamorig_RightHandThumb2
+guid: {a: 5509397965488380158, b: 11955923458554344113}
+enabled: true
+localPosition: {x: 0.2862639, y: 0.5663192, z: -9.691037e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9917135, x: -0.07641711, y: 0.03434815, z: -0.09739107}
+parent: {localId: 114}
+children:
+  - {localId: 116}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &116
+name: mixamorig_RightHandThumb3
+guid: {a: 4921846253785531188, b: 7612542872745962141}
+enabled: true
+localPosition: {x: -0.03411584, y: 0.7781581, z: -3.713279e-09}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.974977, x: -0.171102, y: -0.05189241, z: -0.1321033}
+parent: {localId: 115}
+children:
+  - {localId: 117}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &117
+name: mixamorig_RightHandThumb4
+guid: {a: 5685489132997410617, b: 7762198814447916178}
+enabled: true
+localPosition: {x: -0.2521481, y: 0.5457969, z: -8.411465e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 116}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &118
+name: mixamorig_RightHandIndex1
+guid: {a: 5374982317418308656, b: 14249999815831802019}
+enabled: true
+localPosition: {x: 0.08733239, y: -0.673866, z: -0.1290083}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9728388, x: -0.2041877, y: 0.1065585, z: -0.02317921}
+parent: {localId: 113}
+children:
+  - {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &119
+name: mixamorig_RightHandIndex2
+guid: {a: 5750534868426845898, b: 5418491343125302162}
+enabled: true
+localPosition: {x: 0.02754225, y: 0.6398839, z: 8.386975e-09}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9906219, x: 0.009057127, y: -0.0008710129, z: 0.1363286}
+parent: {localId: 118}
+children:
+  - {localId: 120}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &120
+name: mixamorig_RightHandIndex3
+guid: {a: 4740495632007337487, b: 9700235047296610231}
+enabled: true
+localPosition: {x: -0.008719958, y: 0.5702626, z: -9.750103e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9890996, x: 0.009420396, y: 0.002151387, z: 0.1469309}
+parent: {localId: 119}
+children:
+  - {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &121
+name: mixamorig_RightHandIndex4
+guid: {a: 5431912373451981224, b: 3363832760487979654}
+enabled: true
+localPosition: {x: -0.01882229, y: 0.2509959, z: 3.864384e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 120}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &122
+name: mixamorig_RightHandMiddle1
+guid: {a: 5382755056247181465, b: 12213815353579433130}
+enabled: true
+localPosition: {x: 0.0449103, y: 0.1511092, z: -0.09719235}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9588391, x: -0.2571755, y: 0.1201134, z: 0.007820369}
+parent: {localId: 113}
+children:
+  - {localId: 123}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &123
+name: mixamorig_RightHandMiddle2
+guid: {a: 5458840557494846298, b: 5367102580065373315}
+enabled: true
+localPosition: {x: 0.04421679, y: 0.5897706, z: -3.193376e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9826807, x: 0.01927187, y: -0.003381278, z: 0.1842711}
+parent: {localId: 122}
+children:
+  - {localId: 124}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &124
+name: mixamorig_RightHandMiddle3
+guid: {a: 5730069548890410042, b: 12427915042127959197}
+enabled: true
+localPosition: {x: 0.002229717, y: 0.5940139, z: 4.266294e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.989341, x: 0.02052782, y: 0.001902867, z: 0.1441508}
+parent: {localId: 123}
+children:
+  - {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &125
+name: mixamorig_RightHandMiddle4
+guid: {a: 5333509119411462295, b: 17320161561848885929}
+enabled: true
+localPosition: {x: -0.04644651, y: 0.27986, z: 3.648637e-11}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 124}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &126
+name: mixamorig_RightHandRing1
+guid: {a: 5493428299583356697, b: 4517613463190041254}
+enabled: true
+localPosition: {x: -0.1322427, y: 0.9586682, z: -0.1459254}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9443537, x: -0.318787, y: 0.07948405, z: 0.0159138}
+parent: {localId: 113}
+children:
+  - {localId: 127}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &127
+name: mixamorig_RightHandRing2
+guid: {a: 4801527083022673348, b: 9720392786044899473}
+enabled: true
+localPosition: {x: -0.01437421, y: 0.6339781, z: -1.179095e-08}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9162256, x: 0.06216148, y: 0.000861055, z: 0.3958106}
+parent: {localId: 126}
+children:
+  - {localId: 128}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &128
+name: mixamorig_RightHandRing3
+guid: {a: 5531398724453829915, b: 2276746768048311230}
+enabled: true
+localPosition: {x: 0.005321081, y: 0.4677442, z: -2.108695e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9733118, x: 0.0350223, y: -0.004589168, z: 0.2267524}
+parent: {localId: 127}
+children:
+  - {localId: 129}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &129
+name: mixamorig_RightHandRing4
+guid: {a: 5423114568696658230, b: 13088068765836180134}
+enabled: true
+localPosition: {x: 0.009053133, y: 0.2054954, z: -4.495286e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 128}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &130
+name: mixamorig_LeftUpLeg
+guid: {a: 4710485193703870246, b: 4347079076374583448}
+enabled: true
+localPosition: {x: 1.674886, y: -0.6728659, z: 0.08935472}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.1957218, x: 0.06243828, y: 0.3886392, z: 0.8981948}
+parent: {localId: 83}
+children:
+  - {localId: 131}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &131
+name: mixamorig_LeftLeg
+guid: {a: 5401380460029295675, b: 338506908269073564}
+enabled: true
+localPosition: {x: 1.182321e-08, y: 3.206549, z: -2.267639e-09}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9027264, x: -0.4281154, y: 0.04094731, z: 0.01120725}
+parent: {localId: 130}
+children:
+  - {localId: 132}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &132
+name: mixamorig_LeftFoot
+guid: {a: 5243332777271022630, b: 16757163751071031998}
+enabled: true
+localPosition: {x: 6.731414e-09, y: 2.863547, z: -9.519463e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6915134, x: 0.6537812, y: 0.1535128, z: -0.2661074}
+parent: {localId: 131}
+children:
+  - {localId: 133}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &133
+name: mixamorig_LeftToeBase
+guid: {a: 4883710175662477860, b: 5385808371178226562}
+enabled: true
+localPosition: {x: -3.243515e-09, y: 2.836059, z: 6.168484e-08}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9500716, x: 0.2987778, y: -0.08590093, z: 0.02677379}
+parent: {localId: 132}
+children:
+  - {localId: 134}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &134
+name: mixamorig_LeftToe_End
+guid: {a: 5016923864036709650, b: 17524618462196618890}
+enabled: true
+localPosition: {x: 1.550808e-08, y: 1.267503, z: -2.710089e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 133}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &135
+name: mixamorig_RightUpLeg
+guid: {a: 5699253254021194734, b: 13207712474159924114}
+enabled: true
+localPosition: {x: -1.674886, y: -0.6728659, z: 0.08182044}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.1346393, x: -0.05085005, y: 0.3783596, z: 0.9144018}
+parent: {localId: 83}
+children:
+  - {localId: 136}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &136
+name: mixamorig_RightLeg
+guid: {a: 5395458151776728158, b: 7546643362866976930}
+enabled: true
+localPosition: {x: 6.197561e-09, y: 3.207508, z: -2.481169e-09}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8936772, x: -0.4425632, y: 0.0005738228, z: -0.07401796}
+parent: {localId: 135}
+children:
+  - {localId: 137}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &137
+name: mixamorig_RightFoot
+guid: {a: 5182480987717472055, b: 6268951251484535948}
+enabled: true
+localPosition: {x: -8.225298e-09, y: 2.865016, z: 2.79216e-08}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.6910788, x: 0.664557, y: -0.1028262, z: 0.2649543}
+parent: {localId: 136}
+children:
+  - {localId: 138}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &138
+name: mixamorig_RightToeBase
+guid: {a: 4860282581762084076, b: 16291622584738120584}
+enabled: true
+localPosition: {x: -1.545219e-08, y: 2.762516, z: 1.668151e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9513312, x: 0.2905994, y: 0.09820909, z: -0.02959636}
+parent: {localId: 137}
+children:
+  - {localId: 139}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &139
+name: mixamorig_RightToe_End
+guid: {a: 5511926147968859533, b: 9080088707994207662}
+enabled: true
+localPosition: {x: -7.340862e-09, y: 1.25326, z: -8.253543e-10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 138}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &140
+name: ""
+guid: {a: 5228575294200465080, b: 6402610870524107657}
+enabled: true
+localPosition: {x: 0.8485587, y: -34.25621, z: 15.83334}
+localScale: {x: 2.263653, y: 2.263653, z: 2.263653}
+localOrientation: {w: 0.8870953, x: 0.461411, y: 0.0121804, z: -0.003661718}
+parent: {localId: 3}
+children:
+  - {localId: 141}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &141
+name: RootNode
+guid: {a: 5294500679594978395, b: 12110448014242071702}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 140}
+children:
+  - {localId: 142}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &142
+name: Sketchfab_model
+guid: {a: 5035545509731403452, b: 4733545655491875743}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.0411067, y: 0.0411067, z: 0.0411067}
+localOrientation: {w: -0.7071069, x: 0.7071066, y: 0, z: 0}
+parent: {localId: 141}
+children:
+  - {localId: 143}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &143
+name: 3c92378fb6dc4f0c8b41171ce6a1a9c9.fbx
+guid: {a: 4896014260760046495, b: 6803562321259968130}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071067, x: 0.7071068, y: 0, z: 0}
+parent: {localId: 142}
+children:
+  - {localId: 144}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &144
+name: RootNode
+guid: {a: 4670768805846194173, b: 9219435673432071848}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 143}
+children:
+  - {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &145
+name: Cube
+guid: {a: 4898126116016995915, b: 6482405859363003788}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 100, y: 100, z: 100}
+localOrientation: {w: -0.7071069, x: 0.7071066, y: 0, z: 0}
+parent: {localId: 144}
+children:
+  - {localId: 146}
+  - {localId: 147}
+  - {localId: 148}
+  - {localId: 149}
+  - {localId: 150}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &146
+name: Cube_grass_dark_football_field_0
+guid: {a: 5062005124510253613, b: 13918665702875337881}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &147
+name: Cube_base_football_field_0
+guid: {a: 4837925972957741752, b: 776066071859136926}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &148
+name: Cube_football_field_0
+guid: {a: 4832619738342591665, b: 8848633554798412982}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &149
+name: Cube_ground_dark_football_field_0
+guid: {a: 4850176420018840769, b: 12621332818934982273}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &150
+name: Cube_ground_light_football_field_0
+guid: {a: 5514875440656608195, b: 1498888874984344192}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 145}
+mobility:
+  __class: Mobility
+  value: Dynamic

@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "a8113660-cdd7-34f7-0a5c-96bd77ea608d",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Tom",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5462422831076906591, 13901143602993243282)",
+    "references": [
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "318a707b-920d-b92d-e073-9be2c31d87f5"
+      }
+    ]
+  }
+]

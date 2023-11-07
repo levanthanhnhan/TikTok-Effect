@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "1d196c1e-6d6d-3cba-9347-2547262ab2d2",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "soccer_ball",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

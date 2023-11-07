@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "59ac7c61-e093-7864-cab4-a227ff360353",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "football_goal_721",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "guid": {
+      "a": "24c19b9a-d389-4973-8caa-540d9c60aeb8",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "football_field",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "2d04380b-1906-bf0f-f41c-cf8e70fbf601",
+      "b229f540-816a-9001-f58e-79dc40f51e89",
+      "1826ee7f-4953-4a67-b4e6-cf886f3193e6",
+      "81186d46-117c-7f3c-1aa1-ceeaf2db110e",
+      "22ded09c-33fe-bdde-f478-28c6ef719a8e"
+    ],
+    "meshGUIDs": [
+      "78ee5143-29d6-2eb4-3994-43e16842f1c5",
+      "78a7d07a-9a03-f836-dd02-b75b0fb4d5a7",
+      "8d53a8d4-5d0e-1a11-66b8-5ba6118b7509",
+      "5f62e92e-f78e-13f5-8952-79cf15e4b668",
+      "6905ae40-513f-6632-61da-58afcc0eef1c"
+    ],
+    "animazGUIDs": []
+  }
+]

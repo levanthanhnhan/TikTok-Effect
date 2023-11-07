@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "4431d777-5eb0-7841-34ab-a4c5ebe6d15e",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "Guided_Mat_[EDIT_ME]",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5202836535239330326, 15150995734588215725)",
+    "references": [
+      {
+        "propertyName": "_Custom_Sampler2D_2",
+        "guid": "00000000-0000-0000-0000-00000000001e"
+      },
+      {
+        "propertyName": "_Custom_Sampler2D_3",
+        "guid": "f8c43e18-5e28-acef-c9b1-fc7cac10a199"
+      }
+    ]
+  }
+]

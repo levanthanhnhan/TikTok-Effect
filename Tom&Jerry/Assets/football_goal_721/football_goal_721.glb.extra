@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "35fa8ebd-5b2d-f845-268c-92f2a86cd5ef",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "football_goal_721",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "b756b8d4-0fd0-47dc-cbca-267858b1d58d",
+      "006c5402-6f6c-ffa5-9bfb-151ce2d812ab"
+    ],
+    "meshGUIDs": [
+      "e8a7f22c-4237-9a30-1e1e-f6c9f733c46a",
+      "4e10816a-c605-d113-a19e-aba37cef1e32"
+    ],
+    "animazGUIDs": []
+  }
+]
