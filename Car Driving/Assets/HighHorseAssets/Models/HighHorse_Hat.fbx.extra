@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "7ac55730-3138-cd74-d485-2d92f372faa9",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "HighHorse_Hat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": false,
+    "materialsGUIDs": [
+      "85b483e3-0a48-88d8-4218-c4ab3de7130d"
+    ],
+    "meshGUIDs": [
+      "7502e30b-a716-196f-f5fd-c65b73506766"
+    ],
+    "animazGUIDs": []
+  }
+]

@@ -1,0 +1,1724 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 10180214583793075010, b: 13085474825770890632}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 18393534764065644695, b: 16547619468206596491}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: COLOR_DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 83.09999847412109
+        orthoScale: 1
+        zNear: 10
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: "Tip: To modify High Horse"
+    guid: {a: 14359659712159847257, b: 14718962914759908514}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 10324314215941991933, b: 14032794157298251156}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 2501
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: FaceMakeup
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: General
+    guid: {a: 8235238043598186243, b: 16840308208679013795}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 14792803682663561050, b: 6161520050080348315}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 815069582473778930, b: 3860102513852982437}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 8739102965005804130, b: 6461487404246441657}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: Body [REPLACE ME]
+    guid: {a: 8091433468080600458, b: 12283298165855947669}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 14790035046259056384, b: 297892953247578267}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: Animator
+        name: ""
+        guid: {a: 17240147542748931980, b: 14951346165381563324}
+        enabled: true
+        animations:
+          - {localId: 1, path: 9c9d1f02-bbf3-b4c6-09f6-657c85d658cd--Animaz-1_Take 001.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_Take 001: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: Root
+    guid: {a: 13711168951678102965, b: 13587631557250539921}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+    layer: 0
+  - __class: Entity
+    name: Horse_Root
+    guid: {a: 7804076135289176387, b: 4286161941218320793}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: Horse_Hips
+    guid: {a: 7944495767867808170, b: 13913881193608347030}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+    layer: 0
+  - __class: Entity
+    name: Horse_Knee_L
+    guid: {a: 6288012435419176110, b: 17776206515708929963}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: Horse_Ankle_L
+    guid: {a: 1030113235157950627, b: 2118008980890519713}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: Horse_Toe_L
+    guid: {a: 12847900381454766562, b: 17820932754036064690}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: Horse_Knee_R
+    guid: {a: 8380239017835614035, b: 7165161028362437032}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: Horse_Ankle_R
+    guid: {a: 8236548206337337728, b: 15535572243663195529}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+    layer: 0
+  - __class: Entity
+    name: Horse_Toe_R
+    guid: {a: 17818071261084335232, b: 8257460523739763333}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+    layer: 0
+  - __class: Entity
+    name: Horse_Chest
+    guid: {a: 15366328378812827910, b: 9171288064386609064}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+    layer: 0
+  - __class: Entity
+    name: Horse_Neck
+    guid: {a: 16378588264585483391, b: 14348722581687611068}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: Horse_Head
+    guid: {a: 9028027855849327801, b: 7088754235868289726}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+    layer: 0
+  - __class: Entity
+    name: Horse_Nose
+    guid: {a: 16377814213980298053, b: 2229899008499827866}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: Horse_Elbow_R
+    guid: {a: 1243719323509645890, b: 3941868496173073280}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+    layer: 0
+  - __class: Entity
+    name: Horse_Wrist_R
+    guid: {a: 4414728479688099384, b: 5670177039833288879}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+    layer: 0
+  - __class: Entity
+    name: Horse_Finger_R
+    guid: {a: 13064712457945851230, b: 4852124256067873166}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+    layer: 0
+  - __class: Entity
+    name: Horse_Elbow_L
+    guid: {a: 15152290947322575824, b: 7832025715848080279}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+    layer: 0
+  - __class: Entity
+    name: Horse_Wrist_L
+    guid: {a: 3981776027320018989, b: 11728358642961843851}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+    layer: 0
+  - __class: Entity
+    name: Horse_Finger_L
+    guid: {a: 7083168137343312009, b: 17214285631709467834}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 37}
+    layer: 0
+  - __class: Entity
+    name: Rider_Hip_L
+    guid: {a: 14647268033303976926, b: 9828521321497190847}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+    layer: 0
+  - __class: Entity
+    name: Rider_Hip_R
+    guid: {a: 10181239029298091434, b: 3571098329534445185}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+    layer: 0
+  - __class: Entity
+    name: Rider_Chest
+    guid: {a: 18248668172417378243, b: 4915362712154919302}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+    layer: 0
+  - __class: Entity
+    name: Rider_Head
+    guid: {a: 9101743632958596505, b: 12308588581091606427}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+    layer: 0
+  - __class: Entity
+    name: Rider_Elbow_L
+    guid: {a: 9605830837222983598, b: 4075545092658637218}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+    layer: 0
+  - __class: Entity
+    name: Rider_Elbow_R
+    guid: {a: 18322397112268761072, b: 16918158548243652012}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+    layer: 0
+  - __class: Entity
+    name: Body
+    guid: {a: 13423172049987957473, b: 6683287761622720671}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4775281539268467637, b: 2540438720466897842}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 8e8df461-d33f-712f-97f3-28603b5653d9--8e8df461-d33f-712f-97f3-28603b5653d9-skin.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 9c9d1f02-bbf3-b4c6-09f6-657c85d658cd--Body.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: true
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5368044313849766285, b: 4425799124746307470}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Root
+              guid: {a: 5116832673859521396, b: 5514280098909861293}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1e-15, 1e-15, -1, 0, -0.8020726, 0.5972266, -1e-15, 0, 0.5972266, 0.8020726, 1e-15, 0, 16.78785, -1.558055, -0.009226799, 1]}
+              boundingBox: {min: {x: -21.26203, y: -15.62599, z: -33.307}, max: {x: 21.1843, y: 43.5321, z: 17.76357}}
+              jointTransform: {localId: 19}
+            - __class: Joint
+              name: Horse_Root
+              guid: {a: 5109428693804685823, b: 3567906216743408562}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -1.906885, -0.5226613, 1]}
+              boundingBox: {min: {x: -21.26203, y: -22.43068, z: -52.10112}, max: {x: 21.1843, y: 28.63247, z: 27.59564}}
+              jointTransform: {localId: 20}
+            - __class: Joint
+              name: Horse_Hips
+              guid: {a: 4782234954534060296, b: 14507125681701575320}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -12.62853, 33.82952, 1]}
+              boundingBox: {min: {x: -21.26021, y: -22.1343, z: -52.10112}, max: {x: 21.24406, y: 23.73149, z: 1}}
+              jointTransform: {localId: 21}
+            - __class: Joint
+              name: Horse_Knee_L
+              guid: {a: 4675249214500115396, b: 1391354538223494295}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, -9.474008, 2.359677, 32.83308, 1]}
+              boundingBox: {min: {x: -12.62653, y: -23.03394, z: -52.10112}, max: {x: 21.24406, y: 18.84996, z: 20.14503}}
+              jointTransform: {localId: 22}
+            - __class: Joint
+              name: Horse_Ankle_L
+              guid: {a: 5295665614886627726, b: 16352346654496046232}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, -7.669215, 19.18292, 44.95977, 1]}
+              boundingBox: {min: {x: -8.265525, y: -39.47428, z: -52.10112}, max: {x: 20.37435, y: 10.43516, z: 1}}
+              jointTransform: {localId: 23}
+            - __class: Joint
+              name: Horse_Toe_L
+              guid: {a: 5169117305582627808, b: 1300425848856754072}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1e-15, 1e-15, -1, 0, -0.7785721, 0.6275552, -1e-15, 0, 0.6275552, 0.7785721, 1e-15, 0, 5.262589, 56.85371, 8.885118, 1]}
+              boundingBox: {min: {x: 0, y: -41.22242, z: -49.64536}, max: {x: 13.38098, y: 1, z: 1}}
+              jointTransform: {localId: 24}
+            - __class: Joint
+              name: Horse_Knee_R
+              guid: {a: 5471760237060002079, b: 13972569502753778560}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 8.615209, 2.60786, 33.02973, 1]}
+              boundingBox: {min: {x: -21.26021, y: -22.95658, z: -52.10112}, max: {x: 14.14196, y: 18.75888, z: 20.47989}}
+              jointTransform: {localId: 25}
+            - __class: Joint
+              name: Horse_Ankle_R
+              guid: {a: 4700620576097888993, b: 4518352498055284362}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 8.383625, 19.42841, 44.9896, 1]}
+              boundingBox: {min: {x: -20.54343, y: -38.34323, z: -52.10112}, max: {x: 10.52223, y: 9.78624, z: 1}}
+              jointTransform: {localId: 26}
+            - __class: Joint
+              name: Horse_Toe_R
+              guid: {a: 5586281236703856739, b: 7185762258919176882}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1e-15, 1e-15, -1, 0, -0.7536803, 0.6572412, -1e-15, 0, 0.6572412, 0.7536803, 1e-15, 0, 7.386623, 56.71146, -9.079529, 1]}
+              boundingBox: {min: {x: -13.39943, y: -41.24347, z: -50.04626}, max: {x: 1, y: 1, z: 1}}
+              jointTransform: {localId: 27}
+            - __class: Joint
+              name: Horse_Chest
+              guid: {a: 4739818531422727073, b: 8156353901548939425}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -2.089609, -10.93795, 1]}
+              boundingBox: {min: {x: -21.25075, y: -22.43068, z: -4.977374}, max: {x: 21.1843, y: 32.27514, z: 40.94727}}
+              jointTransform: {localId: 28}
+            - __class: Joint
+              name: Horse_Neck
+              guid: {a: 5126539369234686108, b: 5514047277413957558}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -21.52974, -26.02194, 1]}
+              boundingBox: {min: {x: -7.72841, y: 0, z: 0}, max: {x: 8.216609, y: 32.27514, z: 43.89955}}
+              jointTransform: {localId: 29}
+            - __class: Joint
+              name: Horse_Head
+              guid: {a: 5188221923683680551, b: 18211462799294566803}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -23.53971, -37.25949, 1]}
+              boundingBox: {min: {x: -7.165925, y: -2.001278, z: 0}, max: {x: 7.155911, y: 32.27514, z: 52.10112}}
+              jointTransform: {localId: 30}
+            - __class: Joint
+              name: Horse_Nose
+              guid: {a: 4772219191280606430, b: 14334660056476280748}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 0.009226799, -7.524322, -48.56683, 1]}
+              boundingBox: {min: {x: -5.461335, y: 0, z: 0}, max: {x: 5.435339, y: 19.43523, z: 51.9397}}
+              jointTransform: {localId: 31}
+            - __class: Joint
+              name: Horse_Elbow_R
+              guid: {a: 5499697629849901373, b: 13511848024674712251}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 8.481966, 8.442569, -13.2984, 1]}
+              boundingBox: {min: {x: -20.94099, y: -36.39271, z: -3.852325}, max: {x: 7.25875, y: 10.08775, z: 20.4555}}
+              jointTransform: {localId: 32}
+            - __class: Joint
+              name: Horse_Wrist_R
+              guid: {a: 4963418611062069669, b: 16000761331263425189}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, 7.837398, 23.51512, -9.552343, 1]}
+              boundingBox: {min: {x: -12.24372, y: -43.51833, z: 0}, max: {x: 1, y: 1, z: 14.58966}}
+              jointTransform: {localId: 33}
+            - __class: Joint
+              name: Horse_Finger_R
+              guid: {a: 5474065381776976607, b: 3193984082061765768}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1e-15, 1e-15, -1, 0, -0.838971, 0.5441761, -1e-15, 0, 0.5441761, 0.838971, 1e-15, 0, -34.07666, 12.68006, -7.615148, 1]}
+              boundingBox: {min: {x: -12.24372, y: -43.80479, z: 0}, max: {x: 1, y: 1, z: 16.34418}}
+              jointTransform: {localId: 34}
+            - __class: Joint
+              name: Horse_Elbow_L
+              guid: {a: 5212622242620300985, b: 1147985534571226260}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, -8.470189, 8.635939, -13.2984, 1]}
+              boundingBox: {min: {x: -6.616251, y: -36.56926, z: -4.977374}, max: {x: 21.11032, y: 11.11365, z: 20.4555}}
+              jointTransform: {localId: 35}
+            - __class: Joint
+              name: Horse_Wrist_L
+              guid: {a: 4991071147818069279, b: 3080609055592640689}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, -1e-15, 1, 1e-15, 0, 1e-15, -1e-15, 1, 0, -7.690146, 23.65855, -9.620906, 1]}
+              boundingBox: {min: {x: 0, y: -43.61704, z: -3.934889}, max: {x: 21.11032, y: 1, z: 14.90236}}
+              jointTransform: {localId: 36}
+            - __class: Joint
+              name: Horse_Finger_L
+              guid: {a: 5083978312469267697, b: 1176693227022579588}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-1e-15, -1e-15, -1, 0, -0.797067, 0.6038908, 1e-15, 0, 0.6038908, 0.797067, -1e-15, 0, -32.98354, 14.98544, 7.572138, 1]}
+              boundingBox: {min: {x: 0, y: -43.83514, z: 0}, max: {x: 12.22527, y: 1, z: 16.61109}}
+              jointTransform: {localId: 37}
+            - __class: Joint
+              name: Rider_Hip_L
+              guid: {a: 5400827728043902121, b: 11744482168583768450}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.0694834, 0.9975831, -3.588663e-15, 0, -0.9975831, 0.0694834, 1e-15, 0, 1e-15, 3.532165e-15, 1, 0, 5.176331, -17.54765, 8.776477, 1]}
+              boundingBox: {min: {x: -6.20575, y: -22.1343, z: -34.37173}, max: {x: 21.55526, y: 29.32626, z: 12.21371}}
+              jointTransform: {localId: 38}
+            - __class: Joint
+              name: Rider_Hip_R
+              guid: {a: 5353481995428656013, b: 346818484539590058}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.05302265, -0.9985933, -1e-15, 0, -0.9985933, 0.05302265, -1e-15, 0, 1e-15, 1e-15, -1, 0, 7.613137, -18.31959, -8.776477, 1]}
+              boundingBox: {min: {x: -21.55526, y: -19.0783, z: -34.09942}, max: {x: 7.901273, y: 29.37595, z: 10.3733}}
+              jointTransform: {localId: 39}
+            - __class: Joint
+              name: Rider_Chest
+              guid: {a: 4959138943696597886, b: 14360672184154716038}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.02127178, -0.9997737, -7.271077e-14, 0, 0.9997737, 0.02127178, 1.271781e-15, 0, 1e-15, -7.272137e-14, 1, 0, -38.61581, -1.205643, 8.776476, 1]}
+              boundingBox: {min: {x: -19.71894, y: 0, z: -22.78848}, max: {x: 18.49499, y: 43.83514, z: 5.589967}}
+              jointTransform: {localId: 40}
+            - __class: Joint
+              name: Rider_Head
+              guid: {a: 5732282428265163145, b: 5614216958043533957}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1.78587e-14, 2.584342e-14, -1, 0, -0.8020726, 0.5972266, 1.110402e-15, 0, 0.5972266, 0.8020726, 3.139399e-14, 0, 44.79533, -22.41255, -0.1566715, 1]}
+              boundingBox: {min: {x: -13.66536, y: 0, z: -16.68313}, max: {x: 13.64657, y: 43.34806, z: 1}}
+              jointTransform: {localId: 41}
+            - __class: Joint
+              name: Rider_Elbow_L
+              guid: {a: 5146176494360089132, b: 4728658168267975820}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [-0.9995548, -0.02983746, 7.041812e-14, 0, -0.02983746, 0.9995548, 7.553191e-14, 0, -7.264045e-14, 7.339719e-14, -1, 0, 14.3617, -28.64814, -1.077986, 1]}
+              boundingBox: {min: {x: -10.8705, y: 0, z: -20.67843}, max: {x: 20.78493, y: 41.27113, z: 21.09766}}
+              jointTransform: {localId: 42}
+            - __class: Joint
+              name: Rider_Elbow_R
+              guid: {a: 4655754819754043233, b: 7736072470446119851}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [0.9975891, -0.0693975, -7.271077e-14, 0, 0.0693975, 0.9975891, 1.271781e-15, 0, 7.244721e-14, -6.314661e-15, 1, 0, 11.18387, -30.20578, 1.077986, 1]}
+              boundingBox: {min: {x: -20.9627, y: 0, z: -19.01842}, max: {x: 12.00171, y: 41.27088, z: 28.41377}}
+              jointTransform: {localId: 43}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Face
+    guid: {a: 13711126586666412982, b: 8148753320888662408}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 17888902967375363007, b: 13911654670352466593}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: c4803b46-cfc9-ee70-ff36-7a0fac226b83--c4803b46-cfc9-ee70-ff36-7a0fac226b83.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: custom://a0d4eed4-b423-7e61-a11d-453e5dabbaf8}
+        castShadow: false
+      - __class: LookAt
+        name: ""
+        guid: {a: 12918116233140624310, b: 853587988890884510}
+        enabled: true
+        target: {localId: 5}
+        mode:
+          __class: LookAtMode
+          value: LOOK_AT_DIRECTION
+        worldUp:
+          __class: LookAtWorldUp
+          value: SCENE_Y
+        aim:
+          __class: LookAtDirection
+          value: Z
+        up:
+          __class: LookAtDirection
+          value: Y
+        offsetRotation: {x: 15, y: 0, z: 0}
+        flipAimUp: true
+    layer: 0
+  - __class: Entity
+    name: Head Tracker
+    guid: {a: 4775330406439520977, b: 711008951488253596}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 7444091511399982937, b: 18033972110210991759}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Hat [REPLACE ME]
+    guid: {a: 12053566510194489818, b: 988001749329089716}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 2111381457659710943, b: 17874814826056245948}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: Hat
+    guid: {a: 11475790189067015587, b: 1242287443101734793}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5066059431006893687, b: 16076709772210944668}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 269f1d7e-ecbc-516f-8467-c4b49b33a523--269f1d7e-ecbc-516f-8467-c4b49b33a523.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 7ac55730-3138-cd74-d485-2d92f372faa9--Hat.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Environment [REPLACE ME]
+    guid: {a: 5281724702384065450, b: 16908181790748490409}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 7513456085866241692, b: 8320352470507010478}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+      - __class: Animator
+        name: ""
+        guid: {a: 16519542732620533855, b: 17729501428718953125}
+        enabled: true
+        animations:
+          - {localId: 1, path: 76b68d39-7d1e-6f35-e4b0-233ec79e44f5--Animaz-1_Take 001.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_Take 001: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: Root_Environment
+    guid: {a: 11621278279036676597, b: 12299047746503746718}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+    layer: 0
+  - __class: Entity
+    name: Environment_Halls
+    guid: {a: 14429718086977182187, b: 1858448217885683889}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 1532203393920305289, b: 6763202335336698806}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: d45fcf8c-20ae-df08-4a6f-e2099674309d--d45fcf8c-20ae-df08-4a6f-e2099674309d-skin.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 76b68d39-7d1e-6f35-e4b0-233ec79e44f5--Environment_Halls.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5456930633665285940, b: 6533587958406690467}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Root_Environment
+              guid: {a: 4951372256399954372, b: 5799786672961584528}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1e-15, -3.051758e-05, -1.776357e-15, 1]}
+              boundingBox: {min: {x: -250.4382, y: -1430.127, z: -1430.127}, max: {x: 250.4382, y: 1430.127, z: 1430.127}}
+              jointTransform: {localId: 47}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Environment_Elements
+    guid: {a: 5570278164390329937, b: 16097223449957954706}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 10828358757437094960, b: 8573135265077447553}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: fbdb2579-b680-722e-87ff-4d4dee1c5860--fbdb2579-b680-722e-87ff-4d4dee1c5860-skin.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 76b68d39-7d1e-6f35-e4b0-233ec79e44f5--Environment_Elements.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4846264941477637250, b: 9014750339130962578}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Root_Environment
+              guid: {a: 4798046888214003972, b: 14501898303063826829}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.716614e-05, -0.0001029968, 3.051758e-05, 1]}
+              boundingBox: {min: {x: -261.3656, y: -1392.07, z: -1392.07}, max: {x: 261.3656, y: 1392.07, z: 1392.07}}
+              jointTransform: {localId: 47}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: 2D Foreground Camera
+    guid: {a: 8307783899255284437, b: 15886707184923387285}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 55}
+      - __class: Camera
+        name: ""
+        guid: {a: 16088195154213440995, b: 553754320896161442}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 10
+  - __class: Entity
+    name: 2D Foreground Effects
+    guid: {a: 4990266585225156789, b: 11650589272608038586}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 56}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 9387168124011002279, b: 15668537946402723001}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: OpenGLES30
+    layer: 0
+  - __class: Entity
+    name: Confetti and Roses Animation [REPLACE IMAGE]
+    guid: {a: 5783595107235755869, b: 5654347367629454513}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 57}
+      - __class: ImageRenderer
+        name: ""
+        guid: {a: 10539163810419699512, b: 17740628924963779746}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: custom://1efd5dcd-b96e-7043-d2b8-bb91c40cab34}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: 1. Replace 3D assets for hat & body
+    guid: {a: 2901659358138718787, b: 3174561239838262913}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: 2. Replace 3D assets for environment
+    guid: {a: 14934094367221164584, b: 9250199821957355401}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 53}
+    layer: 0
+  - __class: Entity
+    name: 3. Replace 2D foreground animations
+    guid: {a: 16665568762709553331, b: 5498153424312652932}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 54}
+    layer: 0
+  - __class: Entity
+    name: Environment Light
+    guid: {a: 5208650021139215864, b: 9359784699796545192}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+      - __class: Envmap
+        name: ""
+        guid: {a: 4833546843512340320, b: 16653783637546202515}
+        enabled: true
+        envmapLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        specularEnvmap: {localId: 1, path: 00000000-0000-0000-0000-000000000800--00000000-0000-0000-0000-000000000800.texture}
+        IBLMode: true
+        intensity: 1
+        rotation: 0
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5100079188791486089, b: 228121309500884631}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5719383655589179186, b: 6370089873647488165}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: FullBody.obj.cleaner.materialmerger.gles
+    guid: {a: 4846433908338167925, b: 1145248751323544963}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: Object_2
+    guid: {a: 5390928247959436940, b: 3735874882477855637}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 10}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5450044551010098127, b: 2075228578478269336}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 5b2dc799-99a4-541d-f6ea-be76e8c51012--5b2dc799-99a4-541d-f6ea-be76e8c51012.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: c5902832-f3b3-8968-c58f-07233ec5d9fd--Object_2.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 5541493081493916569, b: 2700910333695649703}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: MeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5261895332419629316, b: 15944585285612628133}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 90b177ab-934e-8794-f2a3-416e1f02305f--90b177ab-934e-8794-f2a3-416e1f02305f.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: c5902832-f3b3-8968-c58f-07233ec5d9fd--Object_3.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Object_4
+    guid: {a: 5463128509777262736, b: 15013540804340197248}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: MeshRenderer
+        name: mesh2_renderer
+        guid: {a: 5695558749885370362, b: 11323593327980307864}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 1e507fab-e331-e3af-c9c6-dacc4ea355e0--1e507fab-e331-e3af-c9c6-dacc4ea355e0.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: c5902832-f3b3-8968-c58f-07233ec5d9fd--Object_4.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Car
+    guid: {a: 5730399246258585027, b: 6719930661708252305}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - js/GraphSystem.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: "Null"
+--- !Transform &2
+name: ""
+guid: {a: 14145000689903744101, b: 6111037265461598351}
+enabled: true
+localPosition: {x: -70.15336, y: -40.07521, z: 111.0848}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9468387, x: -0.01440105, y: 0.3172775, z: -0.05122621}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 12629985132416961300, b: 14387677276955654788}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 2}
+  - {localId: 4}
+  - {localId: 5}
+  - {localId: 6}
+  - {localId: 13}
+  - {localId: 17}
+  - {localId: 45}
+  - {localId: 50}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 15367742060568528024, b: 10146237304508457363}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8692574, x: -0.3467698, y: -0.1321623, z: 0.326612}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 10326685277744287218, b: 544870802402693821}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9972935, x: -0.06883004, y: -0.0257867, z: 0.001779745}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: ""
+guid: {a: 5387875750412214239, b: 776821623571309758}
+enabled: true
+localPosition: {x: -8.27331, y: -40.98193, z: 27.58424}
+localScale: {x: 0.200357, y: 0.2195073, z: 0.2035251}
+localOrientation: {w: -0.965978, x: -0.1663861, y: 0.1352865, z: -0.1445675}
+parent: {localId: 3}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: RootNode
+guid: {a: 5682351153221269278, b: 11096646606129281970}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: Sketchfab_model
+guid: {a: 5242574471592977275, b: 12521099041534783167}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7071069, x: 0.7071066, y: 0, z: 0}
+parent: {localId: 7}
+children:
+  - {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: FullBody.obj.cleaner.materialmerger.gles
+guid: {a: 4759231187406103554, b: 11083149498946689947}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+children:
+  - {localId: 10}
+  - {localId: 11}
+  - {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: Object_2
+guid: {a: 4996662750087939952, b: 9075280450569459360}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: Object_3
+guid: {a: 4664405935422097165, b: 16015268737733260463}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Object_4
+guid: {a: 5619289273380617163, b: 14816174402454155940}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1.080697, y: 1.080697, z: 1.080697}
+localOrientation: {w: 0.9944717, x: -2.091667e-08, y: -6.461745e-08, z: 0.1050053}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: ""
+guid: {a: 15585325669977662688, b: 3493658991623963562}
+enabled: true
+localPosition: {x: -28.82776, y: -18.71237, z: 56.11014}
+localScale: {x: 0.7286945, y: 0.7286945, z: 0.999437}
+localOrientation: {w: 0.884882, x: -0.4199706, y: 0.05910885, z: 0.1926518}
+parent: {localId: 3}
+children:
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: ""
+guid: {a: 2974054362105332728, b: 15608057901651141265}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+children:
+  - {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: SkeletonAndRenderRoot
+guid: {a: 18394843251517097169, b: 14236652455347897993}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 14}
+children:
+  - {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: Hat
+guid: {a: 12268382070926695141, b: 14803921437144972470}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: ""
+guid: {a: 8810708347063957212, b: 9275585013679497617}
+enabled: true
+localPosition: {x: 0, y: 0, z: 2.375}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: SkeletonAndRenderRoot
+guid: {a: 12990433223796815807, b: 3457778240602843049}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 17}
+children:
+  - {localId: 19}
+  - {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: Root
+guid: {a: 12776428074463123650, b: 2655411674726255748}
+enabled: true
+localPosition: {x: 0, y: -36.85539, z: -5.216432}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6319073, x: 0.317322, y: -0.631907, z: -0.3173222}
+parent: {localId: 18}
+children:
+  - {localId: 20}
+  - {localId: 38}
+  - {localId: 39}
+  - {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: Horse_Root
+guid: {a: 7948570925944706585, b: 9705367117544727478}
+enabled: true
+localPosition: {x: 15.57054, y: -3.552714e-15, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.6319071, x: 0.3173221, y: -0.6319072, z: -0.3173221}
+parent: {localId: 19}
+children:
+  - {localId: 21}
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: Horse_Hips
+guid: {a: 14288895302053193065, b: 12946713988436761497}
+enabled: true
+localPosition: {x: 0, y: 10.72165, z: -34.35218}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: Horse_Knee_L
+guid: {a: 7729765544600681499, b: 15961591505317640883}
+enabled: true
+localPosition: {x: 9.483234, y: -14.98821, z: 0.9964409}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: -0.9984189, x: 0.0562125, y: 0, z: 0}
+parent: {localId: 21}
+children:
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: Horse_Ankle_L
+guid: {a: 14938011010012493044, b: 11048827798042355871}
+enabled: true
+localPosition: {x: -1.804792, y: -16.82324, z: -12.12669}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 22}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: Horse_Toe_L
+guid: {a: 1964860257695227525, b: 1937583459461410224}
+enabled: true
+localPosition: {x: 1.215903, y: -12.39862, z: -2.607502}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6012261, x: 0.3721927, y: -0.6012258, z: -0.3721928}
+parent: {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: Horse_Knee_R
+guid: {a: 4558605700719430133, b: 2060071051326998919}
+enabled: true
+localPosition: {x: -8.605982, y: -15.23639, z: 0.7997966}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9395688, x: 0.3423601, y: 0, z: 0}
+parent: {localId: 21}
+children:
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: Horse_Ankle_R
+guid: {a: 12773529870360802846, b: 1477849891007169446}
+enabled: true
+localPosition: {x: 0.2315837, y: -16.82055, z: -11.95988}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.999956, x: 0.009389176, y: 0, z: 0}
+parent: {localId: 25}
+children:
+  - {localId: 27}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: Horse_Toe_R
+guid: {a: 5134545917857623275, b: 498077734952190636}
+enabled: true
+localPosition: {x: -0.6959036, y: -12.27755, z: -2.607501}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.5099717, x: 0.4898254, y: -0.5099714, z: -0.4898257}
+parent: {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: Horse_Chest
+guid: {a: 17600125300747419559, b: 10582918199787425160}
+enabled: true
+localPosition: {x: 0, y: 0.1827246, z: 10.41529}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: -0.9968792, x: 0.07894295, y: 0, z: 0}
+parent: {localId: 20}
+children:
+  - {localId: 29}
+  - {localId: 32}
+  - {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: Horse_Neck
+guid: {a: 3692974191919852541, b: 15263238352796653247}
+enabled: true
+localPosition: {x: 0, y: 19.44013, z: 15.08399}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 28}
+children:
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: Horse_Head
+guid: {a: 4417377494565091079, b: 7165832667553101986}
+enabled: true
+localPosition: {x: 0, y: 2.009968, z: 11.23755}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 29}
+children:
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: Horse_Nose
+guid: {a: 17819905708224977545, b: 151420881622792879}
+enabled: true
+localPosition: {x: 0, y: -16.01539, z: 11.30733}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: Horse_Elbow_R
+guid: {a: 10540466824341339855, b: 12871787532557131679}
+enabled: true
+localPosition: {x: -8.472739, y: -10.53218, z: 2.360449}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9812723, x: 0.1926255, y: 0, z: 0}
+parent: {localId: 28}
+children:
+  - {localId: 33}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: Horse_Wrist_R
+guid: {a: 2541249485731652100, b: 4769677124297110191}
+enabled: true
+localPosition: {x: 0.6445686, y: -15.07255, z: -3.746058}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.881632, x: 0.4719376, y: 0, z: 0}
+parent: {localId: 32}
+children:
+  - {localId: 34}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: Horse_Finger_R
+guid: {a: 3839649240142745290, b: 7466083694310150056}
+enabled: true
+localPosition: {x: 0.2222497, y: -11.9744, z: -1.646843}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.3903787, x: 0.5895799, y: -0.3903785, z: -0.5895802}
+parent: {localId: 33}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: Horse_Elbow_L
+guid: {a: 10251242727956084364, b: 9830280014327839127}
+enabled: true
+localPosition: {x: 8.479416, y: -10.72555, z: 2.36045}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9964909, x: 0.08370123, y: 0, z: 0}
+parent: {localId: 28}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: Horse_Wrist_L
+guid: {a: 13856310438232355804, b: 9286031108581460923}
+enabled: true
+localPosition: {x: -0.7800433, y: -15.02261, z: -3.677498}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 35}
+children:
+  - {localId: 37}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: Horse_Finger_L
+guid: {a: 14862370348522507806, b: 7995760587015904138}
+enabled: true
+localPosition: {x: -0.1180084, y: -11.68111, z: -1.646843}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6206797, x: 0.3387578, y: -0.6206794, z: -0.338758}
+parent: {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: Rider_Hip_L
+guid: {a: 8450900184355955749, b: 12976549174532186763}
+enabled: true
+localPosition: {x: 6.426602, y: -4.785275, z: -17.15479}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.6785336, x: -0.6630679, y: 0.245644, z: -0.1989775}
+parent: {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: Rider_Hip_R
+guid: {a: 11478490548369716168, b: 8217662642666206652}
+enabled: true
+localPosition: {x: 4.669509, y: -3.476936, z: 17.88093}
+localScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.6264267, x: 0.5790307, y: -0.4058612, z: -0.3280089}
+parent: {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: Rider_Chest
+guid: {a: 11261354029904932727, b: 10517398262003389596}
+enabled: true
+localPosition: {x: -19.43994, y: 14.47506, z: 0.3747161}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: -0.2111202, x: -0.2334154, y: -0.726172, z: -0.6112444}
+parent: {localId: 19}
+children:
+  - {localId: 41}
+  - {localId: 42}
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: Rider_Head
+guid: {a: 17240708027141058465, b: 12379594817619519675}
+enabled: true
+localPosition: {x: 10.68417, y: -4.385381e-15, z: -4.440892e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.2224453, x: -0.2224452, y: -0.6712067, z: -0.6712063}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: Rider_Elbow_L
+guid: {a: 16233092941553205273, b: 4967754092636940441}
+enabled: true
+localPosition: {x: -9.271304, y: -14.08487, z: 7.698491}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -3.168839e-08, x: 0.6888059, y: 0.7249458, z: -3.010867e-08}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: Rider_Elbow_R
+guid: {a: 6936768209331880276, b: 6816578273657345721}
+enabled: true
+localPosition: {x: -9.547545, y: 12.66894, z: 7.698491}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7384452, x: 0, y: 0, z: 0.6743135}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: Body
+guid: {a: 309346075325991524, b: 96436494469977789}
+enabled: true
+localPosition: {x: 0.009226799, y: -51.25097, z: 3.560045}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: ""
+guid: {a: 8955224657581277142, b: 10885950638119253688}
+enabled: true
+localPosition: {x: -2.364956, y: 30.214, z: -4.759699}
+localScale: {x: 0.567785, y: 0.567785, z: 0.567785}
+localOrientation: {w: -0.9470997, x: -0.2328173, y: 0.1692938, z: -0.1419082}
+parent: {localId: 3}
+children:
+  - {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: SkeletonAndRenderRoot
+guid: {a: 16951618681526793193, b: 14848494192040578444}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+children:
+  - {localId: 47}
+  - {localId: 48}
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: Root_Environment
+guid: {a: 10685436104015042030, b: 9041449046190004105}
+enabled: true
+localPosition: {x: 1.144409e-05, y: -1092.95, z: -4.577637e-05}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: Environment_Halls
+guid: {a: 12628383400008194193, b: 8846520739163023527}
+enabled: true
+localPosition: {x: 1.144409e-05, y: -1092.898, z: -10.72989}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: Environment_Elements
+guid: {a: 9459292819575341881, b: 16214493835454192299}
+enabled: true
+localPosition: {x: -5.722046e-06, y: -1092.898, z: -10.72986}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: ""
+guid: {a: 5387806580472466920, b: 4976821844260356005}
+enabled: true
+localPosition: {x: 0, y: 30, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: ""
+guid: {a: 12053322639277307291, b: 3535373149481415049}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 52}
+  - {localId: 53}
+  - {localId: 54}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: ""
+guid: {a: 7227769344264928855, b: 12641450621718287023}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: ""
+guid: {a: 1318284864449590215, b: 5671511156738664108}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: ""
+guid: {a: 3192808163646402637, b: 10328083550795967113}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: ""
+guid: {a: 4632091801576025753, b: 7828643179007845521}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: ""
+guid: {a: 16952864373399237184, b: 14732937283097691813}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 55}
+  - {localId: 57}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &57
+name: ""
+guid: {a: 2758633186087202548, b: 1570164308108645769}
+enabled: true
+localPosition: {x: 0, y: -5.892635, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: -188.5643}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32

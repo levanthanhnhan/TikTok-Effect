@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "c5902832-f3b3-8968-c58f-07233ec5d9fd",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "low_poly_car_-_chevrolet_c10_pickup_1963",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "5b2dc799-99a4-541d-f6ea-be76e8c51012",
+      "90b177ab-934e-8794-f2a3-416e1f02305f",
+      "1e507fab-e331-e3af-c9c6-dacc4ea355e0"
+    ],
+    "meshGUIDs": [
+      "c985ceb5-f497-6676-f3c0-969c8232f3bd",
+      "2380d206-7da8-36c6-8d37-28c1ed3893cf",
+      "5f978146-3b5c-8c5d-fae1-bed06303284f"
+    ],
+    "animazGUIDs": []
+  }
+]

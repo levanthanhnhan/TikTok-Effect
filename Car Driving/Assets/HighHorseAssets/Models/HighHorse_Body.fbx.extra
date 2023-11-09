@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "9c9d1f02-bbf3-b4c6-09f6-657c85d658cd",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "HighHorse_Body",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": false,
+    "materialsGUIDs": [
+      "c321dd25-7a09-5457-43bf-d725d82a5785"
+    ],
+    "meshGUIDs": [
+      "04b8fe95-b849-fe74-99ba-0d3bbdbeb413"
+    ],
+    "animazGUIDs": [
+      "1ce42b64-0cbd-4980-4d6a-61de5aa40ba9"
+    ]
+  }
+]

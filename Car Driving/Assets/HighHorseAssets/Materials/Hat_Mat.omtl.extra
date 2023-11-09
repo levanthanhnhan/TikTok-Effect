@@ -1,0 +1,51 @@
+[
+  {
+    "guid": {
+      "a": "269f1d7e-ecbc-516f-8467-c4b49b33a523",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Hat_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5151946722529324143, 3717389597200778134)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "304b54b8-5170-421e-097c-88413f6618e2"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "u_NormalTex",
+        "guid": "15b0fd64-e4ab-4664-0904-e0f1dd9d82e6"
+      },
+      {
+        "propertyName": "u_MRATex",
+        "guid": "304cc444-d5d4-8be0-10b9-e9e305ed672b"
+      },
+      {
+        "propertyName": "u_EnvTex",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      },
+      {
+        "propertyName": "u_EmissiveTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_FresnelTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_ThinTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      }
+    ]
+  }
+]

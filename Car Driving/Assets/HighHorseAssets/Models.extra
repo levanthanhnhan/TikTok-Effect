@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "4b57e6cd-4b50-17f4-d797-aeb90067d0f2",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Models",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

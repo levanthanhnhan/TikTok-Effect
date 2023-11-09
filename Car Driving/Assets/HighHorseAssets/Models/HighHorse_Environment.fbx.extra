@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "76b68d39-7d1e-6f35-e4b0-233ec79e44f5",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "HighHorse_Environment",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": false,
+    "materialsGUIDs": [
+      "f8fad03e-97b7-8576-b561-18f399f3a058",
+      "9d8d44ba-052f-3d9f-90ed-7b827377ce9f"
+    ],
+    "meshGUIDs": [
+      "b24332cd-7c60-3087-ee91-dae1dcd13f8b",
+      "6a1b8d14-0ad3-32ea-3dfb-cb55e4ad1f3d"
+    ],
+    "animazGUIDs": [
+      "fc383176-7fd7-7667-8466-231ea1c79be7"
+    ]
+  }
+]

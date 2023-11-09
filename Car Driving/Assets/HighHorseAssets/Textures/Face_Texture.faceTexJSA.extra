@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "37c89222-44f5-189b-21cc-5d9e08943f88",
+      "b": ""
+    },
+    "extraType": "JSAssetFaceTexture",
+    "name": "Face_Texture",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

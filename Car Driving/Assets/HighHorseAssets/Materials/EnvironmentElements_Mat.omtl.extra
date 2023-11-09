@@ -1,0 +1,35 @@
+[
+  {
+    "guid": {
+      "a": "fbdb2579-b680-722e-87ff-4d4dee1c5860",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "EnvironmentElements_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5142282236920883054, 2609431052823074193)",
+    "references": [
+      {
+        "propertyName": "u_AlbedoTexture",
+        "guid": "c538149c-fc10-448e-d794-c8daf59bbc61"
+      },
+      {
+        "propertyName": "u_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_SpecularTexure",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      }
+    ]
+  }
+]

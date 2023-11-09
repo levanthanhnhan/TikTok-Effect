@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "11f7c50c-61f7-06d6-d461-59063660bfa9",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "low_poly_car_-_chevrolet_c10_pickup_1963",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

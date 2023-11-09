@@ -1,0 +1,35 @@
+[
+  {
+    "guid": {
+      "a": "d45fcf8c-20ae-df08-4a6f-e2099674309d",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "EnvironmentHalls_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5168762379384893804, 13656370499321595814)",
+    "references": [
+      {
+        "propertyName": "u_AlbedoTexture",
+        "guid": "1e72b40f-c23b-be1d-1c45-78056c75a215"
+      },
+      {
+        "propertyName": "u_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_SpecularTexure",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_NormalTexture",
+        "guid": "00000000-0000-0000-0000-00000000001f"
+      }
+    ]
+  }
+]

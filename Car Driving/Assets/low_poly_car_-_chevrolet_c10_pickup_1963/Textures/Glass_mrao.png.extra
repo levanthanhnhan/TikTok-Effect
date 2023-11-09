@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "20db06a1-839d-17e7-de1e-e5267172fc76",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Glass_mrao",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": true,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 2,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

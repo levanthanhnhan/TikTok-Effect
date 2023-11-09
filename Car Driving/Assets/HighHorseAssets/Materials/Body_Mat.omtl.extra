@@ -1,0 +1,35 @@
+[
+  {
+    "guid": {
+      "a": "8e8df461-d33f-712f-97f3-28603b5653d9",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Body_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5527270669969435249, 7894614508656496799)",
+    "references": [
+      {
+        "propertyName": "u_AlbedoTexture",
+        "guid": "304b54b8-5170-421e-097c-88413f6618e2"
+      },
+      {
+        "propertyName": "u_EmissiveTexture",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_SpecularTexure",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_NormalTexture",
+        "guid": "15b0fd64-e4ab-4664-0904-e0f1dd9d82e6"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "115ab5aa-68bf-9de2-0e9d-a4ca8b91948b",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "ConfettiAndRoses_2DAnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

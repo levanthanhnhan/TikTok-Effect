@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "57cae2c8-fedc-2c9a-d7ee-4f9a8457b420",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "HighHorseAssets",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]
