@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0bbd5212-ed47-8a8d-270e-766674e7192f",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "animation_sortilege",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

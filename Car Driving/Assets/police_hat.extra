@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "be4f0b2c-c730-4e1f-a3d4-0d11813a9dcb",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "police_hat",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

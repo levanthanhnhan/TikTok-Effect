@@ -12,7 +12,7 @@
     "version": "0.3.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(5556408256433493517, 3690925819124151725)",
+    "skinObjGuid": "Guid(4660920964198928967, 14078470294084549261)",
     "references": [
       {
         "propertyName": "_BaseTexture",

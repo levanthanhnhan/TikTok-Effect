@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "85bec0f6-c4d0-ab3d-5254-82b2378ef0a7",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "animation_sortilege",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

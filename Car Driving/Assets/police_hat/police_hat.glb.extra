@@ -1,0 +1,40 @@
+[
+  {
+    "guid": {
+      "a": "a5d30dc9-acd2-e3aa-a335-c93da03535a0",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "police_hat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [
+      "ef59509e-b09a-ba6d-4a22-9d934fc600a6",
+      "5c1f5c01-5e96-9435-d6d8-5bb964e71276",
+      "908e41bf-0a72-2060-087c-7e3b28e4ffcd",
+      "16fa67cc-2f09-bead-a524-60a5188861d0",
+      "ad10bfe7-e3f5-f4ae-4a12-15ccb95ee375",
+      "d0dc71cc-7b82-96a7-02ea-53acfd192119",
+      "dbfa514d-f40b-aa90-db8b-5ea4dcee071f"
+    ],
+    "meshGUIDs": [
+      "673ae90c-e26f-724b-a57a-d951510809e4",
+      "d53170cb-33a7-a4c3-4058-eaeafe7e0a33",
+      "bfe32ae4-bda5-5f61-7800-583a33b4cfaf",
+      "e750c339-c5e4-85e6-83d5-0dd65ad00737",
+      "aab03188-27b4-3e33-a0ed-24138c748f25",
+      "08415ab7-e35c-dc28-b0de-81c9537a17c5",
+      "3ccaffa9-cfaf-c9bc-48f3-82f95bc80e3a"
+    ],
+    "animazGUIDs": []
+  }
+]

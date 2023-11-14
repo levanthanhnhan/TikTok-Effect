@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "8fc0bd01-ad9a-667c-e820-5e25cfcb6704",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "animation_shake",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]
