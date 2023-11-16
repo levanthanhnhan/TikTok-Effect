@@ -1,0 +1,49 @@
+%YAML 1.1
+--- !ScreenRenderTexture &1
+name: ArtMaker_RenderTex
+guid: {a: 14502443699300110961, b: 6523734271948362422}
+width: 720
+height: 1280
+depth: 1
+internalFormat:
+  __class: InternalFormat
+  value: RGBA8
+dataType:
+  __class: DataType
+  value: U8norm
+builtinType:
+  __class: BuiltInTextureType
+  value: NORAML
+enableMipmap: false
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: CLAMP
+wrapModeT:
+  __class: WrapMode
+  value: CLAMP
+wrapModeR:
+  __class: WrapMode
+  value: CLAMP
+maxAnisotropy: 1
+attachment:
+  __class: RenderTextureAttachment
+  value: DEPTH24
+inputTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+massMode:
+  __class: MSAAMode
+  value: NONE
+shared: false
+colorFormat:
+  __class: PixelFormat
+  value: RGBA8Unorm
+pecentX: 1
+pecentY: 1

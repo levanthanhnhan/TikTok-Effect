@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "19431c38-22a2-f9fa-93a4-92c8cb5b004e",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "answer",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

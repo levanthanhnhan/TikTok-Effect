@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0bbb21cf-abe3-341b-ca19-ffb6494e69a6",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Countdown_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

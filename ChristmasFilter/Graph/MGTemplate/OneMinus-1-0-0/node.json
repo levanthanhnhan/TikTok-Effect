@@ -1,0 +1,34 @@
+{
+	"id": "b39a2080-1a93-116f-0e97-3f2b208c0457",
+	"name": "One Minus",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Value",
+			"description": "Input value",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "One minus input value",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Return one minus input value.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

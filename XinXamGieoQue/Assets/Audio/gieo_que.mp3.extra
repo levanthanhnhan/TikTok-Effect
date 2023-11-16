@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "7b38c537-c121-e6d2-8250-7dc2235a924c",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "gieo_que",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

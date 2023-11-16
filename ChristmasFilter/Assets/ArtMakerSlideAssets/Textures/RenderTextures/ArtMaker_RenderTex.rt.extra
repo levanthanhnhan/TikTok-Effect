@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "a67e3cbe-fa5b-1bde-8092-40c0e935faee",
+      "b": ""
+    },
+    "extraType": "ResItemRenderTexture",
+    "name": "ArtMaker_RenderTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "ScreenRenderTexture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

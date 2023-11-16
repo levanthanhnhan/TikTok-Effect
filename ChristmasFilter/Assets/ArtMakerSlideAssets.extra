@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "9c906e89-903c-d6be-8bff-6b203bcf67df",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "ArtMakerSlideAssets",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

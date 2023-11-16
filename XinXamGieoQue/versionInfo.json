@@ -1,5 +1,5 @@
 {
-  "version": "3.4.0",
+  "version": "3.4.1",
   "handlers": {
     "ComponentsCompatibilityHandler": {
       "Transform": "85bfce2f4ffa628888c59a61f15d5b51",

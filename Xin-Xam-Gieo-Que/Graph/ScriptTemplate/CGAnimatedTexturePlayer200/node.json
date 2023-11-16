@@ -1,0 +1,156 @@
+{
+	"name": "Animated Texture Player",
+	"id": "f61e3641-67ab-ce7b-cb34-7244627a2d45",
+	"inputs": [
+		{
+			"name": "Play From To",
+			"description": "Play the animated texture from the index set in From",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_animated_texture_player_input_playfromto",
+			"descriptionKey": "graph_animated_texture_player_input_playfromto_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Pause",
+			"nameKey": "graph_animated_texture_player_input_pause",
+			"description": "Pause the current animated texture",
+			"descriptionKey": "graph_animated_texture_player_input_pause_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Resume",
+			"nameKey": "graph_animated_texture_player_input_resume",
+			"description": "Resume the current animated texture",
+			"descriptionKey": "graph_animated_texture_player_input_resume_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Animated Texture",
+			"nameKey": "graph_animated_texture_player_input_animatedtexture",
+			"description": "The animated texture asset to play",
+			"descriptionKey": "graph_animated_texture_player_input_animatedtexture_description",
+			"type": "Texture2D",
+			"displayType": "Texture 2D",
+			"displayTypeKey": "graph_type_texture2d"
+		},
+		{
+			"name": "From",
+			"nameKey": "graph_animated_texture_player_input_from",
+			"description": "The frame index of the animated texture that will be played first",
+			"descriptionKey": "graph_animated_texture_player_input_from_description",
+			"type": "Int",
+			"range": [
+				[
+					0,
+					"inf",
+					1
+				]
+			],
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "To",
+			"nameKey": "graph_animated_texture_player_input_to",
+			"description": "The frame index of the animated texture that will be played at last; The maximum available index is the total frame count minus 1",
+			"descriptionKey": "graph_animated_texture_player_input_to_description",
+			"type": "Int",
+			"range": [
+				[
+					0,
+					"inf",
+					1
+				]
+			],
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Key",
+			"nameKey": "graph_animated_texture_player_input_key",
+			"description": "The key frame index of the animated texture",
+			"descriptionKey": "graph_animated_texture_player_input_key_description",
+			"range": [
+				[
+					0,
+					"inf",
+					1
+				]
+			],
+			"type": "Int",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "On Begin",
+			"description": "Execute the next node when plays the first frame for the first time",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_animated_texture_player_output_onbegin",
+			"descriptionKey": "graph_animated_texture_player_output_onbegin_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Pause",
+			"description": "Execute the next node when pauses the animated texture",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_animated_texture_player_output_onpause",
+			"descriptionKey": "graph_animated_texture_player_output_onpause_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Resume",
+			"description": "Execute the next node when resumes the animated texture",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_animated_texture_player_output_onresume",
+			"descriptionKey": "graph_animated_texture_player_output_onresume_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Play End",
+			"description": "Execute the next node when the animation sequence finishes playing",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_animated_texture_player_output_onplayend",
+			"descriptionKey": "graph_animated_texture_player_output_onplayend_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "On Key Frame",
+			"nameKey": "graph_animated_texture_player_output_onkeyframe",
+			"description": "Execute the next node when the key frame is played",
+			"descriptionKey": "graph_animated_texture_player_output_onkeyframe_description",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"displayTypeKey": "graph_type_exec"
+		}
+	],
+	"category": "Utility",
+	"productTypes": [
+		"EHI",
+		"EHO",
+		"EHD"
+	],
+	"nodeEvent": [
+		"beforeStart",
+		"onUpdate",
+		"onDestroy"
+	],
+	"scriptSupport": "js",
+	"js": "CGAnimatedTexturePlayer.js",
+	"description": "Control animated texture playback and its relevant properties. The animated texture frame index starts from zero. When From is equal to To, only one frame will be played. When the first frame index is greater than the last frame index, the animated texture is played backward.",
+	"version": "2.0.0",
+	"onlineWebsite": "graph_animated_texture_player_website",
+	"nameKey": "graph_animated_texture_player_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_animated_texture_player_description"
+}

@@ -1,0 +1,24 @@
+{
+	"id": "5fe7bb0b-b878-d477-d87a-ef39515944eb",
+	"name": "Component Mask",
+	"category": "Vector Operations",
+	"inputs": [
+		{
+			"name": "Vector",
+			"description": "Input vector.",
+			"type": "Vector4f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Value",
+			"description": "Value constructed by the components of the input vector.",
+			"type": "Vector2f"
+		}
+	],
+	"description": "Return components of a vector.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

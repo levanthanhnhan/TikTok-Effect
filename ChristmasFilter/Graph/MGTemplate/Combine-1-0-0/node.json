@@ -1,0 +1,118 @@
+{
+	"id": "b8c0d73c-a3b9-0c89-8b98-372f7b21f1f6",
+	"name": "Combine",
+	"category": "Vector Operations",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "Input A",
+			"type": "Number"
+		},
+		{
+			"name": "B",
+			"description": "Input B",
+			"type": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Result",
+			"type": "Vector2f"
+		}
+	],
+	"description": "Combine values into vector.",
+	"supportedInputs": [
+		{
+			"in": [
+				"Number",
+				"Number"
+			],
+			"out": [
+				"Vector2f"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Vector2f"
+			],
+			"out": [
+				"Vector3f"
+			]
+		},
+		{
+			"in": [
+				"Vector2f",
+				"Number"
+			],
+			"out": [
+				"Vector3f"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Number",
+				"Number"
+			],
+			"out": [
+				"Vector3f"
+			]
+		},
+		{
+			"in": [
+				"Vector2f",
+				"Vector2f"
+			],
+			"out": [
+				"Vector4f"
+			]
+		},
+		{
+			"in": [
+				"Vector2f",
+				"Number",
+				"Number"
+			],
+			"out": [
+				"Vector4f"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Vector2f",
+				"Number"
+			],
+			"out": [
+				"Vector4f"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Number",
+				"Vector2f"
+			],
+			"out": [
+				"Vector4f"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"Number",
+				"Number",
+				"Number"
+			],
+			"out": [
+				"Vector4f"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

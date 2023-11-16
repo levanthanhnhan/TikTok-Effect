@@ -1,0 +1,56 @@
+{
+	"name": "User Media Info",
+	"id": "ac32d1b0-6f87-2ff3-4f87-c9d2de744ee6",
+	"inputs": [
+		{
+			"name": "User Media Texture",
+			"description": "Input a Render Texture representing the user-uploaded media.",
+			"type": "RenderTexture",
+			"displayType": "Render Texture",
+			"nameKey": "graph_user_media_info_input_usermediatexture",
+			"descriptionKey": "graph_user_media_info_input_usermediatexture_description",
+			"displayTypeKey": "graph_type_rendertexture"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Index",
+			"description": "Returns the index of Texture among all User Media Textures",
+			"type": "Int",
+			"displayType": "Number",
+			"nameKey": "graph_user_media_info_output_index",
+			"descriptionKey": "graph_user_media_info_output_index_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "Is Uploaded",
+			"description": "Returns true if Render Texture has been uploaded, else false",
+			"type": "Bool",
+			"displayType": "Boolean",
+			"nameKey": "graph_user_media_info_output_isuploaded",
+			"descriptionKey": "graph_user_media_info_output_isuploaded_description",
+			"displayTypeKey": "graph_type_boolean"
+		},
+		{
+			"name": "Image Resolution",
+			"description": "Returns the resolution of the image, if no image has been uploaded it defaults to 0,0",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"nameKey": "graph_user_media_info_output_imageresolution",
+			"descriptionKey": "graph_user_media_info_output_imageresolution_description",
+			"displayTypeKey": "graph_type_vec2"
+		}
+	],
+	"category": "Utility",
+	"version": "1.0.0",
+	"description": "Retrieves information from a user-uploaded media.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"js": "CGUserUploadedMediaInfo.js",
+	"nameKey": "graph_user_media_info_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_user_media_info_description"
+}

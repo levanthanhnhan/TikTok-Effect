@@ -1,0 +1,18 @@
+{
+	"id": "3af29136-2f24-6eb4-3cc7-c680468237b3",
+	"name": "Screen Coord",
+	"category": "Coordinates",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Coordinate",
+			"description": "Screen coordinate.",
+			"type": "Vector2f"
+		}
+	],
+	"description": "Screen coordinates of the mesh. It's normalized to range 0 and 1. Origin is top-left corner of the screen.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

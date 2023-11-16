@@ -1,0 +1,72 @@
+{
+	"id": "97198208-feee-32b2-fe0e-9a53686cddb5",
+	"name": "Split",
+	"category": "Vector Operations",
+	"inputs": [
+		{
+			"name": "Value",
+			"description": "Input vector",
+			"type": "Vector2f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "A",
+			"description": "Output A",
+			"type": "Number"
+		},
+		{
+			"name": "B",
+			"description": "Output B",
+			"type": "Number"
+		}
+	],
+	"description": "Split vector value to 2/3/4 output ports.",
+	"supportedInputs": [
+		{
+			"in": [
+				"Vector2f"
+			],
+			"out": [
+				"Number",
+				"Number"
+			]
+		},
+		{
+			"in": [
+				"Vector3f"
+			],
+			"out": [
+				"Number",
+				"Number",
+				"Number"
+			]
+		},
+		{
+			"in": [
+				"Vector4f"
+			],
+			"out": [
+				"Number",
+				"Number",
+				"Number",
+				"Number"
+			]
+		},
+		{
+			"in": [
+				"Color"
+			],
+			"out": [
+				"Number",
+				"Number",
+				"Number",
+				"Number"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

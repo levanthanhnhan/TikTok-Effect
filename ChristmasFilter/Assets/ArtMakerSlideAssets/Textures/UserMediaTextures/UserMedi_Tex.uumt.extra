@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "14f6b76b-bb4e-8034-9117-8d7cffb5291d",
+      "b": ""
+    },
+    "extraType": "JSAssetUserUploadedMedia",
+    "name": "UserMedi_Tex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "RenderTexture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

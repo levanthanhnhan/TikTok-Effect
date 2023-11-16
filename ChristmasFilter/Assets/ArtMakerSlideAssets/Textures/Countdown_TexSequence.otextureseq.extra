@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "5af69f99-eb5d-58e8-e618-545041814fdf",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Countdown_TexSequence",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

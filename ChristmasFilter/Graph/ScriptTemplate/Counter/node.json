@@ -1,0 +1,100 @@
+{
+	"name": "Counter",
+	"id": "7281bf2b-64c9-123a-a8ce-db6a9b6fa6e1",
+	"inputs": [
+		{
+			"name": "Increase",
+			"description": "Add value to the origin number",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_counter_input_increase",
+			"descriptionKey": "graph_counter_input_increase_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Decrease",
+			"description": "Deduct value from the origin number",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_counter_input_decrease",
+			"descriptionKey": "graph_counter_input_decrease_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Reset",
+			"description": "Reset the counter to the From value",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_counter_input_reset",
+			"descriptionKey": "graph_counter_input_reset_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Step",
+			"description": "The value to increase or decrease",
+			"type": "Double",
+			"default_value": "1",
+			"displayType": "Number",
+			"nameKey": "graph_counter_input_step",
+			"descriptionKey": "graph_counter_input_step_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "From",
+			"description": "The origin value to increase or decrease",
+			"default_value": "0",
+			"type": "Double",
+			"displayType": "Number",
+			"nameKey": "graph_counter_input_from",
+			"descriptionKey": "graph_counter_input_from_description",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "To",
+			"description": "The end value of the count",
+			"type": "Double",
+			"default_value": "10",
+			"displayType": "Number",
+			"nameKey": "graph_counter_input_to",
+			"descriptionKey": "graph_counter_input_to_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"description": "Execute the next node",
+			"type": "Pulse",
+			"displayType": "Exec",
+			"nameKey": "graph_counter_output_next",
+			"descriptionKey": "graph_counter_output_next_description",
+			"displayTypeKey": "graph_type_exec"
+		},
+		{
+			"name": "Current",
+			"description": "The current output number after increasing or decreasing",
+			"type": "Double",
+			"displayType": "Number",
+			"nameKey": "graph_counter_output_current",
+			"descriptionKey": "graph_counter_output_current_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"category": "Utility",
+	"description": "Increase or decrease a certain value to/from an origin number.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"js": "CGCounter.js",
+	"nodeEvent": [
+		"beforeStart",
+		"resetOnRecord"
+	],
+	"version": "1.0.1",
+	"onlineWebsite": "graph_counter_website",
+	"nameKey": "graph_counter_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_counter_description"
+}
