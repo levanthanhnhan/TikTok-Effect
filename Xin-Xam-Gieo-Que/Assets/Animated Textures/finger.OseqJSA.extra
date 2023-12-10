@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "7303dffc-aa3a-2caa-ed1e-8efa762b205d",
+      "a": "123f3d5f-87b0-30bf-f8f6-f04fdfe30d01",
       "b": ""
     },
     "extraType": "JSAssetAnimSequence",
-    "name": "question",
+    "name": "finger",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture2D",

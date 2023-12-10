@@ -1,8 +1,8 @@
 {
   "name": "",
-  "lastModified": "Wed, 15 Nov 2023 16:25:31 GMT",
-  "version": "3.4.1",
-  "internalVersion": "2.3.0",
+  "lastModified": "Sun, 10 Dec 2023 16:02:07 GMT",
+  "version": "3.5.0",
+  "internalVersion": "2.5.0",
   "toolName": "Effect House",
   "projectID": "d85f12b3-05e8-e5b1-46cf-355b920fdc61",
   "created": {
@@ -77,16 +77,17 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 32033293240,
-  "durationCreation": 26255351,
-  "durationBackground": 3132898,
+  "durationToCreate": 34191889697,
+  "durationCreation": 28820796,
+  "durationBackground": 3408341,
   "autoResetEffect": false,
   "effectHint": "none",
   "templateID": "7224015039353634817",
   "templateName": "Randomizer2D",
-  "overwriteBuiltinGAN": true,
-  "overwriteBuiltinFilter": true,
-  "overwriteBuiltinMakeup": false,
-  "overwriteBuiltinFaceShape": false,
+  "overwriteBuiltinGAN": 1,
+  "overwriteBuiltinFilter": 1,
+  "overwriteBuiltinMakeup": 0,
+  "overwriteBuiltinFaceShape": 0,
+  "retouchBuiltInSetting": false,
   "perfTested": false
 }

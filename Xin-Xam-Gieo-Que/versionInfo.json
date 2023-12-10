@@ -1,13 +1,14 @@
 {
-  "version": "3.4.1",
+  "version": "3.5.0",
   "handlers": {
     "ComponentsCompatibilityHandler": {
       "Transform": "85bfce2f4ffa628888c59a61f15d5b51",
       "EffectNode": "d751713988987e9331980363e24189ce",
       "Camera": "cd9b9dda9fec962a33e3dd34bc6788cc",
       "EnvironmentLighting": "3174ed5b249dee36048cc3acff47d1e7",
-      "Image": "0260eb80a2989dfcd62c69b940dccc04",
-      "ScreenTransform": "9231ccae42d61082fe6117ce74430370"
+      "Image": "5bfea2268185a203e09a49429d177adf",
+      "ScreenTransform": "9231ccae42d61082fe6117ce74430370",
+      "AudioComponent": "c9336be5153eaf6079d201eb638af26f"
     }
   }
 }

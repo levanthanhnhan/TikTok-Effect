@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "95c855c2-41da-9623-ae4f-3d714430e539",
+      "a": "f54aab14-b63d-c1d0-979b-1b01488fe062",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "question",
+    "name": "finger",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "TextureSequence",

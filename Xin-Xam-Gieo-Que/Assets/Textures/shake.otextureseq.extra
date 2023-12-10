@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "95c855c2-41da-9623-ae4f-3d714430e539",
+      "a": "d618b192-4312-1433-c082-8a42ad0f007d",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "question",
+    "name": "shake",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "TextureSequence",

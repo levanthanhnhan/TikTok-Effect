@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "95c855c2-41da-9623-ae4f-3d714430e539",
+      "a": "62cca6bf-8d96-a85f-e76f-bd9173889c7c",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "question",
+    "name": "Que-Xam",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "TextureSequence",

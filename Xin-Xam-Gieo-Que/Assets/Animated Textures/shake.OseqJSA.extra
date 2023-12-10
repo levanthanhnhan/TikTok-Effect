@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "7303dffc-aa3a-2caa-ed1e-8efa762b205d",
+      "a": "c37401f7-898f-822a-a7e0-2485fe1d27c9",
       "b": ""
     },
     "extraType": "JSAssetAnimSequence",
-    "name": "question",
+    "name": "shake",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture2D",

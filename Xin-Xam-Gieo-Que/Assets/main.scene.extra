@@ -1,7 +1,7 @@
 [
   {
     "guid": {
-      "a": "84bd4fed-9f8a-0bdb-c6dc-614b34cb2aca",
+      "a": "3783d107-d415-a529-bf4f-d723e71c9a2d",
       "b": ""
     },
     "objGuid": "Guid(4198415936017778745, 14765787784143921059)",
@@ -17,7 +17,7 @@
   },
   {
     "guid": {
-      "a": "3b6cd243-d40d-7fc5-66c8-edfe364aaf17",
+      "a": "703de796-19a8-f414-48b0-53cac4d43910",
       "b": ""
     },
     "objGuid": "Guid(17819553278506754116, 11693808448086408084)",
@@ -37,7 +37,7 @@
   },
   {
     "guid": {
-      "a": "86982b9b-47f9-ff28-638e-0ee80a4e198c",
+      "a": "e191ae1a-8683-8286-c6a6-c3d47878b333",
       "b": ""
     },
     "objGuid": "Guid(1964250070929191261, 4188894636376523422)",
@@ -57,7 +57,7 @@
   },
   {
     "guid": {
-      "a": "6a202338-0322-abb4-dedb-435802808e32",
+      "a": "e46c9615-31ac-1f4d-c5fb-5973fa343a96",
       "b": ""
     },
     "objGuid": "Guid(14722210171812686582, 1068903947619179197)",
@@ -77,7 +77,7 @@
   },
   {
     "guid": {
-      "a": "d410907e-2044-4267-e33e-7a7196c1b1ad",
+      "a": "a83ae3f6-6d66-21d9-eb39-f3212b68255d",
       "b": ""
     },
     "objGuid": "Guid(5603679085797069321, 12884459488054672788)",
@@ -97,7 +97,27 @@
   },
   {
     "guid": {
-      "a": "e5ffc91f-ac1f-9be8-efb9-05cbf4e1fb0a",
+      "a": "b6cda840-d994-e564-562c-9d32e8e02fb8",
+      "b": ""
+    },
+    "objGuid": "Guid(4651213872910220194, 8557246422679458741)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "0e9f9fc6-3c88-2b25-20d6-35eecc0883ba",
       "b": ""
     },
     "objGuid": "Guid(13280872629729725333, 11049665368682058627)",
@@ -113,7 +133,7 @@
   },
   {
     "guid": {
-      "a": "023be841-b6be-8c8e-e9f4-095bb15c31c4",
+      "a": "564a63db-7afd-2da8-367f-b4bbe306e884",
       "b": ""
     },
     "objGuid": "Guid(884979045772163168, 8074726476798817442)",
@@ -129,7 +149,7 @@
   },
   {
     "guid": {
-      "a": "db158d81-72d4-8923-3ae7-22930272633c",
+      "a": "7a46c8a1-aa27-eb75-f30a-d7adcd593c08",
       "b": ""
     },
     "objGuid": "Guid(13062555174515800951, 14056927660148220324)",
@@ -144,7 +164,7 @@
   },
   {
     "guid": {
-      "a": "1af5fdfe-e80d-af6e-56b3-2d6daa6d3caa",
+      "a": "1e3de23c-996b-601a-aaf9-3fa9753237f2",
       "b": ""
     },
     "objGuid": "Guid(15296290531266112965, 7981414246874758280)",
@@ -160,7 +180,7 @@
   },
   {
     "guid": {
-      "a": "eec5149b-ce04-66b0-f60b-2e96986fcc9c",
+      "a": "d6939e34-2fc2-3584-aa76-9b4abde4ad22",
       "b": ""
     },
     "objGuid": "Guid(5111772254015313170, 3012094355087371404)",
@@ -176,7 +196,7 @@
   },
   {
     "guid": {
-      "a": "8601afb1-1195-9dba-e707-61722125a133",
+      "a": "0802bee9-cab3-4c74-e184-4f79d0db0a03",
       "b": ""
     },
     "objGuid": "Guid(4882258393517520277, 939588679085383832)",
@@ -191,7 +211,7 @@
   },
   {
     "guid": {
-      "a": "ef8bee40-a313-05b6-5e0a-c635a4d99723",
+      "a": "57d4a9be-2bd1-a908-4297-d73665013be9",
       "b": ""
     },
     "objGuid": "Guid(1965288597692592099, 4751974858846455731)",
@@ -207,7 +227,7 @@
   },
   {
     "guid": {
-      "a": "c0c822de-bf6a-cd64-ba78-6658520bfc2c",
+      "a": "fabe14c6-db5c-8568-0135-9c43b415bb63",
       "b": ""
     },
     "objGuid": "Guid(14359216296868896332, 1073937675378553279)",
@@ -227,7 +247,7 @@
   },
   {
     "guid": {
-      "a": "69795f22-5854-29bf-6174-1371018f2105",
+      "a": "bd0b7efb-bdb7-ddbe-b261-2ec9e529158b",
       "b": ""
     },
     "objGuid": "Guid(5731852296442871279, 2226627629554829972)",
@@ -247,7 +267,7 @@
   },
   {
     "guid": {
-      "a": "46be32cb-6e1f-420b-94fa-74f99e974916",
+      "a": "0850e8c4-52c0-2b64-e1f5-0a653e739278",
       "b": ""
     },
     "objGuid": "Guid(4796360839917760665, 17477007313897935796)",
@@ -267,7 +287,7 @@
   },
   {
     "guid": {
-      "a": "c3ca3fae-9f07-9de3-82bf-fe5ba5054c69",
+      "a": "05737b95-52fc-38b3-ad11-e8d0f29394ff",
       "b": ""
     },
     "objGuid": "Guid(5034322291995364929, 7945047633812393875)",
@@ -282,7 +302,7 @@
   },
   {
     "guid": {
-      "a": "0b6dfaaf-2be3-d30a-c805-a89106c89e1e",
+      "a": "fe56bb31-9533-e28d-9c3b-763ab6d6b74f",
       "b": ""
     },
     "objGuid": "Guid(5222787438337391083, 12672745463788512191)",
@@ -297,10 +317,10 @@
   },
   {
     "guid": {
-      "a": "9b752062-c04f-d8f8-8ed9-d02f18866107",
+      "a": "9b08161c-60bb-a625-fdf1-e607f863feb0",
       "b": ""
     },
-    "objGuid": "Guid(4869433932820210394, 10196976560124775602)",
+    "objGuid": "Guid(4844279071433676372, 11705877659966820008)",
     "extraType": "ScreenTransform",
     "name": "ScreenTransform",
     "rttiType": "ScreenTransform",
@@ -312,7 +332,37 @@
   },
   {
     "guid": {
-      "a": "123732b8-f9dc-72bf-29da-e6b95c01fd8d",
+      "a": "16c39890-0604-33ef-5132-158f15a44164",
+      "b": ""
+    },
+    "objGuid": "Guid(5309104149014605729, 45106731530639291)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "e30e397c-4f1d-5215-de50-bf92627cb35f",
+      "b": ""
+    },
+    "objGuid": "Guid(5652514418629357394, 11689078787421362848)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "c412f876-1318-8869-4884-f5e205dc02be",
       "b": ""
     },
     "objGuid": "Guid(18179240389788327967, 3711782620776042119)",
@@ -325,6 +375,7 @@
     "expanded": true,
     "editable": true,
     "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
     "blendMode": "Normal",
     "drawMode": "Normal",
     "filledType": 0,
@@ -332,12 +383,11 @@
     "filledRange": 1,
     "ellipseX": 1,
     "ellipseY": 1,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
-    "texture": "9fc32c08-0e7e-c2ac-2e29-c4122bd27a60"
+    "texture": "7303dffc-aa3a-2caa-ed1e-8efa762b205d"
   },
   {
     "guid": {
-      "a": "c0ba1890-1445-e440-fd1d-6f78f8bf3626",
+      "a": "4d565cd3-f8cf-f352-85e7-4414d6e1d835",
       "b": ""
     },
     "objGuid": "Guid(4718074847762604587, 1656762916454705295)",
@@ -353,7 +403,7 @@
   },
   {
     "guid": {
-      "a": "e418d837-1d54-fa45-6295-42f24b443d8d",
+      "a": "fd1ffd50-e057-c906-f389-a62e61ad399c",
       "b": ""
     },
     "objGuid": "Guid(5178204885679123650, 18413131939837876911)",
@@ -368,7 +418,7 @@
   },
   {
     "guid": {
-      "a": "e550094a-14a7-25d6-e657-6a6ae92bfb29",
+      "a": "c116b7dc-c5e5-b239-4626-1a3ddf1285a6",
       "b": ""
     },
     "objGuid": "Guid(5742545793642379635, 9785814974062752157)",
@@ -384,7 +434,7 @@
   },
   {
     "guid": {
-      "a": "0eb7e6d0-a977-923f-7c7e-67e152f26529",
+      "a": "af02ed0f-ee3b-e284-e1cb-c86d89052a9d",
       "b": ""
     },
     "objGuid": "Guid(5314696905760136034, 1205953582004830860)",
@@ -400,7 +450,7 @@
   },
   {
     "guid": {
-      "a": "c9b3b0b8-13d5-0f9b-bcda-11897d6c9e3e",
+      "a": "d2d3ceda-cedd-d9f4-4d89-86166ab6fe81",
       "b": ""
     },
     "objGuid": "Guid(4932606833294117123, 5834054521680910736)",
@@ -416,7 +466,7 @@
   },
   {
     "guid": {
-      "a": "5c92f5ca-c425-1f78-ca37-51e18d731a78",
+      "a": "9f03075a-76be-6cf3-9bd2-2090bf3e6f6e",
       "b": ""
     },
     "objGuid": "Guid(5514557499486827741, 789867603714801833)",
@@ -429,18 +479,18 @@
     "expanded": true,
     "editable": true,
     "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
     "blendMode": "Normal",
     "drawMode": "Normal",
     "filledType": 0,
     "startPoint": 0,
     "filledRange": 1,
     "ellipseX": 1,
-    "ellipseY": 1,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132"
+    "ellipseY": 1
   },
   {
     "guid": {
-      "a": "9299ae41-8f87-88ef-546b-d29e62b773aa",
+      "a": "3f25a6ce-e9d3-7b1f-541e-72a1133a4f66",
       "b": ""
     },
     "objGuid": "Guid(4673695439619273996, 3569245844274913463)",
@@ -456,7 +506,7 @@
   },
   {
     "guid": {
-      "a": "132da2ab-23f4-b2ef-c2c0-4427dd5bf04d",
+      "a": "ba5cbbaf-2a94-7be8-9586-b45e4e492eb3",
       "b": ""
     },
     "objGuid": "Guid(5620485612617976315, 11851041940936882364)",
@@ -469,23 +519,23 @@
     "expanded": true,
     "editable": true,
     "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
     "blendMode": "Normal",
     "drawMode": "Normal",
     "filledType": 0,
     "startPoint": 0,
     "filledRange": 1,
     "ellipseX": 1,
-    "ellipseY": 1,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132"
+    "ellipseY": 1
   },
   {
     "guid": {
-      "a": "41c6cf41-3c8b-01b6-6d9d-7ca22567e32f",
+      "a": "ce8cfece-86d1-30e9-77f4-148055698186",
       "b": ""
     },
-    "objGuid": "Guid(5588524021709990530, 12810722938757188268)",
+    "objGuid": "Guid(5008176667843542674, 12759171502014855823)",
     "extraType": "Entity",
-    "name": "Start",
+    "name": "Finger",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -496,10 +546,10 @@
   },
   {
     "guid": {
-      "a": "f3790d16-2afc-c75b-bb06-a1ae3fa9e711",
+      "a": "76ffd6d3-6b78-8e8d-da0f-dd9d9f1e645f",
       "b": ""
     },
-    "objGuid": "Guid(5019009397529272272, 13818722647765855374)",
+    "objGuid": "Guid(5561538091499486484, 5813522262977214868)",
     "extraType": "Image",
     "name": "Image",
     "rttiType": "ImageRenderer",
@@ -509,6 +559,7 @@
     "expanded": true,
     "editable": true,
     "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
     "blendMode": "Normal",
     "drawMode": "Normal",
     "filledType": 0,
@@ -516,6 +567,120 @@
     "filledRange": 1,
     "ellipseX": 1,
     "ellipseY": 1,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132"
+    "texture": "123f3d5f-87b0-30bf-f8f6-f04fdfe30d01"
+  },
+  {
+    "guid": {
+      "a": "fbe6be48-67b5-ddab-fb34-a14fc677f6d5",
+      "b": ""
+    },
+    "objGuid": "Guid(5065355495800830587, 1474248093804528518)",
+    "extraType": "Entity",
+    "name": "Audio Player",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_utility"
+  },
+  {
+    "guid": {
+      "a": "1c71df5a-d168-f6a5-4b89-dea8211fb320",
+      "b": ""
+    },
+    "objGuid": "Guid(5121631172794105151, 4497022724233590684)",
+    "extraType": "AudioComponent",
+    "name": "AudioComponent",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "audioRef": "4c5cefd8-4c7d-06b9-1784-0d528be00a92"
+  },
+  {
+    "guid": {
+      "a": "a7ff5fbc-5ec9-8119-4b92-a11c36b40609",
+      "b": ""
+    },
+    "objGuid": "Guid(5146146876971662471, 2874021314423676059)",
+    "extraType": "Entity",
+    "name": "Binh-Xam",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "ec8e7941-2f66-2cc0-e343-8463fa2e5b1b",
+      "b": ""
+    },
+    "objGuid": "Guid(5292817650585804335, 10974488502170993283)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "texture": "c37401f7-898f-822a-a7e0-2485fe1d27c9"
+  },
+  {
+    "guid": {
+      "a": "b5ce3266-c391-1e4c-06ea-19f04710eabf",
+      "b": ""
+    },
+    "objGuid": "Guid(4905664336621122396, 2211779234957309627)",
+    "extraType": "Entity",
+    "name": "Que-Xam",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "fa636328-1548-f24d-48af-72a326063d6e",
+      "b": ""
+    },
+    "objGuid": "Guid(5402357576099154952, 15953681620544729741)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "texture": "8ce44c56-39d1-4997-5acb-3ce99e9eb15a"
   }
 ]
