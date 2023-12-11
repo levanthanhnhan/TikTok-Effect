@@ -1,7 +1,7 @@
 [
   {
     "guid": {
-      "a": "c505574d-d095-5fc3-74cd-7a90739c7440",
+      "a": "d7f68ba2-0801-d69c-7a89-3ac27f12bdfe",
       "b": ""
     },
     "objGuid": "Guid(4198415936017778745, 14765787784143921059)",
@@ -17,7 +17,7 @@
   },
   {
     "guid": {
-      "a": "0af95576-5fcc-604d-c3fd-7d1f0cc6f578",
+      "a": "f2012a83-cdfe-0151-fef5-6ee7c90dbe7b",
       "b": ""
     },
     "objGuid": "Guid(17819553278506754116, 11693808448086408084)",
@@ -37,7 +37,7 @@
   },
   {
     "guid": {
-      "a": "625a18a3-f054-7cbb-05d7-43ed1dabb501",
+      "a": "1a32da99-9434-9833-77ae-a773534ec73f",
       "b": ""
     },
     "objGuid": "Guid(14722210171812686582, 1068903947619179197)",
@@ -57,7 +57,7 @@
   },
   {
     "guid": {
-      "a": "3e6ddf74-d15c-81cf-0c68-969e2dd04f2b",
+      "a": "0f0bd963-d155-b2f5-21fe-f297bc77b99f",
       "b": ""
     },
     "objGuid": "Guid(5603679085797069321, 12884459488054672788)",
@@ -77,7 +77,7 @@
   },
   {
     "guid": {
-      "a": "962321b2-aadc-d2a4-9b9f-006da28f2f49",
+      "a": "e6350ded-896d-de6a-03e8-21fa11b8fb6c",
       "b": ""
     },
     "objGuid": "Guid(4651213872910220194, 8557246422679458741)",
@@ -97,7 +97,7 @@
   },
   {
     "guid": {
-      "a": "d62e3939-51a1-de59-bf26-26b88c8523d9",
+      "a": "4f585fbf-d3fe-aecf-bc20-c82a3fde9c7b",
       "b": ""
     },
     "objGuid": "Guid(5534065380530024451, 10715950094051665812)",
@@ -117,7 +117,7 @@
   },
   {
     "guid": {
-      "a": "bbd9b8bd-71c9-73b3-f297-713b09d8695f",
+      "a": "e47a57d1-c8f0-11c4-bd1c-5d0d6384a761",
       "b": ""
     },
     "objGuid": "Guid(4823163344407250834, 15797769591732975492)",
@@ -137,7 +137,7 @@
   },
   {
     "guid": {
-      "a": "2e899f8a-b671-16ce-0b10-7a9fd9735c96",
+      "a": "4a451cc6-71c0-72c9-0868-0b90f8ec7891",
       "b": ""
     },
     "objGuid": "Guid(5126708287438762998, 13124566123505657732)",
@@ -157,7 +157,7 @@
   },
   {
     "guid": {
-      "a": "adc6df9c-b40b-385b-99a3-5ebeb096872b",
+      "a": "f777f6ac-a6a0-8503-e99e-b7513c98f4d6",
       "b": ""
     },
     "objGuid": "Guid(5636256671145882237, 1106721712566259342)",
@@ -177,7 +177,7 @@
   },
   {
     "guid": {
-      "a": "1ad57041-52e6-19bf-c829-51ab0582ddb6",
+      "a": "85d7d982-c434-216f-1c62-947c4a5c92eb",
       "b": ""
     },
     "objGuid": "Guid(13280872629729725333, 11049665368682058627)",
@@ -193,7 +193,7 @@
   },
   {
     "guid": {
-      "a": "29ef2671-b8b1-edf5-1d63-748aa94b9fab",
+      "a": "8c5b3302-6fe7-1315-ef56-d7f3d5b6dbbb",
       "b": ""
     },
     "objGuid": "Guid(884979045772163168, 8074726476798817442)",
@@ -209,7 +209,7 @@
   },
   {
     "guid": {
-      "a": "996f5bc9-d3f9-2823-b9a9-0f5061ac14c1",
+      "a": "c5706f7f-3024-fda3-36a4-23e795fc224d",
       "b": ""
     },
     "objGuid": "Guid(13062555174515800951, 14056927660148220324)",
@@ -224,7 +224,7 @@
   },
   {
     "guid": {
-      "a": "4c4d5514-f807-4a98-67a8-66ba82f1c262",
+      "a": "158ca4af-ad41-3239-9cf0-863147b0db75",
       "b": ""
     },
     "objGuid": "Guid(5111772254015313170, 3012094355087371404)",
@@ -240,7 +240,7 @@
   },
   {
     "guid": {
-      "a": "00ceb6ae-bf92-9b12-7ba4-fad5519a7fe2",
+      "a": "08cd6f1c-0661-00d7-6f6c-142f8ae22554",
       "b": ""
     },
     "objGuid": "Guid(4882258393517520277, 939588679085383832)",
@@ -255,7 +255,7 @@
   },
   {
     "guid": {
-      "a": "9f8fd840-33ed-136a-05ad-03c16e580377",
+      "a": "3069a3b0-fc0f-ad58-b2ef-52bc67941857",
       "b": ""
     },
     "objGuid": "Guid(4718074847762604587, 1656762916454705295)",
@@ -271,7 +271,7 @@
   },
   {
     "guid": {
-      "a": "a1e9fb88-34d8-5509-b638-41b0cd316717",
+      "a": "43601173-137b-36fe-513b-08b25c2ec5ce",
       "b": ""
     },
     "objGuid": "Guid(5731852296442871279, 2226627629554829972)",
@@ -291,7 +291,7 @@
   },
   {
     "guid": {
-      "a": "f95f3521-5be4-0e4d-234b-406211d560b4",
+      "a": "bc199754-8ea1-7ae7-fe20-80f1c24d373c",
       "b": ""
     },
     "objGuid": "Guid(4796360839917760665, 17477007313897935796)",
@@ -311,7 +311,7 @@
   },
   {
     "guid": {
-      "a": "13d5c72f-3af3-b975-4cdb-580e06b88056",
+      "a": "24820244-a5f3-c02b-4755-821c68453233",
       "b": ""
     },
     "objGuid": "Guid(5034322291995364929, 7945047633812393875)",
@@ -326,7 +326,7 @@
   },
   {
     "guid": {
-      "a": "4743a2ad-a248-b056-0354-9a698a257f19",
+      "a": "482f4200-c774-1e92-dc01-a4675fe2e4aa",
       "b": ""
     },
     "objGuid": "Guid(5222787438337391083, 12672745463788512191)",
@@ -341,7 +341,7 @@
   },
   {
     "guid": {
-      "a": "d7f5dbbc-bb4d-efc6-faf6-550eb4613610",
+      "a": "9709c71d-bf16-e25b-d491-4fce1c01e93b",
       "b": ""
     },
     "objGuid": "Guid(4844279071433676372, 11705877659966820008)",
@@ -356,47 +356,7 @@
   },
   {
     "guid": {
-      "a": "0a22c2eb-5390-c2c6-63d6-3f0e0775bb2a",
-      "b": ""
-    },
-    "objGuid": "Guid(14359216296868896332, 1073937675378553279)",
-    "extraType": "Transform",
-    "name": "Transform",
-    "rttiType": "Transform",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "editable": true,
-    "eulerAngle": [
-      7.731350898742676,
-      1.7023866176605225,
-      359.7613220214844
-    ]
-  },
-  {
-    "guid": {
-      "a": "6c68b994-a796-189b-436e-3746488eba8e",
-      "b": ""
-    },
-    "objGuid": "Guid(4889186608674427234, 18413967141824681363)",
-    "extraType": "Transform",
-    "name": "Transform",
-    "rttiType": "Transform",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "editable": true,
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ]
-  },
-  {
-    "guid": {
-      "a": "39b08699-0c99-dfd9-bba7-96ed840aa741",
+      "a": "4e46eef2-4207-45de-8561-a03140c76111",
       "b": ""
     },
     "objGuid": "Guid(5309104149014605729, 45106731530639291)",
@@ -411,7 +371,7 @@
   },
   {
     "guid": {
-      "a": "f1ac270c-d0a2-65d4-6c06-bea4f9b7b387",
+      "a": "80d720cb-93df-2bfd-f3a6-8c8627c65649",
       "b": ""
     },
     "objGuid": "Guid(5652514418629357394, 11689078787421362848)",
@@ -426,12 +386,12 @@
   },
   {
     "guid": {
-      "a": "bfb75f63-9476-784e-7d96-790b7297d718",
+      "a": "6aff2618-6831-ebb5-f1a2-d514d6d47c23",
       "b": ""
     },
     "objGuid": "Guid(4676398585741514002, 8707588067897297077)",
     "extraType": "ScreenTransform",
-    "name": "Screen Transform",
+    "name": "ScreenTransform",
     "rttiType": "ScreenTransform",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -441,10 +401,25 @@
   },
   {
     "guid": {
-      "a": "ec8d375f-0150-5ab9-0f11-ff79c21ed28d",
+      "a": "94a903b7-3e2f-a346-5c0a-fb04f3280f72",
       "b": ""
     },
     "objGuid": "Guid(5624682322292139948, 2113456081990550441)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "14403283-2452-0e2e-e66c-05219a642184",
+      "b": ""
+    },
+    "objGuid": "Guid(5016870473026423978, 9239434930455053226)",
     "extraType": "ScreenTransform",
     "name": "Screen Transform",
     "rttiType": "ScreenTransform",
@@ -456,7 +431,22 @@
   },
   {
     "guid": {
-      "a": "f4d53d62-34c3-7b4d-7022-86e7f31c458b",
+      "a": "5ff5478f-d7b3-061c-f3f6-268ae5d02183",
+      "b": ""
+    },
+    "objGuid": "Guid(4741975766200187118, 9354612902985964447)",
+    "extraType": "ScreenTransform",
+    "name": "Screen Transform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "e586f3e7-e3bc-7447-c385-7272db2e57a8",
       "b": ""
     },
     "objGuid": "Guid(5178204885679123650, 18413131939837876911)",
@@ -471,7 +461,7 @@
   },
   {
     "guid": {
-      "a": "163971c7-80b4-70de-f92e-ed7167713e87",
+      "a": "80a3114a-6b03-cbfc-b8c8-e2200eb9a436",
       "b": ""
     },
     "objGuid": "Guid(5742545793642379635, 9785814974062752157)",
@@ -487,7 +477,7 @@
   },
   {
     "guid": {
-      "a": "42b001f0-8eed-7417-be15-e6671305589f",
+      "a": "a33d3c00-1243-3126-e27c-312963786ff6",
       "b": ""
     },
     "objGuid": "Guid(5314696905760136034, 1205953582004830860)",
@@ -503,7 +493,7 @@
   },
   {
     "guid": {
-      "a": "c1b025ca-0a2d-1640-7f8f-a69bec3ff649",
+      "a": "2978f0a2-6b10-6776-2663-ee9e748d7b57",
       "b": ""
     },
     "objGuid": "Guid(4932606833294117123, 5834054521680910736)",
@@ -519,7 +509,7 @@
   },
   {
     "guid": {
-      "a": "fd72c026-9480-5fcf-178e-95ce37853bad",
+      "a": "817dc2c5-ceb6-c11e-bc6e-e0ab7239165a",
       "b": ""
     },
     "objGuid": "Guid(5514557499486827741, 789867603714801833)",
@@ -543,7 +533,7 @@
   },
   {
     "guid": {
-      "a": "44bb01c1-6e77-6668-3465-a5bef4fe64ce",
+      "a": "002f0e28-84e3-fd24-7707-b430ba714bac",
       "b": ""
     },
     "objGuid": "Guid(4673695439619273996, 3569245844274913463)",
@@ -559,7 +549,7 @@
   },
   {
     "guid": {
-      "a": "6fdcd286-b384-611f-f6a2-3742b391490f",
+      "a": "dd1758dd-0a45-9abc-5a57-6c08cac290b3",
       "b": ""
     },
     "objGuid": "Guid(5620485612617976315, 11851041940936882364)",
@@ -583,7 +573,7 @@
   },
   {
     "guid": {
-      "a": "4262ad95-ef94-49f3-00d9-5b3ab02ad5fd",
+      "a": "d937051a-5829-ef6a-1c47-e9ea0fbcfafa",
       "b": ""
     },
     "objGuid": "Guid(5008176667843542674, 12759171502014855823)",
@@ -599,7 +589,7 @@
   },
   {
     "guid": {
-      "a": "b96a773b-467f-4825-93c8-1195e265d7f3",
+      "a": "d450a761-d8eb-dc1d-e38a-8da8c0f47674",
       "b": ""
     },
     "objGuid": "Guid(5561538091499486484, 5813522262977214868)",
@@ -620,11 +610,11 @@
     "filledRange": 1,
     "ellipseX": 1,
     "ellipseY": 1,
-    "texture": "123f3d5f-87b0-30bf-f8f6-f04fdfe30d01"
+    "texture": "4ac0ae0d-06fa-74e1-1dcb-748f6a16d9c9"
   },
   {
     "guid": {
-      "a": "547b22f0-e033-f6d0-772a-e0e1f30b43e6",
+      "a": "b666134f-f045-e9e1-42cf-9ac1c3d57418",
       "b": ""
     },
     "objGuid": "Guid(5065355495800830587, 1474248093804528518)",
@@ -640,7 +630,7 @@
   },
   {
     "guid": {
-      "a": "00994f7a-bfd9-f2c0-f4e1-f921c50e56d8",
+      "a": "106700c3-d580-2810-4ff5-720c2c670110",
       "b": ""
     },
     "objGuid": "Guid(5121631172794105151, 4497022724233590684)",
@@ -656,7 +646,7 @@
   },
   {
     "guid": {
-      "a": "d01e9065-10d7-59a1-3a8d-35b6fde44cb2",
+      "a": "ff0e4fe6-e020-c7b3-0ac5-0c2e44efda2d",
       "b": ""
     },
     "objGuid": "Guid(5146146876971662471, 2874021314423676059)",
@@ -672,7 +662,7 @@
   },
   {
     "guid": {
-      "a": "c31ea878-cc40-19ba-37d0-2b48c5cef041",
+      "a": "2a84a51e-4af9-04a2-ff47-92f87bb90e2f",
       "b": ""
     },
     "objGuid": "Guid(5292817650585804335, 10974488502170993283)",
@@ -697,7 +687,7 @@
   },
   {
     "guid": {
-      "a": "2c06b178-9c7c-948d-a9b3-15b5d60b52df",
+      "a": "891ee221-c681-7f54-14ec-2bfe85056a9d",
       "b": ""
     },
     "objGuid": "Guid(4905664336621122396, 2211779234957309627)",
@@ -713,7 +703,7 @@
   },
   {
     "guid": {
-      "a": "2c09189c-aee3-0946-8277-f3782527ad59",
+      "a": "4c564cb3-b8cf-1ba7-b427-19dfe30a8b16",
       "b": ""
     },
     "objGuid": "Guid(5402357576099154952, 15953681620544729741)",
@@ -738,48 +728,7 @@
   },
   {
     "guid": {
-      "a": "3f429d42-d861-6514-cdf3-664eac9751cb",
-      "b": ""
-    },
-    "objGuid": "Guid(5059428937114405611, 3074608451086855305)",
-    "extraType": "Entity",
-    "name": "Answers Sequencer",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": "effect_node_utility"
-  },
-  {
-    "guid": {
-      "a": "0aa55c27-1fe2-e6fb-4d49-ca44fa486284",
-      "b": ""
-    },
-    "objGuid": "Guid(5482067413854922215, 17012297212014165437)",
-    "extraType": "Image",
-    "name": "Image",
-    "rttiType": "ImageRenderer",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "editable": true,
-    "alphaNOPM": true,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
-    "blendMode": "Normal",
-    "drawMode": "Normal",
-    "filledType": 0,
-    "startPoint": 0,
-    "filledRange": 1,
-    "ellipseX": 1,
-    "ellipseY": 1,
-    "texture": "1b4cf520-957f-e346-b3d3-d3010f0073c8"
-  },
-  {
-    "guid": {
-      "a": "b144d558-cd82-3235-05e4-64e875b33f73",
+      "a": "88579bea-68d6-c77d-5938-68ce3f9371c0",
       "b": ""
     },
     "objGuid": "Guid(4732067519065489245, 1166350119730709163)",
@@ -795,7 +744,7 @@
   },
   {
     "guid": {
-      "a": "17a872d6-991d-7c30-5ae3-3c4721980255",
+      "a": "5455f480-07da-54bb-d3d2-38d9ff5fa2bf",
       "b": ""
     },
     "objGuid": "Guid(4615100451839525767, 2655205272624885424)",
@@ -819,48 +768,7 @@
   },
   {
     "guid": {
-      "a": "df3229bb-fb6d-f3cd-5abe-51ed0bdfb5d3",
-      "b": ""
-    },
-    "objGuid": "Guid(1965288597692592099, 4751974858846455731)",
-    "extraType": "Entity",
-    "name": "Questions Sequencer",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": "effect_node_utility"
-  },
-  {
-    "guid": {
-      "a": "b18c13a8-8c5b-b2da-730e-0f58853a6ed5",
-      "b": ""
-    },
-    "objGuid": "Guid(18179240389788327967, 3711782620776042119)",
-    "extraType": "Image",
-    "name": "Image",
-    "rttiType": "ImageRenderer",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "editable": true,
-    "alphaNOPM": true,
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
-    "blendMode": "Normal",
-    "drawMode": "Normal",
-    "filledType": 0,
-    "startPoint": 0,
-    "filledRange": 1,
-    "ellipseX": 1,
-    "ellipseY": 1,
-    "texture": "7303dffc-aa3a-2caa-ed1e-8efa762b205d"
-  },
-  {
-    "guid": {
-      "a": "4c150082-d7d5-575c-d98c-ec4a1b3b3495",
+      "a": "f1c9ebba-57bb-144f-2cf1-9a42749649f7",
       "b": ""
     },
     "objGuid": "Guid(4908342624275366658, 18366274096456030099)",
@@ -876,7 +784,7 @@
   },
   {
     "guid": {
-      "a": "6d983100-191f-fda6-7a68-907afcea4577",
+      "a": "aa4d4849-8c68-9c19-5ae3-2d651e515ab7",
       "b": ""
     },
     "objGuid": "Guid(5746024999307431495, 16587454363988939136)",
@@ -900,7 +808,7 @@
   },
   {
     "guid": {
-      "a": "415004b0-c55f-6159-ec69-1b9cd71b324a",
+      "a": "a86232cb-8702-497f-fabe-66a8eb55cb06",
       "b": ""
     },
     "objGuid": "Guid(5210109653948609022, 13430700762424255638)",
@@ -916,7 +824,7 @@
   },
   {
     "guid": {
-      "a": "f852fecc-e2e7-7ad4-657e-83e4ac68971c",
+      "a": "061b3532-b2a9-ecf0-e01f-d0fa1bbd73ee",
       "b": ""
     },
     "objGuid": "Guid(4875689760117149864, 8843796461041264568)",
@@ -937,11 +845,11 @@
     "filledRange": 1,
     "ellipseX": 1,
     "ellipseY": 1,
-    "texture": "7303dffc-aa3a-2caa-ed1e-8efa762b205d"
+    "texture": "c64696b8-3260-1b9b-f69e-7129e4408103"
   },
   {
     "guid": {
-      "a": "faf2cf7e-d505-dccb-bd16-10976de5f49f",
+      "a": "82b2913c-0069-0781-9c0c-b1019c9fb506",
       "b": ""
     },
     "objGuid": "Guid(5229199367298822598, 4772420605659211401)",
@@ -957,7 +865,7 @@
   },
   {
     "guid": {
-      "a": "7d21e38b-974a-2eba-880e-6492d314956e",
+      "a": "41ab8e73-bfa1-eb69-1384-b1307ac17d0a",
       "b": ""
     },
     "objGuid": "Guid(4899823702085696799, 9257624908967582602)",
@@ -978,16 +886,16 @@
     "filledRange": 1,
     "ellipseX": 1,
     "ellipseY": 1,
-    "texture": "1b4cf520-957f-e346-b3d3-d3010f0073c8"
+    "texture": "75bea257-77ac-ba06-2307-beeba95b1a87"
   },
   {
     "guid": {
-      "a": "7ea38e87-1e7e-f386-c365-7b94590eacc4",
+      "a": "701f7c85-4d71-d6c7-785c-260bbbd8bfe3",
       "b": ""
     },
     "objGuid": "Guid(5408514725311219800, 1018342603295083958)",
     "extraType": "Entity",
-    "name": "Button Start",
+    "name": "Button Result",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -998,7 +906,7 @@
   },
   {
     "guid": {
-      "a": "338fce4a-e1b1-3ec1-04ea-5cd767b5f2b9",
+      "a": "1cfe4fdc-af68-8bf4-9d2a-164098c8c252",
       "b": ""
     },
     "objGuid": "Guid(4772055019166675476, 15115329359570963647)",
@@ -1022,7 +930,7 @@
   },
   {
     "guid": {
-      "a": "cae46528-3456-c391-5d5c-4f563c638015",
+      "a": "dd9f28d6-3b23-58fc-6303-cd1a15c24f74",
       "b": ""
     },
     "objGuid": "Guid(5443230992335183726, 245356780513113781)",
@@ -1038,10 +946,90 @@
   },
   {
     "guid": {
-      "a": "e3fb0937-97cb-b165-3db5-774ee216571d",
+      "a": "525ac37c-d138-0782-ea11-8d3805043be0",
       "b": ""
     },
     "objGuid": "Guid(5670755001673723148, 9761816153854242188)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1
+  },
+  {
+    "guid": {
+      "a": "1b06ac59-8b13-de0f-5d25-a8c3cbfb2b3c",
+      "b": ""
+    },
+    "objGuid": "Guid(5312483458373017780, 3507007583998360218)",
+    "extraType": "Entity",
+    "name": "Lable Que Xam",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "af08c89c-8f1a-3e2a-95b9-8a4e399ccecf",
+      "b": ""
+    },
+    "objGuid": "Guid(5202327917884298119, 145889627900552886)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": true,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1
+  },
+  {
+    "guid": {
+      "a": "9918be8b-7f44-dd27-b1c5-44f44b948171",
+      "b": ""
+    },
+    "objGuid": "Guid(4835155562273965488, 14394480530649117059)",
+    "extraType": "Entity",
+    "name": "Lable Luan Giai",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "e7aa0d6c-2758-1c6e-fe3c-ef855ff1becb",
+      "b": ""
+    },
+    "objGuid": "Guid(4638297083030952265, 17163372573292363429)",
     "extraType": "Image",
     "name": "Image",
     "rttiType": "ImageRenderer",
