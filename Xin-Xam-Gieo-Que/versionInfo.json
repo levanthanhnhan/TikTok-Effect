@@ -6,8 +6,8 @@
       "EffectNode": "d751713988987e9331980363e24189ce",
       "Camera": "cd9b9dda9fec962a33e3dd34bc6788cc",
       "EnvironmentLighting": "3174ed5b249dee36048cc3acff47d1e7",
-      "Image": "5bfea2268185a203e09a49429d177adf",
       "ScreenTransform": "9231ccae42d61082fe6117ce74430370",
+      "Image": "5bfea2268185a203e09a49429d177adf",
       "AudioComponent": "c9336be5153eaf6079d201eb638af26f"
     }
   }
