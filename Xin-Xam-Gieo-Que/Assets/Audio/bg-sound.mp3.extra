@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "aab544d1-e3ad-cb70-e25e-5082b554d488",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "bg-sound_compress",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "TIMEOUT"
+  }
+]

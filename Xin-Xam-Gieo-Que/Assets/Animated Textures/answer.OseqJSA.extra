@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "75bea257-77ac-ba06-2307-beeba95b1a87",
+      "a": "0d2494f4-52a3-37f6-2b3d-ee44608268d1",
       "b": ""
     },
     "extraType": "JSAssetAnimSequence",
-    "name": "answer",
+    "name": "answer (1)",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture2D",
