@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "79cbcb1f-de94-6dd0-a115-8e14918db265",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "bg_sound",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "DETECTING"
+  }
+]
