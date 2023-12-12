@@ -326,7 +326,7 @@ entities:
           value: OFF
         entirePingPong: false
         texture: {localId: 1, path: 6761beb2-08bc-c621-c792-000f20e483c1--6761beb2-08bc-c621-c792-000f20e483c1.png}
-        opacity: 0.8999999761581421
+        opacity: 0.8500000238418579
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
         pivot: {x: 0.5, y: 0.5}
@@ -442,7 +442,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: custom://a2b1d3b4-f968-31f9-2243-e1ca90603a49}
+        texture: {localId: 1, path: custom://dab16971-daf9-0dde-c5ee-36ebf22f5801}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -635,8 +635,8 @@ entities:
           loopAmount: 999
           mute: false
           playMode: Loop
-          resPath: audio/79cbcb1f-de94-6dd0-a115-8e14918db265.mp3
-          volume: 30
+          resPath: audio/aab544d1-e3ad-cb70-e25e-5082b554d488.mp3
+          volume: 25
     layer: 0
 visible: true
 config:

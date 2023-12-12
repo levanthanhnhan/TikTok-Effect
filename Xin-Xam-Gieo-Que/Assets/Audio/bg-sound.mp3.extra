@@ -5,7 +5,7 @@
       "b": ""
     },
     "extraType": "ResItemMP3",
-    "name": "bg-sound_compress",
+    "name": "bg-sound",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "AudioClip",
