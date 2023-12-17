@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "d618b192-4312-1433-c082-8a42ad0f007d",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "shake",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "c37401f7-898f-822a-a7e0-2485fe1d27c9",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "shake",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

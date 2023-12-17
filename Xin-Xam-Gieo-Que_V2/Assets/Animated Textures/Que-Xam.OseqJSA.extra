@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8ce44c56-39d1-4997-5acb-3ce99e9eb15a",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Que-Xam",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

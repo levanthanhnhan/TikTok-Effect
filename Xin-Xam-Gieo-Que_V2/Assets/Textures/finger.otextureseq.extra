@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "fc81883d-955b-ba34-ea2e-850a0383f740",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "finger",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

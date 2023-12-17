@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "62cca6bf-8d96-a85f-e76f-bd9173889c7c",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Que-Xam",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]

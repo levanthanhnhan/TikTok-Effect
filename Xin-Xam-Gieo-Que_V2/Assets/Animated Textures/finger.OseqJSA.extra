@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "4ac0ae0d-06fa-74e1-1dcb-748f6a16d9c9",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "finger",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
