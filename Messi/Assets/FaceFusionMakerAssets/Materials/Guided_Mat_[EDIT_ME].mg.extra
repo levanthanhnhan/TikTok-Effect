@@ -12,7 +12,7 @@
     "version": "0.3.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(5202836535239330326, 15150995734588215725)",
+    "skinObjGuid": "Guid(5542891524041929271, 3237136219756653989)",
     "references": [
       {
         "propertyName": "_Custom_Sampler2D_2",

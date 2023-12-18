@@ -1,0 +1,28 @@
+{
+	"id": "dedb588f-cac2-8f85-fb3a-28233537d1a5",
+	"name": "Timer",
+	"category": "Utility",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Total Time",
+			"description": "Total time.",
+			"type": "Number"
+		},
+		{
+			"name": "Delta Time",
+			"description": "Delta time.",
+			"type": "Number"
+		},
+		{
+			"name": "Smooth Delta Time",
+			"description": "Smooth delta time.",
+			"type": "Number"
+		}
+	],
+	"description": "Time passes from the beginning in second.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

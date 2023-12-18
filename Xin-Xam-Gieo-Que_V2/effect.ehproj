@@ -1,6 +1,6 @@
 {
   "name": "",
-  "lastModified": "Mon, 18 Dec 2023 08:24:27 GMT",
+  "lastModified": "Mon, 18 Dec 2023 16:18:40 GMT",
   "version": "3.5.1",
   "internalVersion": "2.5.0",
   "toolName": "Effect House",
@@ -77,9 +77,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 34855629437,
-  "durationCreation": 98469383,
-  "durationBackground": 42851800,
+  "durationToCreate": 34884082376,
+  "durationCreation": 100001741,
+  "durationBackground": 43671206,
   "autoResetEffect": false,
   "effectHint": "none",
   "templateID": "7224015039353634817",

@@ -1,0 +1,24 @@
+{
+	"id": "6d64917f-ac78-c15b-20e8-3016e6d02a14",
+	"name": "Const Float",
+	"category": "Constant",
+	"inputs": [
+		{
+			"name": "Input",
+			"description": "Input value.",
+			"type": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Value",
+			"description": "Float value.",
+			"type": "Number"
+		}
+	],
+	"description": "Define a float value.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

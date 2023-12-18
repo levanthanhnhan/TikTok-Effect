@@ -1,0 +1,58 @@
+{
+	"id": "898910cf-16a3-c448-9d04-21e879c791df",
+	"name": "Step",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "Edge",
+			"description": "The location of the edge of step function",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Value",
+			"description": "Value to compare with the edge",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Step function result. 0 if x is less than the edge. 1 if x is largen than the edge.",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Return step function result of the second input compared to the first input.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Vector4f",
+				"Color"
+			],
+			"out": [
+				"Color"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}
