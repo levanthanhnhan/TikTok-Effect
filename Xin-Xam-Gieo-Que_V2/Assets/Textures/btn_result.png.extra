@@ -1,7 +1,7 @@
 [
   {
     "guid": {
-      "a": "d0a0bd3d-fdab-b92a-629b-bcee756f6176",
+      "a": "8be7b7b9-e5c2-b70f-6bbb-a061e6f25971",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
@@ -12,8 +12,8 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
+    "compressionType": 1,
+    "quality": 2,
     "maxResolution": 512,
     "enableMipmap": false,
     "filterMin": 1,

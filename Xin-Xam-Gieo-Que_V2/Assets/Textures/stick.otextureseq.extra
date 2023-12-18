@@ -5,15 +5,15 @@
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "Que-Xam",
+    "name": "stick",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "TextureSequence",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
+    "compressionType": 1,
+    "quality": 2,
     "maxResolution": 512,
     "premultiplyAlpha": false
   }

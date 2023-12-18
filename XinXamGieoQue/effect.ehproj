@@ -1,8 +1,8 @@
 {
   "name": "",
-  "lastModified": "Wed, 15 Nov 2023 16:18:42 GMT",
-  "version": "3.4.1",
-  "internalVersion": "2.3.0",
+  "lastModified": "Mon, 18 Dec 2023 04:11:55 GMT",
+  "version": "3.5.0",
+  "internalVersion": "2.5.0",
   "toolName": "Effect House",
   "projectID": "eb064991-27e3-e01a-3515-1d0f72fd7f97",
   "created": {
@@ -88,5 +88,6 @@
   "overwriteBuiltinFilter": true,
   "overwriteBuiltinMakeup": true,
   "overwriteBuiltinFaceShape": false,
+  "retouchBuiltInSetting": 0,
   "perfTested": false
 }

@@ -1,7 +1,7 @@
 [
   {
     "guid": {
-      "a": "fc81883d-955b-ba34-ea2e-850a0383f740",
+      "a": "867ec7b1-9b3f-8af4-767c-c2cefabbf03f",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
@@ -12,8 +12,8 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
+    "compressionType": 1,
+    "quality": 2,
     "maxResolution": 512,
     "premultiplyAlpha": false
   }

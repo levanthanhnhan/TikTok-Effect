@@ -147,7 +147,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: 0b4fbd91-af1a-9381-69f1-bf0b8822c850--0b4fbd91-af1a-9381-69f1-bf0b8822c850.png}
+        texture: {localId: 1, path: 6de95d9c-73d0-64e8-dc52-b9f7fac93d1f--6de95d9c-73d0-64e8-dc52-b9f7fac93d1f.png}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -186,7 +186,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: custom://5ffd5fbe-1e8f-7554-62fc-47cb93878155}
+        texture: {localId: 1, path: custom://a40326e3-3344-c974-1e7d-b5f0f932672a}
         opacity: 1
         color: {r: 0.9833333, g: 0.868611, b: 0.7211111, a: 1}
         size: {x: 10, y: 10}
@@ -227,7 +227,7 @@ entities:
           volume: 0
     layer: 0
   - __class: Entity
-    name: Binh-Xam
+    name: Shake
     guid: {a: 5146146876971662471, b: 2874021314423676059}
     scene: {localId: 1}
     selfvisible: false
@@ -266,7 +266,7 @@ entities:
           _startPoint: 0
     layer: 0
   - __class: Entity
-    name: Que-Xam
+    name: Stick
     guid: {a: 4905664336621122396, b: 2211779234957309627}
     scene: {localId: 1}
     selfvisible: false
@@ -325,7 +325,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: 6761beb2-08bc-c621-c792-000f20e483c1--6761beb2-08bc-c621-c792-000f20e483c1.png}
+        texture: {localId: 1, path: 58b17be1-0ade-70f8-be24-d2b2d49bc139--58b17be1-0ade-70f8-be24-d2b2d49bc139.png}
         opacity: 0.8500000238418579
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -403,7 +403,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: custom://704d4ddf-1419-fe35-8b30-dfbd7584b163}
+        texture: {localId: 1, path: custom://1d83eba7-1390-9f19-461d-227316382747}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -442,7 +442,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: custom://52660d22-dc95-5454-7518-c71a9ed88d4c}
+        texture: {localId: 1, path: custom://90869c0a-8002-8212-9aa2-dd918bddb903}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -481,7 +481,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: d0a0bd3d-fdab-b92a-629b-bcee756f6176--d0a0bd3d-fdab-b92a-629b-bcee756f6176.png}
+        texture: {localId: 1, path: 8be7b7b9-e5c2-b70f-6bbb-a061e6f25971--8be7b7b9-e5c2-b70f-6bbb-a061e6f25971.png}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}
@@ -520,7 +520,7 @@ entities:
           __class: LightProbeBlendMode
           value: OFF
         entirePingPong: false
-        texture: {localId: 1, path: eb27b253-b689-fa31-77a9-2cbcdc5f67ce--eb27b253-b689-fa31-77a9-2cbcdc5f67ce.png}
+        texture: {localId: 1, path: b8430775-046d-2369-9c8c-8ad4a2eb14d5--b8430775-046d-2369-9c8c-8ad4a2eb14d5.png}
         opacity: 1
         color: {r: 1, g: 1, b: 1, a: 1}
         size: {x: 10, y: 10}

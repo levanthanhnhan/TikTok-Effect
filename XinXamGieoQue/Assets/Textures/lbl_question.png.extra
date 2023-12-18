@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "b3714b57-21ef-608e-0863-08d8cbd76e62",
+      "a": "9db0f04f-a031-03f1-96f4-aeca779134ea",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "binh_xam",
+    "name": "lbl_question",
     "expandInPanel": false,
     "objGuid": "",
     "rttiType": "Texture2D",
