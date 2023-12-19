@@ -1,8 +1,8 @@
 {
   "name": "",
-  "lastModified": "Tue, 07 Nov 2023 11:22:58 GMT",
-  "version": "3.4.0",
-  "internalVersion": "2.3.0",
+  "lastModified": "Mon, 18 Dec 2023 12:43:05 GMT",
+  "version": "3.5.1",
+  "internalVersion": "2.5.0",
   "toolName": "Effect House",
   "projectID": "55e5d534-c950-4155-f2b4-7f9974de6361",
   "created": {
@@ -88,6 +88,7 @@
   "overwriteBuiltinFilter": true,
   "overwriteBuiltinMakeup": true,
   "overwriteBuiltinFaceShape": false,
+  "retouchBuiltInSetting": 0,
   "activityId": "new-creator-bonus-1",
   "activityName": "New Creator Bonus",
   "activityEnterFrom": "homepage",

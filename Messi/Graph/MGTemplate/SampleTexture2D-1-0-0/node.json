@@ -1,0 +1,56 @@
+{
+	"id": "63704228-4154-2649-b2fe-9e6240debd2c",
+	"name": "Sample Texture 2D",
+	"category": "Sample",
+	"inputs": [
+		{
+			"name": "Texture 2D",
+			"description": "2D texture to sample.",
+			"type": "Texture2D",
+			"defaultValue": "Default_Material_Texture_Icon",
+			"isUniform": true
+		},
+		{
+			"name": "UV",
+			"description": "UV coordinate.",
+			"type": "Vector2f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "RGBA",
+			"description": "Pixel value at the given UV coordinate.",
+			"type": "Color"
+		},
+		{
+			"name": "RGB",
+			"description": "Pixel value (without alpha) at the given UV coordinate.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "R",
+			"description": "R channel of the pixel value.",
+			"type": "Number"
+		},
+		{
+			"name": "G",
+			"description": "G channel of the pixel value.",
+			"type": "Number"
+		},
+		{
+			"name": "B",
+			"description": "B channel of the pixel value.",
+			"type": "Number"
+		},
+		{
+			"name": "A",
+			"description": "Alpha channel of the pixel value.",
+			"type": "Number"
+		}
+	],
+	"description": "2D texture sampler.",
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

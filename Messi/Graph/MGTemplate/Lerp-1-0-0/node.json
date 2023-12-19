@@ -1,0 +1,66 @@
+{
+	"id": "00aebcbe-86f8-f342-9689-2a1c68abb573",
+	"name": "Lerp",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "Value A.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "B",
+			"description": "Value B.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "Weight",
+			"description": "Weight of value B. Weight of value A is 1 minus this weight.",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Linear interpolation result.",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Calculate linear interpolation of the first and second value with a given weight.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"genType",
+				"genType",
+				"Number"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Color",
+				"Color",
+				"Vector4f"
+			],
+			"out": [
+				"Color"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}

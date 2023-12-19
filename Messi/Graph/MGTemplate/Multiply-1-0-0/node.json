@@ -1,0 +1,58 @@
+{
+	"id": "564c9833-df82-ce20-6e7c-6d555bcf203e",
+	"name": "Multiply",
+	"category": "Math",
+	"inputs": [
+		{
+			"name": "A",
+			"description": "Input value A.",
+			"type": "Vector3f"
+		},
+		{
+			"name": "B",
+			"description": "Input value B.",
+			"type": "Vector3f"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"description": "Result of A times B.",
+			"type": "Vector3f"
+		}
+	],
+	"description": "Calculate multiplication.",
+	"supportedInputs": [
+		{
+			"in": [
+				"genType",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"genType",
+				"Number"
+			],
+			"out": [
+				"genType"
+			]
+		},
+		{
+			"in": [
+				"Number",
+				"genType"
+			],
+			"out": [
+				"genType"
+			]
+		}
+	],
+	"productTypes": [
+		"EHO", "EHD", "EHI"
+	],
+	"version": "1.0.0"
+}
