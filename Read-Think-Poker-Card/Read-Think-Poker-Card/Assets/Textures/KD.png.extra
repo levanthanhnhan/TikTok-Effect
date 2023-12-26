@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "32090cc2-572d-81c3-b1ff-a25d87dced03",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "KD",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "connectionConfig": {
+    "rightConnection": [
+      {
+        "leftNodeId": "0183363f-9fc6-a402-b0d4-2a63d597f826",
+        "leftNodeInputIndex": [0],
+        "rightNodeId": "03cd6d30-fd31-3a17-40a8-c8b237afb900",
+        "rightNodeOutputIndex": [0],
+        "relativePos": {
+          "right": {
+            "x": 300,
+            "y": 50
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+	"name": "Speaker",
+	"id": "03cd6d30-fd31-3a17-40a8-c8b237afb900",
+	"inputs": [
+		{
+			"name": "Audio",
+			"type": "Audio Stream",
+			"description": "The audio source you want to use in the effect",
+			"displayType": "Audio Stream",
+			"nameKey": "graph_speaker_input_audio",
+			"descriptionKey": "graph_speaker_input_audio_description",
+			"displayTypeKey": "graph_type_audiostream"
+		},
+		{
+			"name": "Volume",
+			"description": "The volume of the audio stream. Value range: 0 (silence) to 100 (max).",
+			"type": "Double",
+			"displayType": "Number",
+			"default_value": 100,
+			"range": [
+				[
+					0,
+					100,
+					1
+				]
+			],
+			"nameKey": "graph_speaker_input_volume",
+			"descriptionKey": "graph_speaker_input_volume_description",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"outputs": [],
+	"audioNodeName": "SinkNode",
+	"scriptSupport": "js",
+	"js": "CGAudioSpeaker.js",
+	"category": "Audio",
+	"SDKVersion": "10.5.0",
+	"description": "Play the audio stream with volume control.",
+	"productTypes": [
+		"EHO",
+		"EHD",
+		"EHI"
+	],
+	"nodeEvent": [
+		"onUpdate",
+		"beforeStart"
+	],
+	"builtinClass": "AudioGeneralNode",
+	"version": "2.0.0",
+	"onlineWebsite": "graph_speaker_website",
+	"nameKey": "graph_speaker_name",
+	"categoryKey": "graph_category_audio",
+	"descriptionKey": "graph_speaker_description"
+}

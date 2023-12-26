@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "53f256e6-b3d3-5ef9-077a-3ea7e66c3bdf",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "KC",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

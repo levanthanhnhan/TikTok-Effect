@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "5b1c7a88-3534-9bb5-0f13-767e29826fdb",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "KH",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]
