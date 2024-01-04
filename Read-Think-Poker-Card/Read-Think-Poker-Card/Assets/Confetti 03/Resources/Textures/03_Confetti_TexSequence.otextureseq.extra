@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "7ee3bba7-6bc8-8866-6760-e2681607a9fe",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "03_Confetti_TexSequence",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "TextureSequence",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7288975893765308418",
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "premultiplyAlpha": false
+  }
+]
