@@ -124,7 +124,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 10}
+      - {localId: 23}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5548984160175442826, b: 17498225132215471288}
@@ -163,7 +163,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 11}
+      - {localId: 24}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5016973644062872885, b: 5123386743687763120}
@@ -202,7 +202,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 12}
+      - {localId: 25}
       - __class: ImageRenderer
         name: ""
         guid: {a: 4768636372616787792, b: 8493169869898878601}
@@ -241,7 +241,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 13}
+      - {localId: 26}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5439777881930726627, b: 4323314202644625052}
@@ -280,7 +280,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 14}
+      - {localId: 27}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5129301011206537290, b: 9325866538520093347}
@@ -319,7 +319,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 15}
+      - {localId: 28}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5119970083417105647, b: 17266009655798912686}
@@ -358,7 +358,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 6}
+      - {localId: 19}
       - __class: ImageRenderer
         name: ""
         guid: {a: 4844422324228166983, b: 953291936811436176}
@@ -397,7 +397,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 19}
+      - {localId: 6}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5596927558634269524, b: 3709146583698331066}
@@ -436,7 +436,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 20}
+      - {localId: 7}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5649096296994059683, b: 12079587614911860612}
@@ -475,7 +475,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 21}
+      - {localId: 8}
       - __class: ImageRenderer
         name: ""
         guid: {a: 4756154460684620360, b: 7598513850430859429}
@@ -514,7 +514,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 22}
+      - {localId: 9}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5000753982047668997, b: 14701792482152810659}
@@ -553,7 +553,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 23}
+      - {localId: 10}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5115887892274169359, b: 16706355283666678711}
@@ -592,7 +592,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 24}
+      - {localId: 11}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5695612222556617845, b: 4233114865184575138}
@@ -631,7 +631,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 25}
+      - {localId: 12}
       - __class: ImageRenderer
         name: ""
         guid: {a: 4989757271058862065, b: 9590808865090672791}
@@ -670,7 +670,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 26}
+      - {localId: 13}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5660446085089038569, b: 2296560897578350777}
@@ -709,7 +709,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 27}
+      - {localId: 14}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5568504850744881585, b: 2971037114391840159}
@@ -748,7 +748,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 28}
+      - {localId: 15}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5001228933761121498, b: 16792932479365371817}
@@ -787,7 +787,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 29}
+      - {localId: 16}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5153517946636135130, b: 16646646680061166231}
@@ -826,7 +826,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 30}
+      - {localId: 17}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5470880157912381149, b: 14907487342812777096}
@@ -865,7 +865,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 31}
+      - {localId: 18}
       - __class: ImageRenderer
         name: ""
         guid: {a: 4987327859046537653, b: 10624524346416902020}
@@ -995,7 +995,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 7}
+      - {localId: 20}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5515869557616124636, b: 404505802905941427}
@@ -1034,7 +1034,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 8}
+      - {localId: 21}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5093085973463635775, b: 7696613223718701965}
@@ -1073,7 +1073,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 9}
+      - {localId: 22}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5648447765064589656, b: 14423177346317192086}
@@ -1112,7 +1112,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 16}
+      - {localId: 29}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5531400972952717218, b: 9608338978300886973}
@@ -1151,7 +1151,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 17}
+      - {localId: 30}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5548000650651947011, b: 18194957757501275033}
@@ -1190,7 +1190,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 18}
+      - {localId: 31}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5633625773995223492, b: 4890902455229316261}
@@ -1736,7 +1736,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 49}
+      - {localId: 34}
       - __class: ImageRenderer
         name: ""
         guid: {a: 5607932962663161141, b: 3132627240669086392}
@@ -1774,7 +1774,7 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: NONE
+  value: _4X
 jsScriptSystems:
   - js/GraphSystem.js
   - js/Main.js
@@ -1807,8 +1807,8 @@ children:
   - {localId: 2}
   - {localId: 4}
   - {localId: 5}
-  - {localId: 19}
   - {localId: 6}
+  - {localId: 19}
   - {localId: 32}
 mobility:
   __class: Mobility
@@ -1837,7 +1837,7 @@ mobility:
   value: Dynamic
 --- !Transform &6
 name: ""
-guid: {a: 4733381871512859110, b: 14486345269551299999}
+guid: {a: 5059750076676276930, b: 12420237347351282563}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1853,9 +1853,9 @@ mobility:
   value: Dynamic
 --- !Transform &7
 name: ""
-guid: {a: 5718386981424357936, b: 7779368362150473101}
+guid: {a: 5140256380196628951, b: 14426658174884609920}
 enabled: true
-localPosition: {x: -7.5, y: 0, z: 0}
+localPosition: {x: -7.5, y: -10, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 6}
@@ -1867,7 +1867,7 @@ mobility:
   value: Dynamic
 --- !Transform &8
 name: ""
-guid: {a: 5194100177695875976, b: 15136752196804698772}
+guid: {a: 5186888399345486837, b: 4816060990650443690}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1878,7 +1878,7 @@ mobility:
   value: Dynamic
 --- !Transform &9
 name: ""
-guid: {a: 4879675377904501104, b: 16468825801429037972}
+guid: {a: 5244203940072905543, b: 3931511757326521476}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1889,9 +1889,9 @@ mobility:
   value: Dynamic
 --- !Transform &10
 name: ""
-guid: {a: 4880515713228108943, b: 6024193768814644370}
+guid: {a: 4873265547068470663, b: 18101947357206098580}
 enabled: true
-localPosition: {x: -2.5, y: 0, z: 0}
+localPosition: {x: -2.5, y: -10, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 6}
@@ -1903,7 +1903,7 @@ mobility:
   value: Dynamic
 --- !Transform &11
 name: ""
-guid: {a: 5178733036972968435, b: 10225994873868070785}
+guid: {a: 5275623304163027110, b: 5582336445218736526}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1914,7 +1914,7 @@ mobility:
   value: Dynamic
 --- !Transform &12
 name: ""
-guid: {a: 4699069243639448017, b: 18409828793675632784}
+guid: {a: 5075245985514506022, b: 11956947453103180948}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1925,9 +1925,9 @@ mobility:
   value: Dynamic
 --- !Transform &13
 name: ""
-guid: {a: 5478708153294425580, b: 727955769452153786}
+guid: {a: 5733609263431304024, b: 15603475821965189258}
 enabled: true
-localPosition: {x: 2.5, y: 0, z: 0}
+localPosition: {x: 2.5, y: -10, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 6}
@@ -1939,7 +1939,7 @@ mobility:
   value: Dynamic
 --- !Transform &14
 name: ""
-guid: {a: 5337413583876996910, b: 6282654833587155121}
+guid: {a: 5300361401448706938, b: 6375741840172763271}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1950,7 +1950,7 @@ mobility:
   value: Dynamic
 --- !Transform &15
 name: ""
-guid: {a: 5288163782470475887, b: 18301249228936309928}
+guid: {a: 5439560538202996899, b: 10541353074186439595}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1961,9 +1961,9 @@ mobility:
   value: Dynamic
 --- !Transform &16
 name: ""
-guid: {a: 5371869986635585992, b: 8068692918876352143}
+guid: {a: 5620397376469329391, b: 8297841594407861144}
 enabled: true
-localPosition: {x: 7.5, y: 0, z: 0}
+localPosition: {x: 7.5, y: -10, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 6}
@@ -1975,7 +1975,7 @@ mobility:
   value: Dynamic
 --- !Transform &17
 name: ""
-guid: {a: 5158526628114202199, b: 6442044432565873594}
+guid: {a: 5337040182106234257, b: 1000043689345380007}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1986,7 +1986,7 @@ mobility:
   value: Dynamic
 --- !Transform &18
 name: ""
-guid: {a: 5571113224070235224, b: 16605483386776650409}
+guid: {a: 5104074916823110946, b: 15289543957392236163}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1997,7 +1997,7 @@ mobility:
   value: Dynamic
 --- !Transform &19
 name: ""
-guid: {a: 5059750076676276930, b: 12420237347351282563}
+guid: {a: 4733381871512859110, b: 14486345269551299999}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2013,9 +2013,9 @@ mobility:
   value: Dynamic
 --- !Transform &20
 name: ""
-guid: {a: 5140256380196628951, b: 14426658174884609920}
+guid: {a: 5718386981424357936, b: 7779368362150473101}
 enabled: true
-localPosition: {x: -7.5, y: -10, z: 0}
+localPosition: {x: -7.5, y: 0, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 19}
@@ -2027,7 +2027,7 @@ mobility:
   value: Dynamic
 --- !Transform &21
 name: ""
-guid: {a: 5186888399345486837, b: 4816060990650443690}
+guid: {a: 5194100177695875976, b: 15136752196804698772}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2038,7 +2038,7 @@ mobility:
   value: Dynamic
 --- !Transform &22
 name: ""
-guid: {a: 5244203940072905543, b: 3931511757326521476}
+guid: {a: 4879675377904501104, b: 16468825801429037972}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2049,9 +2049,9 @@ mobility:
   value: Dynamic
 --- !Transform &23
 name: ""
-guid: {a: 4873265547068470663, b: 18101947357206098580}
+guid: {a: 4880515713228108943, b: 6024193768814644370}
 enabled: true
-localPosition: {x: -2.5, y: -10, z: 0}
+localPosition: {x: -2.5, y: 0, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 19}
@@ -2063,7 +2063,7 @@ mobility:
   value: Dynamic
 --- !Transform &24
 name: ""
-guid: {a: 5275623304163027110, b: 5582336445218736526}
+guid: {a: 5178733036972968435, b: 10225994873868070785}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2074,7 +2074,7 @@ mobility:
   value: Dynamic
 --- !Transform &25
 name: ""
-guid: {a: 5075245985514506022, b: 11956947453103180948}
+guid: {a: 4699069243639448017, b: 18409828793675632784}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2085,9 +2085,9 @@ mobility:
   value: Dynamic
 --- !Transform &26
 name: ""
-guid: {a: 5733609263431304024, b: 15603475821965189258}
+guid: {a: 5478708153294425580, b: 727955769452153786}
 enabled: true
-localPosition: {x: 2.5, y: -10, z: 0}
+localPosition: {x: 2.5, y: 0, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 19}
@@ -2099,7 +2099,7 @@ mobility:
   value: Dynamic
 --- !Transform &27
 name: ""
-guid: {a: 5300361401448706938, b: 6375741840172763271}
+guid: {a: 5337413583876996910, b: 6282654833587155121}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2110,7 +2110,7 @@ mobility:
   value: Dynamic
 --- !Transform &28
 name: ""
-guid: {a: 5439560538202996899, b: 10541353074186439595}
+guid: {a: 5288163782470475887, b: 18301249228936309928}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2121,9 +2121,9 @@ mobility:
   value: Dynamic
 --- !Transform &29
 name: ""
-guid: {a: 5620397376469329391, b: 8297841594407861144}
+guid: {a: 5371869986635585992, b: 8068692918876352143}
 enabled: true
-localPosition: {x: 7.5, y: -10, z: 0}
+localPosition: {x: 7.5, y: 0, z: 0}
 localScale: {x: 0.7, y: 0.7, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 parent: {localId: 19}
@@ -2135,7 +2135,7 @@ mobility:
   value: Dynamic
 --- !Transform &30
 name: ""
-guid: {a: 5337040182106234257, b: 1000043689345380007}
+guid: {a: 5158526628114202199, b: 6442044432565873594}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2146,7 +2146,7 @@ mobility:
   value: Dynamic
 --- !Transform &31
 name: ""
-guid: {a: 5104074916823110946, b: 15289543957392236163}
+guid: {a: 5571113224070235224, b: 16605483386776650409}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -2165,7 +2165,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 3}
 children:
   - {localId: 33}
-  - {localId: 49}
+  - {localId: 34}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -2176,6 +2176,17 @@ enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
+parent: {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: ""
+guid: {a: 5199194495926060806, b: 13523442432618937740}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 32}
 mobility:
   __class: Mobility
@@ -2237,7 +2248,7 @@ name: ""
 guid: {a: 5166623273239377671, b: 6729085030828598405}
 enabled: true
 localPosition: {x: 0, y: 12.5, z: -40}
-localScale: {x: 1, y: 1, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
@@ -2253,7 +2264,7 @@ name: ""
 guid: {a: 4995845399865181249, b: 2768928541781858956}
 enabled: true
 localPosition: {x: 0, y: 12.5, z: -40}
-localScale: {x: 1, y: 1, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
@@ -2269,7 +2280,7 @@ name: ""
 guid: {a: 5053029550769486524, b: 12191900405567998861}
 enabled: true
 localPosition: {x: 0, y: 12.5, z: -40}
-localScale: {x: 1, y: 1, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
@@ -2285,7 +2296,7 @@ name: ""
 guid: {a: 5317660859586135277, b: 6998975154490830504}
 enabled: true
 localPosition: {x: 0, y: 12.5, z: -40}
-localScale: {x: 1, y: 1, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
@@ -2301,7 +2312,7 @@ name: ""
 guid: {a: 5188876315004812434, b: 17751194269151461025}
 enabled: true
 localPosition: {x: 0, y: 12.5, z: -40}
-localScale: {x: 1, y: 1, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
@@ -2316,14 +2327,14 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 5623225436458669164, b: 1838914752294826166}
 enabled: true
-localPosition: {x: -5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: -4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: -180, y: 240}
+anchoredPosition: {x: -150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -2332,14 +2343,14 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 5748262457561871327, b: 3322369722459422084}
 enabled: true
-localPosition: {x: -5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: -4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: -180, y: 240}
+anchoredPosition: {x: -150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -2348,14 +2359,14 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 5588282720698560101, b: 17702365334311140250}
 enabled: true
-localPosition: {x: -5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: -4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: -180, y: 240}
+anchoredPosition: {x: -150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -2364,14 +2375,14 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 5762068943496576833, b: 18008310483375973806}
 enabled: true
-localPosition: {x: 5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: 4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 180, y: 240}
+anchoredPosition: {x: 150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -2380,14 +2391,14 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 4831505415478201767, b: 13923359367825689000}
 enabled: true
-localPosition: {x: 5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: 4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 180, y: 240}
+anchoredPosition: {x: 150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
@@ -2396,26 +2407,15 @@ pixelsPerUnit: 32
 name: ""
 guid: {a: 5069317989373479419, b: 1488153231896582059}
 enabled: true
-localPosition: {x: 5.625, y: 7.5, z: -40}
-localScale: {x: 0.6, y: 0.6, z: 1}
+localPosition: {x: 4.6875, y: 7.8125, z: -40}
+localScale: {x: 0.5, y: 0.5, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 35}
 mobility:
   __class: Mobility
   value: Dynamic
-anchoredPosition: {x: 180, y: 240}
+anchoredPosition: {x: 150, y: 250}
 sizeDelta: {x: 500, y: 900}
 pivot: {x: 0.5, y: 0.5}
 anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
 pixelsPerUnit: 32
---- !Transform &49
-name: ""
-guid: {a: 5199194495926060806, b: 13523442432618937740}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 32}
-mobility:
-  __class: Mobility
-  value: Dynamic
